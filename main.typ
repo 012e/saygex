@@ -4384,13 +4384,14 @@ bộ nhớ đệm và kho lưu trữ dữ liệu.
 - #strong[PostgreSQL/MySQL] là Database
 - #strong[Spring Boot] làm backend logic
 
-==== Maven Dependencies (giống write-aside)
+==== Cài đặt
+- Maven Dependencies (giống write-aside)
 <maven-dependencies-giống-write-aside>
 ```xml
 <!-- Thêm các dependency như đã trình bày ở write-aside -->
 ```
 
-==== Entity
+- Entity
 <entity-1>
 ```java
 @Entity
@@ -4405,14 +4406,14 @@ public class Product {
 }
 ```
 
-==== Repository
+- Repository
 <repository-1>
 ```java
 public interface ProductRepository extends JpaRepository<Product, Long> {
 }
 ```
 
-==== Service -- Write-Through Cache Logic
+- Service -- Write-Through Cache Logic
 <service--write-through-cache-logic>
 ```java
 @Service
@@ -4467,7 +4468,7 @@ public class ProductService {
 }
 ```
 
-==== Controller
+- Controller
 <controller-1>
 ```java
 @RestController
@@ -4676,13 +4677,14 @@ public class ProductController {
 - Có một #strong[scheduler chạy nền];, mỗi X giây lấy dữ liệu trong
   cache → ghi về DB
 
-==== Maven dependencies (giống các ví dụ trước)
+==== Cài đặt
+- Maven dependencies (giống các ví dụ trước)
 <maven-dependencies-giống-các-ví-dụ-trước>
 ```xml
 <!-- Spring Boot Data JPA, Redis, PostgreSQL -->
 ```
 
-==== Entity & Repository
+- Entity & Repository
 <entity--repository>
 ```java
 @Entity
@@ -4700,7 +4702,7 @@ public interface ProductRepository extends JpaRepository<Product, Long> {
 }
 ```
 
-==== Cache Store (dùng `ConcurrentHashMap` hoặc Redis)
+- Cache Store (dùng `ConcurrentHashMap` hoặc Redis)
 <cache-store-dùng-concurrenthashmap-hoặc-redis>
 ```java
 @Component
@@ -4731,7 +4733,7 @@ public class InMemoryCache {
 }
 ```
 
-==== Service: Write-Behind Logic
+- Service: Write-Behind Logic
 <service-write-behind-logic>
 ```java
 @Service
@@ -4767,7 +4769,7 @@ public class ProductService {
 }
 ```
 
-==== Scheduled Flush Job (ghi DB định kỳ)
+- Scheduled Flush Job (ghi DB định kỳ)
 <scheduled-flush-job-ghi-db-định-kỳ>
 ```java
 @Component
@@ -4792,7 +4794,7 @@ public class WriteBehindScheduler {
 
 Đừng quên thêm `@EnableScheduling` vào class `@SpringBootApplication`
 
-==== Controller
+- Controller
 <controller-2>
 ```java
 @RestController
