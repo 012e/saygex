@@ -1,6 +1,6 @@
 $outputencoding=[console]::outputencoding=[text.encoding]::utf8
 
-$fileName = "readme.md"
+$fileName = "doc.md"
 $fullPath = Resolve-Path $fileName
 $directory = Split-Path $fullPath
 $targetFile = Split-Path $fullPath -Leaf
