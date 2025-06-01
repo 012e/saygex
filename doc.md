@@ -1,6 +1,6 @@
-## SYSTEM VÀ SOFTWARE
+# SYSTEM VÀ SOFTWARE
 
-### GIỚI THIỆU
+## GIỚI THIỆU
 
 Trong quá trình phát triển phần mềm, việc xác định rõ các thuộc tính của
 hệ thống là vô cùng quan trọng để đảm bảo rằng sản phẩm đáp ứng được kỳ
@@ -19,7 +19,7 @@ vụ. Chúng được xem là “xương sống” của phần mềm, là nhữ
 người dùng có thể tương tác trực tiếp, như thao tác nhập liệu, tra cứu,
 chỉnh sửa, báo cáo, quản lý, xác thực đăng nhập…
 
-##### Vai trò và tầm quan trọng
+#### Vai trò và tầm quan trọng
 
 Các yêu cầu chức năng (functional requirements) đóng một vai trò trung
 tâm và không thể thiếu trong toàn bộ vòng đời phát triển phần mềm. Chúng
@@ -28,7 +28,7 @@ nên hệ thống, đảm bảo rằng sản phẩm cuối cùng thực sự đ�
 tiêu kinh doanh và nhu cầu của người dùng. Việc xác định và quản lý hiệu
 quả các yêu cầu này mang lại nhiều lợi ích chiến lược:
 
-###### 1. Xác định Phạm vi Hệ thống Một Cách Rõ ràng :
+##### 1. Xác định Phạm vi Hệ thống Một Cách Rõ ràng :
 
 Các yêu cầu chức năng chính là yếu tố then chốt để xác định phạm vi
 (scope) của dự án. Chúng vạch ra ranh giới rõ ràng về “cần làm gì” và
@@ -45,7 +45,7 @@ Các yêu cầu chức năng chính là yếu tố then chốt để xác địn
   cho tất cả các bên liên quan – từ nhà đầu tư, quản lý dự án cho đến
   người dùng cuối.
 
-###### 2. Cơ sở Vững chắc cho Thiết kế và Phát triển :
+##### 2. Cơ sở Vững chắc cho Thiết kế và Phát triển :
 
 Yêu cầu chức năng là nền tảng mà từ đó toàn bộ quá trình thiết kế kiến
 trúc (architectural design) và phát triển mã nguồn (code development)
@@ -81,7 +81,7 @@ trúc (architectural design) và phát triển mã nguồn (code development)
   thiết yếu hoặc một chức năng bị lỗi có thể gây ra sự thất vọng và cản
   trở công việc hàng ngày.
 
-###### 4. Tiết kiệm Chi phí và Tránh Rủi ro :
+##### 4. Tiết kiệm Chi phí và Tránh Rủi ro :
 
 Việc đầu tư thời gian và công sức vào giai đoạn thu thập và phân tích
 yêu cầu chức năng một cách kỹ lưỡng ngay từ đầu sẽ mang lại lợi ích tài
@@ -96,9 +96,9 @@ thời gian. - Giảm thiểu rủi ro dự án: Các yêu cầu chức năng r�
 quản lý rủi ro tốt hơn, vì nhóm có thể dự đoán và lập kế hoạch cho các
 thách thức tiềm ẩn liên quan đến việc triển khai từng chức năng.
 
-##### Các ví dụ thực tế
+#### Các ví dụ thực tế
 
-###### Quản lý Hồ sơ Bệnh nhân và Lượt khám
+##### Quản lý Hồ sơ Bệnh nhân và Lượt khám
 
 Cho phép nhân viên y tế tạo hồ sơ khám mới cho bệnh nhân:
 
@@ -113,7 +113,7 @@ tin bệnh nhân để tránh tạo nhiều hồ sơ cho cùng một người. V
 sơ mới cũng đồng nghĩa với việc khởi tạo một mã bệnh nhân duy nhất để dễ
 dàng tra cứu và quản lý trong tương lai.
 
-###### Tra cứu và Quản lý Danh mục
+##### Tra cứu và Quản lý Danh mục
 
 Hiển thị danh sách loại thuốc, loại bệnh và cho phép tìm kiếm nhanh: Để
 hỗ trợ hiệu quả công việc của bác sĩ và dược sĩ, phần mềm cần có khả
@@ -134,7 +134,7 @@ thuốc và danh mục bệnh. Người dùng cần có thể tìm kiếm theo t
 hoặc các từ khóa liên quan để nhanh chóng định vị thông tin cần thiết,
 giúp tiết kiệm thời gian và giảm thiểu sai sót.
 
-###### Thống kê và Báo cáo
+##### Thống kê và Báo cáo
 
 Thống kê số lượt khám theo từng loại bệnh trong một tháng:
 
@@ -152,9 +152,9 @@ cáo này cần có thể được xuất ra dưới nhiều định dạng (ví
 và có khả năng lọc theo các tiêu chí khác nhau (ví dụ: theo bác sĩ, theo
 khoa).
 
-#### THUỘC TÍNH PHI CHỨC NĂNG (NON-FUNCTIONAL REQUIREMENTS)
+### THUỘC TÍNH PHI CHỨC NĂNG (NON-FUNCTIONAL REQUIREMENTS)
 
-##### Khái niệm
+#### Khái niệm
 
 Thuộc tính phi chức năng là những yêu cầu không liên quan trực tiếp đến
 các chức năng cụ thể mà hệ thống phải thực hiện, mà mô tả cách thức mà
@@ -180,7 +180,7 @@ y tế hoặc quản lý hàng tồn kho.
   giao diện và phản hồi sẽ tạo cảm giác tin cậy và dễ sử dụng, góp phần
   tăng cường sự hài lòng và mức độ chấp nhận của người dùng.
 
-###### 2. Đảm bảo Khả năng Mở rộng và Bảo trì
+##### 2. Đảm bảo Khả năng Mở rộng và Bảo trì
 
 - Khả năng mở rộng (Scalability): Hệ thống cần được thiết kế để dễ dàng
   nâng cấp – từ việc xử lý thêm người dùng, dữ liệu lớn hơn, đến tích
@@ -191,7 +191,7 @@ y tế hoặc quản lý hàng tồn kho.
   dàng cập nhật, vá lỗi hoặc bổ sung tính năng mà không ảnh hưởng đến
   toàn bộ hoạt động.
 
-###### 3. Đáp ứng Khả năng Xử lý Tải và Hiệu suất
+##### 3. Đáp ứng Khả năng Xử lý Tải và Hiệu suất
 
 - Throughput (Lưu lượng xử lý): Hệ thống phải có khả năng xử lý khối
   lượng lớn dữ liệu hoặc lượng truy cập đồng thời mà không bị gián đoạn
@@ -205,7 +205,7 @@ y tế hoặc quản lý hàng tồn kho.
   hệ thống, đặc biệt khi triển khai trên các máy chủ có giới hạn phần
   cứng.
 
-###### 4. Tăng cường An toàn và Bảo mật
+##### 4. Tăng cường An toàn và Bảo mật
 
 - Xác thực và phân quyền: Đảm bảo chỉ những người dùng hợp lệ mới có thể
   truy cập hệ thống và chỉ có quyền tương ứng với vai trò của họ.
@@ -219,7 +219,7 @@ y tế hoặc quản lý hàng tồn kho.
   nhận các hành động nghi vấn và hỗ trợ điều tra khi xảy ra sự cố bảo
   mật.
 
-###### 5. Tăng Độ Tin Cậy và Tính Sẵn Sàng
+##### 5. Tăng Độ Tin Cậy và Tính Sẵn Sàng
 
 - Tính ổn định (Reliability): Hệ thống phải hoạt động ổn định trong thời
   gian dài mà không bị lỗi hoặc sập đột ngột.
@@ -231,9 +231,9 @@ y tế hoặc quản lý hàng tồn kho.
   biệt trong các môi trường yêu cầu thời gian hoạt động 24/7 như phòng
   khám, bệnh viện.
 
-##### Các ví dụ thực tế
+#### Các ví dụ thực tế
 
-###### Thời gian phản hồi khi thao tác tìm kiếm thuốc
+##### Thời gian phản hồi khi thao tác tìm kiếm thuốc
 
 Hệ thống cần đảm bảo rằng khi người dùng gõ tên thuốc vào ô tìm kiếm,
 danh sách kết quả hiển thị gần như ngay lập tức (ví dụ dưới 1 giây).
@@ -245,7 +245,7 @@ thời gian phản hồi quá lâu (vài giây), bác sĩ hoặc dược sĩ s�
 cache bộ nhớ, tìm kiếm theo từ khóa không dấu, chỉ lấy các trường dữ
 liệu cần thiết, và dùng cơ chế truy vấn bất đồng bộ (asynchronous).
 
-###### Tính ổn định và sẵn sàng cao trong giờ cao điểm
+##### Tính ổn định và sẵn sàng cao trong giờ cao điểm
 
 Vào giờ cao điểm (ví dụ: 7h30–9h00 sáng), có thể có hàng chục người dùng
 đăng nhập và sử dụng hệ thống cùng lúc. Phần mềm cần đảm bảo hoạt động
@@ -257,7 +257,7 @@ Việc này đòi hỏi hệ thống được kiểm thử tải (load testing) 
 khi triển khai, đồng thời có các cơ chế dự phòng như sao lưu tự động và
 ghi log lỗi để phục hồi nhanh chóng nếu gặp sự cố.
 
-###### Bảo mật dữ liệu bệnh nhân
+##### Bảo mật dữ liệu bệnh nhân
 
 Thông tin bệnh nhân (họ tên, địa chỉ, tình trạng bệnh, thuốc đã dùng) là
 dữ liệu nhạy cảm và phải được bảo mật tuyệt đối. Hệ thống cần thực
@@ -270,14 +270,14 @@ nhập lúc nào, thao tác gì.
 Điều này giúp phòng chống rò rỉ thông tin và đáp ứng các tiêu chuẩn về
 bảo mật dữ liệu trong lĩnh vực y tế.
 
-### LỢI ÍCH CỦA CACHE TRONG SYSTEM VÀ SOFTWARE
+## LỢI ÍCH CỦA CACHE TRONG SYSTEM VÀ SOFTWARE
 
-#### Cải thiện hiệu năng (Performance Optimization)
+### Cải thiện hiệu năng (Performance Optimization)
 
 Mục tiêu: Đảm bảo hệ thống phản hồi nhanh, ổn định và đáp ứng tốt khối
 lượng truy cập lớn.
 
-##### Giảm thời gian phản hồi (Response Time)
+#### Giảm thời gian phản hồi (Response Time)
 
 Để tăng tốc độ phản hồi khi người dùng tương tác với phần mềm (ví dụ:
 tìm kiếm thuốc, truy xuất danh sách bệnh nhân), hệ thống cần áp dụng cơ
@@ -292,7 +292,7 @@ tạo đơn thuốc).
 - Cải thiện trải nghiệm tổng thể, đặc biệt trong môi trường bệnh
   viện/phòng khám nơi mỗi giây đều quan trọng.
 
-##### Tăng thông lượng (Throughput)
+#### Tăng thông lượng (Throughput)
 
 Ngoài tốc độ phản hồi, hệ thống cũng cần xử lý được nhiều yêu cầu đồng
 thời hơn trong cùng một khoảng thời gian. Việc tối ưu throughput mang
@@ -319,7 +319,7 @@ sĩ…) thao tác cùng lúc mà không bị chậm trễ.
   - Tránh tình trạng quá tải dẫn đến lỗi hoặc mất ổn định (database
     overload/crash).
 
-##### Tăng khả năng mở rộng (Scalability)
+#### Tăng khả năng mở rộng (Scalability)
 
 Trong tương lai, khi số lượng người dùng tăng hoặc khi triển khai hệ
 thống tại nhiều cơ sở khám chữa bệnh, phần mềm cần có khả năng mở rộng
@@ -332,7 +332,7 @@ giúp đảm bảo độ tin cậy và hiệu suất cao khi mở rộng. \### T
 Bảo mật (Enhanced Security) Yêu cầu bảo mật dữ liệu y tế là cực kỳ quan
 trọng, do tính chất nhạy cảm của thông tin liên quan đến bệnh nhân.
 
-##### Giảm mức độ phơi bày hệ thống backend (Backend Exposure Mitigation)
+#### Giảm mức độ phơi bày hệ thống backend (Backend Exposure Mitigation)
 
 Lớp cache không chỉ đóng vai trò tăng hiệu năng, mà còn có tác dụng như
 một lớp buffer bảo vệ hệ thống backend:
@@ -346,7 +346,7 @@ một lớp buffer bảo vệ hệ thống backend:
   lượng truy cập lớn vào cache thay vì để hệ thống backend xử lý trực
   tiếp.
 
-##### Bảo vệ dữ liệu người dùng (Data Privacy Compliance)
+#### Bảo vệ dữ liệu người dùng (Data Privacy Compliance)
 
 Do dữ liệu y tế thường thuộc diện bảo mật cao (theo luật pháp và quy
 định ngành y tế), nên cần đặc biệt lưu ý trong quá trình cache:
@@ -361,7 +361,7 @@ Do dữ liệu y tế thường thuộc diện bảo mật cao (theo luật phá
   tuân thủ quy định bảo mật (như HIPAA, **Nghị định 13/2023/NĐ-CP** tại
   Việt Nam).
 
-### CACHE TRONG GOOGLE CHROME
+## CACHE TRONG GOOGLE CHROME
 
 Trong quá trình tối ưu hiệu năng hệ thống, một trong những kỹ thuật hiệu
 quả là tận dụng cơ chế cache trình duyệt (browser cache). Đây là một
@@ -377,20 +377,20 @@ tái sử dụng các tài nguyên này trong các lần truy cập sau.
 Đối với trình duyệt **Google Chrome** – một trong những trình duyệt phổ
 biến nhất hiện nay – cơ chế hoạt động của browser cache bao gồm:
 
-##### Các loại tài nguyên được lưu trong cache:
+#### Các loại tài nguyên được lưu trong cache:
 
 - Hình ảnh (images): `.png`, `.jpg`, `.svg`, v.v.
 - Tệp định dạng giao diện: `.css`
 - Mã JavaScript (bao gồm logic xử lý phía client)
 - Các trang HTML và font chữ
 
-##### Vị trí lưu trữ:
+#### Vị trí lưu trữ:
 
 - Chrome lưu cache trong thư mục cục bộ (local cache folder) của hệ điều
   hành.
 - Các tài nguyên này được quản lý và truy xuất tự động bởi trình duyệt.
 
-##### Cơ chế điều khiển:
+#### Cơ chế điều khiển:
 
 Việc cache hay không, cache trong bao lâu, và khi nào cần làm mới cache
 được điều khiển thông qua các HTTP response headers, ví dụ:
@@ -407,12 +407,12 @@ Việc cache hay không, cache trong bao lâu, và khi nào cần làm mới cac
 
 ------------------------------------------------------------------------
 
-#### Ví dụ Minh họa Cụ thể với Hình ảnh
+### Ví dụ Minh họa Cụ thể với Hình ảnh
 
 Để minh họa rõ ràng cơ chế cache trình duyệt, ta xét một tình huống cụ
 thể:
 
-##### Lần đầu truy cập một website:
+#### Lần đầu truy cập một website:
 
 - Người dùng mở trang web lần đầu tiên.
 - Chrome gửi yêu cầu (HTTP request) đến server để tải các thành phần
@@ -423,7 +423,7 @@ thể:
 - Chrome lưu hình ảnh này vào bộ nhớ cache local.
 - Thời gian tải: khoảng 2–3 giây tùy tốc độ mạng.
 
-##### Lần truy cập thứ hai:
+#### Lần truy cập thứ hai:
 
 - Khi người dùng truy cập lại cùng website:
   - Trình duyệt kiểm tra bộ nhớ cache.
@@ -431,7 +431,7 @@ thể:
     - Trình duyệt tải hình ảnh từ cache, không cần truy cập server.
 - Thời gian tải: chỉ khoảng 50–100 milliseconds.
 
-##### Lợi ích rõ rệt từ Browser Cache:
+#### Lợi ích rõ rệt từ Browser Cache:
 
 - Hiệu năng (Performance):
   - Tốc độ tải trang tăng lên rõ rệt.
@@ -450,12 +450,12 @@ thể:
 
 ------------------------------------------------------------------------
 
-#### Kiểm tra và Giám sát Cache trong Google Chrome
+### Kiểm tra và Giám sát Cache trong Google Chrome
 
 Các nhà phát triển có thể dễ dàng xem và phân tích cache của trình duyệt
 bằng công cụ Chrome DevTools.
 
-##### Các bước thực hiện:
+#### Các bước thực hiện:
 
 1.  Mở Chrome DevTools:
     - Nhấn F12 hoặc chuột phải \> Inspect.
@@ -486,9 +486,9 @@ bằng công cụ Chrome DevTools.
 > cụ thiết yếu trong việc phát triển các hệ thống web tốc độ cao, đặc
 > biệt trong các phần mềm quản lý y tế hiện đại.
 
-## TỔNG QUAN VỀ CACHE
+# TỔNG QUAN VỀ CACHE
 
-### CACHE LÀ GÌ ?
+## CACHE LÀ GÌ ?
 
 - Bộ nhớ đệm: là phần cứng hoặc phần mềm dùng để lưu trữ tạm thời bản
   sao của dữ liệu đã được truy cập, tính toán trước đó của máy chủ, ứng
@@ -629,9 +629,9 @@ bằng công cụ Chrome DevTools.
   thành phần tiêu chuẩn trong tất cả các máy tính. 2000: Bộ nhớ cache
   trở nên lớn hơn và nhanh hơn
 
-### ƯU ĐIỂM VÀ NHƯỢC ĐIỂM CỦA CACHE
+## ƯU ĐIỂM VÀ NHƯỢC ĐIỂM CỦA CACHE
 
-#### Ưu điểm của Cache
+### Ưu điểm của Cache
 
 **Tăng tốc độ truy xuất dữ liệu** - Giảm thời gian phản hồi: Khi một hệ
 thống lưu dữ liệu trong cache, các lần truy cập tiếp theo có thể lấy dữ
@@ -740,7 +740,7 @@ hơn trong việc quản lý và tối ưu hóa hiệu suất.
 từng loại tài nguyên, ví dụ như lưu trữ hình ảnh trong cache lâu hơn so
 với các dữ liệu động như kết quả truy vấn cơ sở dữ liệu.
 
-#### Nhược điểm của Cache
+### Nhược điểm của Cache
 
 **Dữ liệu lỗi thời** - Dữ liệu không cập nhật: Một trong những thách
 thức lớn của cache là lưu trữ dữ liệu có thể trở nên lỗi thời so với
@@ -853,7 +853,7 @@ khi lưu trữ trong cache.
 liên tục (như tin tức, dữ liệu thời gian thực), cache có thể không cải
 thiện hiệu suất đáng kể vì dữ liệu sẽ nhanh chóng trở nên lỗi thời.
 
-### CÁC THÔNG SỐ VÀ YẾU TỐ BỔ TRỢ QUAN TRỌNG THƯỜNG SỬ DỤNG TRONG VIỆC CACHE
+## CÁC THÔNG SỐ VÀ YẾU TỐ BỔ TRỢ QUAN TRỌNG THƯỜNG SỬ DỤNG TRONG VIỆC CACHE
 
 - Tỷ lệ trúng cache (Cache Hit Ratio): Đây là tỷ lệ phần trăm của các
   yêu cầu dữ liệu mà hệ thống cache có thể phục vụ trực tiếp từ cache mà
@@ -911,7 +911,7 @@ thiện hiệu suất đáng kể vì dữ liệu sẽ nhanh chóng trở nên l
   Các hệ thống cache cần được kiểm thử kỹ lưỡng và đánh giá hiệu suất để
   đảm bảo rằng chúng đáp ứng được các yêu cầu hiệu suất và độ tin cậy.
 
-### CACHE INVALIDATION
+## CACHE INVALIDATION
 
 - Cache invalidation (vô hiệu hóa bộ đệm) là quá trình cập nhật hoặc
   loại bỏ các mục trong bộ nhớ cache khi dữ liệu gốc bị thay đổi, nhằm
@@ -933,18 +933,17 @@ thiện hiệu suất đáng kể vì dữ liệu sẽ nhanh chóng trở nên l
 ***Đó cũng là lý do cache invalidation được xem là một trong hai vấn đề
 khó nhất trong ngành khoa học máy tính***
 
-#### CÁC CHIẾN LƯỢC CACHE INVALIDATION THỰC TẾ
+### CÁC CHIẾN LƯỢC CACHE INVALIDATION THỰC TẾ
 
-##### Cache aside:
+#### Cache aside:
 
-![alt
-text](./media/pornhub.png)
-**Cách hoạt động:** 1. Application sẽ kiểm tra trong cache có dữ liệu
-mình cần hay không, nếu trong cache có dữ liệu application cần, quá
-trình sẽ kết thúc. Nếu cache không có dữ liệu, chúng ta sẽ tới bước 2.
-2. Khi cache không chứa dữ liệu mà application cần, application sẽ xuống
-database để lấy dữ liệu 3. Application sẽ lưu dữ liệu lấy được từ
-database để lưu vào cache, sau đó nó làm tiếp công việc của mình.
+![alt text](./media/pornhub.png) **Cách hoạt động:** 1. Application sẽ
+kiểm tra trong cache có dữ liệu mình cần hay không, nếu trong cache có
+dữ liệu application cần, quá trình sẽ kết thúc. Nếu cache không có dữ
+liệu, chúng ta sẽ tới bước 2. 2. Khi cache không chứa dữ liệu mà
+application cần, application sẽ xuống database để lấy dữ liệu 3.
+Application sẽ lưu dữ liệu lấy được từ database để lưu vào cache, sau đó
+nó làm tiếp công việc của mình.
 
 **Lợi ích**
 
@@ -996,13 +995,18 @@ thời gian/resource để tính toán, xử lí, và dữ liệu đó dùng l�
         database.update(key, value)
         cache.delete(key)  // invalidate
 
-##### Read through cache
+#### Read through cache
 
 <figure>
+
 <img
 src="https://images.viblo.asia/dcbaf140-6443-464c-b15c-b75bb4a2055e.png"
 alt="alt text" />
-<figcaption aria-hidden="true">alt text</figcaption>
+<figcaption aria-hidden="true">
+
+alt text
+</figcaption>
+
 </figure>
 
 Chiến lược này khá giống với cache-aside. Nhưng thay vì application phải
@@ -1053,7 +1057,7 @@ tùy thuộc vào platform sử dụng. - Có nhiều dữ liệu cũ, dữ li�
     // CacheProvider chịu trách nhiệm tự 
     // động lấy từ database nếu cache miss
 
-##### Write-through cache
+#### Write-through cache
 
 Với chiến lược này, data sẽ được lưu xuống cache, cache sẽ lưu dữ liệu
 vào database.
@@ -1062,10 +1066,15 @@ Khi một request write tới: - Dữ liệu sẽ được lưu vào cache - Cac
 gửi yêu cầu lưu dữ liệu vào database ngay lập tức.
 
 <figure>
+
 <img
 src="https://images.viblo.asia/00c13587-bfb3-45de-86f5-a037e0da1cc7.png"
 alt="alt text" />
-<figcaption aria-hidden="true">alt text</figcaption>
+<figcaption aria-hidden="true">
+
+alt text
+</figcaption>
+
 </figure>
 
 **Lợi ích**
@@ -1094,19 +1103,24 @@ alt="alt text" />
         database.update(key, value)
         cache.set(key, value)  // update cache
 
-#### CLOUDFLARE: CÔNG NGHỆ VÀ CÔNG CỤ THỰC TIỄN
+### CLOUDFLARE: CÔNG NGHỆ VÀ CÔNG CỤ THỰC TIỄN
 
 <figure>
+
 <img
 src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Cloudflare_Logo.svg/1200px-Cloudflare_Logo.svg.png"
 alt="alt text" />
-<figcaption aria-hidden="true">alt text</figcaption>
+<figcaption aria-hidden="true">
+
+alt text
+</figcaption>
+
 </figure>
 
 Cloudflare cung cấp một CDN toàn cầu với nhiều công cụ để làm mất hiệu
 lực cache linh hoạt.
 
-##### Purge cache (xóa cache thủ công)
+#### Purge cache (xóa cache thủ công)
 
 - Cloudflare cho phép xóa cache theo nhiều cách. Thông thường, Purge by
   URL (single-file purge) được khuyên dùng để xóa từng tệp. Ngoài ra,
@@ -1125,7 +1139,7 @@ lực cache linh hoạt.
 **Lưu ý:** thao tác purge không ảnh hưởng đến bộ nhớ đệm của trình
 duyệt, chỉ áp dụng trên các edge nodes của Cloudflare
 
-##### Cache-Tag (cache nhãn)
+#### Cache-Tag (cache nhãn)
 
 - Bằng cách thêm header Cache-Tag với một hoặc nhiều nhãn trên phản hồi
   từ origin, mỗi tài nguyên được đánh dấu với tag riêng. Khi cần
@@ -1138,7 +1152,7 @@ cần cấu hình server để gắn tag (chỉ hỗ trợ ASCII, độ dài t�
 tự cho tag khi purge) và giới hạn tổng header, tăng công việc phát
 triển.
 
-##### Edge Cache TTL
+#### Edge Cache TTL
 
 - Cloudflare cho phép thiết lập Edge Cache TTL (bằng Cache Rules hoặc
   Dashboard) để kiểm soát thời gian tối đa lưu trên edge servers
@@ -1148,7 +1162,7 @@ triển.
 Edge TTL cao nhất cũng sẽ chi phối (ít nhất là giá trị thiết lập). Bằng
 cách này, ta có thể buộc cache tự hết hạn sau một thời gian ngắn tùy ý.
 
-##### Browser Cache TTL
+#### Browser Cache TTL
 
 - Ngoài ra, có thể thiết lập Browser Cache TTL để ghi đè header gốc với
   trình duyệt người dùng.
@@ -1158,7 +1172,7 @@ nguyên nhưng client còn cache cũ, họ có thể không nhận được ngay
 thời, việc purge trên Cloudflare không xóa cache đã lưu trên trình
 duyệt.
 
-##### Tái xác thực (Revalidation)
+#### Tái xác thực (Revalidation)
 
 - Khi tài nguyên trên edge đã hết hạn (hết TTL), Cloudflare tự động gửi
   conditional request `(If-Modified-Since/ETag)` tới origin để kiểm tra.
@@ -1181,7 +1195,7 @@ thể dùng TTL dài + stale-while-revalidate). Với hạ tầng hiện tại,
 Cloudflare cam kết khả năng purge nhanh chóng toàn cầu, giúp rủi ro phục
 vụ nội dung cũ được giảm tối đa.*
 
-### CACHE REPLACEMENT POLICIES
+## CACHE REPLACEMENT POLICIES
 
 - Trong lĩnh vực điện toán, các chính sách thay thế bộ nhớ đệm (còn gọi
   là thuật toán thay thế bộ nhớ đệm hoặc thuật toán bộ đệm) là những
@@ -1240,9 +1254,9 @@ nhất quán của cache (cache coherence) khi có nhiều cache cùng sử dụ
 chung dữ liệu, chẳng hạn như nhiều máy chủ cơ sở dữ liệu cùng cập nhật
 một tệp dữ liệu chia sẻ.
 
-#### CÁC CHÍNH SÁCH NỔI BẬT
+### CÁC CHÍNH SÁCH NỔI BẬT
 
-###### 1. Thuật toán FIFO (First-In, First-Out)
+##### 1. Thuật toán FIFO (First-In, First-Out)
 
 Là một trong những giải thuật thay thế trang/bộ nhớ đơn giản và cổ điển
 nhất, được đặt theo nguyên lý hoạt động của hàng đợi: phần tử nào vào
@@ -1280,7 +1294,7 @@ sử dụng nhiều, chỉ vì nó đã vào cache trước.
   dẫn đến tỷ lệ cache miss cao, ảnh hưởng đến hiệu suất tổng thể của hệ
   thống.
 
-##### 2.Thuật toán LRU (Least Recently Used)
+#### 2.Thuật toán LRU (Least Recently Used)
 
 Thuật toán LRU loại bỏ phần tử ít được sử dụng gần đây nhất trong bộ nhớ
 đệm. Ý tưởng chính là: nếu một dữ liệu không được truy cập trong một
@@ -1304,7 +1318,7 @@ dẫn đến bộ nhớ bổ sung và độ phức tạp cao hơn FIFO. - Có th
 cập dài mà không lặp lại, LRU sẽ liên tục loại bỏ phần tử cũ và không
 tận dụng được.
 
-##### 3. Thuật toán ARC (Adaptive Replacement Cache)
+#### 3. Thuật toán ARC (Adaptive Replacement Cache)
 
 ARC là một thuật toán hiện đại hơn, kết hợp ưu điểm của cả LRU (recency)
 và LFU (frequency). Nó duy trì hai danh sách chính: - Một cho các phần
@@ -1337,7 +1351,7 @@ triển khai từ đầu.
 - Ít được tích hợp sẵn: Không có sẵn trong nhiều thư viện chuẩn, và cũng
   ít được hỗ trợ phần cứng như LRU.
 
-##### 4. Thuật toán thay thế ngẫu nhiên (Random replacement)
+#### 4. Thuật toán thay thế ngẫu nhiên (Random replacement)
 
 Đúng như tên gọi, khi cache đầy, Random Replacement sẽ chọn ngẫu nhiên
 một phần tử trong cache để loại bỏ, bất kể tần suất hay thời điểm truy
@@ -1367,11 +1381,11 @@ những phần tử “nóng”.
   cache tối ưu như cơ sở dữ liệu, CPU cache… Random replacement thường
   không phải là lựa chọn chính.
 
-## Các loại cache
+# Các loại cache
 
-### Hardware Cache:
+## Hardware Cache:
 
-#### CPU Cache:
+### CPU Cache:
 
 Caching trong bộ nhớ đệm CPU (CPU cache) là một kỹ thuật được sử dụng để
 tăng tốc độ xử lý của bộ vi xử lý bằng cách lưu trữ tạm thời dữ liệu
@@ -1380,7 +1394,7 @@ với bộ nhớ chính (RAM). Bộ nhớ đệm này nằm gần CPU, thường
 trực tiếp trên cùng con chip, giúp giảm thời gian truy cập dữ liệu và
 cải thiện hiệu suất tổng thể của hệ thống
 
-##### CPU memory cache là gì?
+#### CPU memory cache là gì?
 
 \- Máy tính có nhiều loại bộ nhớ với tốc độ khác nhau:
 
@@ -1405,7 +1419,7 @@ không cần làm mới liên tục, khác với DRAM (Dynamic RAM) trong RAM h�
 thống, điều này khiến SRAM lý tưởng cho cache, giúp CPU xử lý nhanh hơn
 bằng cách giảm thời gian chờ dữ liệu từ RAM hoặc bộ nhớ chính.
 
-##### Cấu trúc của bộ nhớ đệm CPU:
+#### Cấu trúc của bộ nhớ đệm CPU:
 
 Bộ nhớ cache trong CPU được chia thành nhiều cấp, thường là L1, L2 và
 L3, mỗi cấp có tốc độ và dung lượng khác nhau. Các cấp này hoạt động
@@ -1434,7 +1448,7 @@ theo thứ tự để cung cấp dữ liệu nhanh nhất cho CPU.
 style="width:6.5in;height:3.63195in"
 alt="Bộ nhớ đệm hay bộ nhớ Cache CPU là gì? Có phải Cache nhiều sẽ tốt hơn?" />
 
-##### Cơ chế hoạt động:
+#### Cơ chế hoạt động:
 
 > Bộ nhớ đệm CPU hoạt động dựa trên nguyên tắc lưu trữ tạm thời các dữ
 > liệu và lệnh mà CPU thường xuyên sử dụng, giúp tăng tốc độ xử lý. Khi
@@ -1476,7 +1490,7 @@ Nếu dữ liệu không có trong các cấp cache, nó được lấy từ RAM
 cứng) và sao chép vào các cấp cache (thường bắt đầu từ L3, sau đó có thể
 vào L2 và L1) để các lần truy cập sau nhanh hơn.”
 
-##### Tầm quan trọng của bộ nhớ đệm CPU:
+#### Tầm quan trọng của bộ nhớ đệm CPU:
 
 Bộ nhớ cache đóng vai trò quan trọng trong việc nâng cao hiệu suất hệ
 thống máy tính bằng cách giảm độ trễ truy cập dữ liệu và tăng tốc độ xử
@@ -1532,13 +1546,13 @@ lý của CPU. Dưới đây là các lợi ích chính của bộ nhớ cache:
   phục, các giao thức như MESI (Modified, Exclusive, Shared, Invalid)
   được sử dụng để đảm bảo tính nhất quán dữ liệu giữa các cache và RAM.
 
-##### Các công nghệ và xu hướng hiện đại:
+#### Các công nghệ và xu hướng hiện đại:
 
 Bộ nhớ cache CPU ngày càng được cải tiến để đáp ứng nhu cầu hiệu năng
 cao của các hệ thống máy tính hiện đại. Dưới đây là các công nghệ và xu
 hướng nổi bật:
 
-###### Bộ nhớ cache đa tầng (Multi-Level Cache) và L4 Cache:
+##### Bộ nhớ cache đa tầng (Multi-Level Cache) và L4 Cache:
 
 Các CPU cao cấp hiện nay đã tích hợp thêm L4 cache, bổ sung một tầng bộ
 nhớ đệm mới ngoài L1, L2, L3. L4 cache thường có dung lượng lớn hơn L3
@@ -1551,7 +1565,7 @@ eDRAM, giúp giảm độ trễ khi truy cập RAM và tăng hiệu suất tổn
 style="width:5.24845in;height:2.95396in"
 alt="CPU Intel 14th Meteor Lake Có Thể Sử Dụng L4 Cache | Máy Tính Đại Việt" />
 
-###### Bộ nhớ Non-Volatile (NVM) cho cache:
+##### Bộ nhớ Non-Volatile (NVM) cho cache:
 
 Bộ nhớ không khả biến (Non-Volatile Memory - NVM), như 3D XPoint (Intel
 Optane), đang được nghiên cứu để sử dụng trong L4 cache. NVM có ưu điểm
@@ -1565,7 +1579,7 @@ của cả hai.
 style="width:6.23888in;height:3.04375in"
 alt="Non-Volatile Memory Definition" />
 
-###### Công nghệ Smart Cache:
+##### Công nghệ Smart Cache:
 
 Được Intel tiên phong, Smart Cache cho phép các lõi CPU trong hệ thống
 đa lõi chia sẻ bộ nhớ cache (thường là L3) một cách linh hoạt. Thay vì
@@ -1578,7 +1592,7 @@ game, nơi nhiều lõi cần truy cập dữ liệu chung.
 style="width:6.5in;height:3.65875in"
 alt="Intel Smart Cache Technology | What is Smart Cache in Processor? | Smart Cache vs Normal Cache" />
 
-###### Non-Uniform Cache Access (NUCA):
+##### Non-Uniform Cache Access (NUCA):
 
 NUCA là kỹ thuật tối ưu hóa cho các bộ nhớ cache lớn trong CPU đa lõi.
 NUCA chia bộ nhớ cache thành các vùng (banks) với thời gian truy cập
@@ -1592,7 +1606,7 @@ phức tạp trong thiết kế và quản lý cache.
 style="width:3.58385in;height:2.49931in"
 alt="What is NUMA (non-uniform memory access)? - Techplayon" />
 
-###### Giao thức Cache Coherence (MESI và MOESI):
+##### Giao thức Cache Coherence (MESI và MOESI):
 
 Trong hệ thống đa lõi, **Cache Coherence Protocols** đảm bảo tính nhất
 quán dữ liệu giữa các lõi CPU, tránh tình trạng một lõi đọc dữ liệu lỗi
@@ -1617,9 +1631,9 @@ thời từ cache của nó. Hai giao thức phổ biến là:
 > và có trách nhiệm cập nhật RAM khi cần, cho phép chia sẻ dữ liệu đã
 > sửa đổi mà không cần ghi ngay vào RAM, giảm tải cho bộ nhớ chính.
 
-#### GPU cache:
+### GPU cache:
 
-##### Bộ nhớ đệm GPU:
+#### Bộ nhớ đệm GPU:
 
 \- Bên cạnh bộ nhớ cache CPU, bộ nhớ cache GPU cũng đóng vai trò quan
 trọng trong việc tối ưu hóa hiệu năng của các hệ thống xử lý đồ họa và
@@ -1636,7 +1650,7 @@ thống, vốn chậm hơn nhiều), GPU cache giúp tăng tốc độ xử lý,
 <img src="./media/media/image8.png" style="width:6.5in;height:3.65452in"
 alt="6 cách nhận biết card màn hình bị hư hỏng hay không?" />
 
-##### Cấu trúc của bộ nhớ đệm CPU:
+#### Cấu trúc của bộ nhớ đệm CPU:
 
 Bộ nhớ cache trong GPU cũng được thiết kế theo kiến trúc đa tầng, tương
 tự CPU, nhưng được tối ưu hóa cho xử lý đồ họa và tính toán song song.
@@ -1693,7 +1707,7 @@ cache miss. Ngoài ra, một số GPU thử nghiệm L0 cache (dành riêng cho
 texture hoặc instruction), giúp tăng hiệu suất trong các tác vụ đồ họa
 phức tạp như ray tracing hoặc xử lý video 8K.
 
-##### Cơ chế hoạt động:
+#### Cơ chế hoạt động:
 
 GPU cache hoạt động dựa trên **nguyên lý địa phương (locality
 principle),** một khái niệm quan trọng trong kiến trúc máy tính giúp tối
@@ -1746,7 +1760,7 @@ liệu:
   cập dữ liệu, ví dụ ưu tiên giữ texture trong Texture Cache nếu GPU
   đang render nhiều khung hình.
 
-##### Tầm quan trọng của bộ nhớ đệm GPU:
+#### Tầm quan trọng của bộ nhớ đệm GPU:
 
 Bộ nhớ cache GPU đóng vai trò quan trọng trong việc nâng cao hiệu suất
 xử lý đồ họa và tính toán song song, giúp giảm độ trễ truy cập dữ liệu
@@ -1825,7 +1839,7 @@ alt="Top 40 Tựa Game AAA Cho Laptop (PC) Đáng Mong Đợi Nhất 2023 - Acer
   GPU, với CPU xử lý tác vụ tuần tự và GPU tập trung vào tác vụ song
   song.
 
-##### Các công nghệ và xu hướng hiện đại:
+#### Các công nghệ và xu hướng hiện đại:
 
 Công nghệ và xu hướng hiện đại áp dụng cho GPU đang phát triển nhanh
 chóng, mở ra nhiều cơ hội mới trong tính toán và đồ họa. Bộ nhớ cache
@@ -1833,7 +1847,7 @@ GPU đóng vai trò quan trọng trong việc hỗ trợ các công nghệ này,
 giảm độ trễ truy cập dữ liệu và tăng hiệu suất xử lý. Dưới đây là các xu
 hướng nổi bật:
 
-###### Tăng tốc Machine Learning và Deep Learning:
+##### Tăng tốc Machine Learning và Deep Learning:
 
 GPU là lựa chọn hàng đầu cho huấn luyện mô hình học máy (ML) và học sâu
 (DL) nhờ khả năng tính toán song song. Trong ML/DL, các phép tính ma
@@ -1850,7 +1864,7 @@ hoặc thị giác máy tính.
 style="width:6.17391in;height:3.47556in"
 alt="Understanding Backpropagation in Deep Learning" />
 
-###### Mixed-Precision Arithmetic (MPA):
+##### Mixed-Precision Arithmetic (MPA):
 
 MPA sử dụng các định dạng số có độ chính xác khác nhau (như FP16, FP32)
 để tăng tốc tính toán trong deep learning mà không làm giảm độ chính xác
@@ -1861,7 +1875,7 @@ FP16), giảm băng thông VRAM và tăng hiệu suất. Ví dụ, khi huấn lu
 hình trên GPU NVIDIA H100, MPA kết hợp với cache giúp giảm thời gian
 huấn luyện đến 50% so với tính toán toàn chính xác (FP32).
 
-###### Real-Time Ray Tracing và Rendering:
+##### Real-Time Ray Tracing và Rendering:
 
 Ray tracing mô phỏng cách ánh sáng tương tác trong môi trường 3D, tạo ra
 hình ảnh chân thực với bóng, phản xạ, và khúc xạ chính xác. Real-time
@@ -1879,7 +1893,7 @@ Control với ray tracing bật).
 style="width:6.5in;height:3.08914in"
 alt="NVIDIA RTX Technology: Making Real-Time Ray Tracing A Reality For Games | GeForce News | NVIDIA" />
 
-###### AI-Powered Rendering:
+##### AI-Powered Rendering:
 
 AI cải thiện quá trình rendering bằng cách tự động hóa các tác vụ như
 thiết lập ánh sáng, áp dụng vật liệu, hoặc tối ưu hóa hiệu suất. Ví dụ,
@@ -1889,7 +1903,7 @@ hình ảnh vừa giảm tải cho GPU. Cache GPU lưu trữ các trọng số m
 và dữ liệu khung hình, giúp tăng tốc quá trình upscale và render, mang
 lại trải nghiệm mượt mà trong game.
 
-###### Hybrid Rendering và Mô phỏng Vật lý:
+##### Hybrid Rendering và Mô phỏng Vật lý:
 
 - Hybrid Rendering: Kết hợp ray tracing với các kỹ thuật truyền thống
   như rasterization để cân bằng giữa chất lượng hình ảnh và hiệu suất.
@@ -1906,13 +1920,13 @@ lại trải nghiệm mượt mà trong game.
 style="width:6.5in;height:3.20956in"
 alt="Hybrid Rendering for V-Ray 3.6 + Maya Opens New Doors - Boxx Blog" />
 
-### Disk Cache:
+## Disk Cache:
 
 Bộ nhớ đệm đĩa (Disk Cache) là một thành phần quan trọng trong hệ thống
 lưu trữ, giúp tăng tốc độ đọc và ghi dữ liệu từ ổ đĩa cứng (HDD) hoặc ổ
 SSD.
 
-#### Khái niệm:
+### Khái niệm:
 
 Disk Cache có thể là bộ nhớ tích hợp trên ổ đĩa (onboard cache, thường
 8MB-256MB trong HDD hiện đại) hoặc một phần RAM được hệ điều hành sử
@@ -1921,7 +1935,7 @@ dữ liệu liền kề có khả năng được truy cập tiếp theo, Disk Ca
 trễ truy xuất từ ổ đĩa (chậm hơn nhiều so với RAM), từ đó cải thiện hiệu
 suất hệ thống.
 
-#### Cách disk cache hoạt động:
+### Cách disk cache hoạt động:
 
 Disk Cache hoạt động dựa trên hai cơ chế chính:
 
@@ -1960,7 +1974,7 @@ alt="Caching là gì ? 5 chiến lược bạn nên tham khảo?" />
 style="width:6.5in;height:2.03807in"
 alt="Caching Strategies and How to Choose the Right One | CodeAhoy" />
 
-#### Kiến trúc của disk cache:
+### Kiến trúc của disk cache:
 
 Disk Cache bao gồm các thành phần chính:
 
@@ -1983,13 +1997,13 @@ Disk Cache bao gồm các thành phần chính:
   nhất) và FIFO (First In, First Out) (loại bỏ dữ liệu cũ nhất) để tối
   ưu không gian cache.
 
-#### Tác dụng của disk cache:
+### Tác dụng của disk cache:
 
 Bộ nhớ đệm đĩa (Disk Cache) mang lại nhiều lợi ích quan trọng, giúp tăng
 hiệu suất hệ thống và cải thiện trải nghiệm người dùng. Dưới đây là các
 lợi ích chính, cùng với vai trò cụ thể của Disk Cache:
 
-##### Tăng tốc độ truy cập dữ liệu:
+#### Tăng tốc độ truy cập dữ liệu:
 
 - **Giảm độ trễ đọc**: Disk Cache lưu trữ dữ liệu đã truy cập gần đây
   trong RAM hoặc bộ nhớ tích hợp trên ổ đĩa (onboard cache), nhanh hơn
@@ -2003,7 +2017,7 @@ lợi ích chính, cùng với vai trò cụ thể của Disk Cache:
   (spatial locality). Điều này đặc biệt hữu ích trong HDD khi đọc các
   tệp lớn (như video), giảm thời gian chờ.
 
-##### Cải thiện hiệu suất ghi:
+#### Cải thiện hiệu suất ghi:
 
 - **Ghi nhanh hơn**: Write Cache lưu dữ liệu ghi vào bộ nhớ đệm trước,
   cho phép hệ thống xác nhận thao tác ghi hoàn tất ngay lập tức từ góc
@@ -2015,7 +2029,7 @@ lợi ích chính, cùng với vai trò cụ thể của Disk Cache:
   tối ưu hóa việc ghi xuống ổ đĩa, giảm số lần truy cập vật lý. Với SSD,
   điều này giúp giảm chu kỳ ghi/xóa NAND, kéo dài tuổi thọ ổ.
 
-##### Tăng hiệu suất hệ thống tổng thể:
+#### Tăng hiệu suất hệ thống tổng thể:
 
 - **Giảm tải cho ổ đĩa**: Bằng cách giảm số lần truy cập trực tiếp đến
   HDD/SSD, Disk Cache giảm tải cho ổ đĩa, cải thiện hiệu suất tổng thể
@@ -2025,7 +2039,7 @@ lợi ích chính, cùng với vai trò cụ thể của Disk Cache:
   (thường là DRAM 1-2GB) giúp tăng tốc đọc/ghi lên đến 7.450MB/s, đặc
   biệt khi xử lý dữ liệu lớn như chỉnh sửa video 4K.
 
-##### Cải thiện trải nghiệm người dùng:
+#### Cải thiện trải nghiệm người dùng:
 
 - **Phản hồi nhanh hơn**: Thời gian truy cập dữ liệu nhanh hơn giúp hệ
   thống phản hồi mượt mà, đặc biệt trong các ứng dụng yêu cầu độ trễ
@@ -2036,7 +2050,7 @@ lợi ích chính, cùng với vai trò cụ thể của Disk Cache:
   khung hình đã đọc, tăng tốc độ phát lại và render, mang lại trải
   nghiệm liền mạch.
 
-##### Tăng độ an toàn dữ liệu (trong một số trường hợp):
+#### Tăng độ an toàn dữ liệu (trong một số trường hợp):
 
 - **Bảo vệ dữ liệu tạm thời**: Một số ổ đĩa cao cấp (như SSD doanh
   nghiệp) dùng non-volatile memory (NVM) trong Write Cache để bảo vệ dữ
@@ -2054,14 +2068,14 @@ lợi ích chính, cùng với vai trò cụ thể của Disk Cache:
   dẫn đến cache miss. Các thuật toán như LRU và Adaptive Cache
   Replacement giúp ưu tiên dữ liệu quan trọng.
 
-#### Tương lai của Disk Cache:
+### Tương lai của Disk Cache:
 
 Sự phát triển của công nghệ lưu trữ và nhu cầu ngày càng cao từ các ứng
 dụng hiện đại đang định hình tương lai của bộ nhớ đệm đĩa (Disk Cache).
 Dưới đây là các xu hướng nổi bật và vai trò của Disk Cache trong bối
 cảnh mới:
 
-##### Tăng hiệu suất với SSD và NVMe:
+#### Tăng hiệu suất với SSD và NVMe:
 
 Sự phổ biến của ổ SSD, đặc biệt là SSD NVMe (Non-Volatile Memory
 Express), đang nâng cao hiệu suất của Disk Cache. NVMe cung cấp tốc độ
@@ -2072,7 +2086,7 @@ HDD). Điều này làm cho Disk Cache hiệu quả hơn trong việc giảm đ�
 của cơ chế đọc trước (read-ahead) giảm đi, trong khi Write Cache vẫn
 quan trọng để tối ưu hóa ghi và kéo dài tuổi thọ NAND.
 
-##### Tích hợp bộ nhớ không bay hơi (NVM):
+#### Tích hợp bộ nhớ không bay hơi (NVM):
 
 Công nghệ bộ nhớ không bay hơi (NVM) như 3D XPoint (phát triển bởi Intel
 và Micron) và Intel Optane đang mở ra khả năng mới cho Disk Cache. 3D
@@ -2085,7 +2099,7 @@ Ví dụ, Intel Optane được dùng trong SSD doanh nghiệp làm Write Cache,
 tốc độ truy cập lên đến 2.000MB/s. Trong tương lai, NVM có thể thay thế
 DRAM trong Disk Cache, giảm chi phí và tăng độ bền.
 
-##### Quản lý thông minh với AI và máy học:
+#### Quản lý thông minh với AI và máy học:
 
 Trí tuệ nhân tạo (AI) và máy học (ML) đang được tích hợp để tối ưu hóa
 quản lý Disk Cache. Các thuật toán AI có thể dự đoán dữ liệu nào sẽ được
@@ -2098,7 +2112,7 @@ xử lý lên đến 30%. Ngoài ra, ML có thể điều chỉnh thuật toán 
 cache (như LRU, FIFO) theo thời gian thực, tối ưu hóa hiệu suất trong
 các ứng dụng như phân tích dữ liệu lớn hoặc máy chủ web.
 
-##### Hỗ trợ xử lý dữ liệu lớn (Big Data):
+#### Hỗ trợ xử lý dữ liệu lớn (Big Data):
 
 Các ứng dụng big data yêu cầu truy xuất và lưu trữ dữ liệu lớn một cách
 nhanh chóng. Disk Cache sẽ đóng vai trò quan trọng trong việc giảm tải
@@ -2108,7 +2122,7 @@ thường xuyên truy cập (như tệp log, kết quả truy vấn).
 Ví dụ, trong một cụm Hadoop, Disk Cache có thể giảm thời gian truy vấn
 từ 10 giây xuống 2 giây bằng cách lưu trữ dữ liệu trung gian trong RAM.
 
-##### Xu hướng mới:
+#### Xu hướng mới:
 
 - **Host Memory Buffer (HMB):** SSD NVMe không có DRAM (DRAM-less) ngày
   càng phổ biến trong thiết bị giá rẻ. HMB cho phép SSD dùng một phần
@@ -2121,9 +2135,9 @@ từ 10 giây xuống 2 giây bằng cách lưu trữ dữ liệu trung gian tro
   dụ, các hệ thống hybrid cloud dùng Disk Cache để lưu trữ tệp tạm thời,
   tăng tốc độ truy cập dữ liệu từ AWS S3.
 
-### Network cache:
+## Network cache:
 
-#### Khái niệm:
+### Khái niệm:
 
 **-** Network Cache là bộ nhớ đệm lưu trữ dữ liệu yêu cầu mạng từ trước
 đó.
@@ -2137,7 +2151,7 @@ OSI. Cụ thể:
 - Server cache (như Redis, Memcached) cũng thuộc tầng ứng dụng, lưu trữ
   kết quả truy vấn hoặc dữ liệu đã xử lý.
 
-#### Phân loại:
+### Phân loại:
 
 - DNS Cache: Trình duyệt lưu trữ tạm các DNS records vào trong các thiết
   bị, trình duyệt.
@@ -2148,11 +2162,11 @@ OSI. Cụ thể:
 - CDN Cache: Mạng phân phối nội dung (Content Delivery Network) lưu trữ
   dữ liệu trên các máy chủ cạnh (edge servers) gần người dùng.
 
-#### Chi tiết:
+### Chi tiết:
 
-##### DNS và DNS Cache:
+#### DNS và DNS Cache:
 
-###### Khái niệm:
+##### Khái niệm:
 
 \- Hệ thống Tên miền **(Domain Name System - DNS)** hoạt động như một
 “danh bạ Internet”, chuyển đổi tên miền dễ nhớ (ví dụ: www.google.com)
@@ -2220,7 +2234,7 @@ lại.
 <img src="./media/media/image18.png" style="width:6.5in;height:3.25in"
 alt="What Is DNS Cache and How to Flush It - KeyCDN Support" />
 
-###### Cách hoạt động:
+##### Cách hoạt động:
 
 \- Khi người dùng truy cập một tên miền (ví dụ: www.example.com), hệ
 thống thực hiện các bước sau:
@@ -2282,7 +2296,7 @@ thống thực hiện các bước sau:
 - Kết quả được lưu vào cache ở tất cả các cấp (resolver, router, hệ điều
   hành, trình duyệt) với TTL do máy chủ DNS chỉ định.
 
-###### Tác dụng của DNS cache:
+##### Tác dụng của DNS cache:
 
 - **Tăng Tốc Độ Truy Cập Website:**
 
@@ -2362,7 +2376,7 @@ thống thực hiện các bước sau:
 - **Ví dụ:** Cloudflare sử dụng cache để giảm thời gian tải trang từ
   150ms xuống 20ms.
 
-###### Một số DNS phổ biến và các công ty vận hành:
+##### Một số DNS phổ biến và các công ty vận hành:
 
 - **Google Public DNS:**
 
@@ -2602,7 +2616,7 @@ thống thực hiện các bước sau:
 
 - Tổ chức tài chính sử dụng gói trả phí để bảo vệ khỏi tấn công DNS.
 
-###### Rủi ro của DNS Cache:
+##### Rủi ro của DNS Cache:
 
 - **DNS Cache Poisoning (Ô nhiễm bộ nhớ đệm):**
 
@@ -2635,9 +2649,9 @@ thống thực hiện các bước sau:
 - **Yếu tố kỹ thuật:** Phụ thuộc vào giá trị TTL; TTL dài (như 24 giờ)
   làm tăng nguy cơ lỗi thời.
 
-##### CDNcache:
+#### CDNcache:
 
-###### Khái niệm:
+##### Khái niệm:
 
 CDN cache (Content Delivery Network cache) là bộ nhớ đệm được sử dụng
 bởi các mạng phân phối nội dung (CDN) để lưu trữ tạm thời các tài nguyên
@@ -2645,11 +2659,11 @@ web (như hình ảnh, video, tệp HTML, CSS, JavaScript) tại các máy chủ
 biên (edge servers) gần người dùng nhất. Mục tiêu là tăng tốc độ tải
 trang web và giảm tải cho máy chủ gốc (origin server).
 
-###### Cách hoạt động:
+##### Cách hoạt động:
 
 <!-- -->
 
-####### Lưu trữ nội dung tại máy chủ biên:
+###### Lưu trữ nội dung tại máy chủ biên:
 
 - Khi một website tích hợp CDN, các nội dung tĩnh (như hình ảnh, video,
   CSS, JavaScript) hoặc thậm chí nội dung động (nếu được cấu hình) sẽ
@@ -2658,7 +2672,7 @@ trang web và giảm tải cho máy chủ gốc (origin server).
 - Quá trình này thường được kích hoạt khi có yêu cầu đầu tiên từ người
   dùng hoặc được cấu hình trước bởi quản trị viên website.
 
-####### Xử lý yêu cầu của người dùng:
+###### Xử lý yêu cầu của người dùng:
 
 - Khi người dùng truy cập website (ví dụ: mở một trang web hoặc xem
   video), yêu cầu của họ được gửi đến hệ thống DNS.
@@ -2667,7 +2681,7 @@ trang web và giảm tải cho máy chủ gốc (origin server).
   (geo-routing) để chuyển hướng yêu cầu đến máy chủ biên gần nhất về mặt
   địa lý hoặc có độ trễ thấp nhất.
 
-####### Kiểm tra cache tại máy chủ biên:
+###### Kiểm tra cache tại máy chủ biên:
 
 - Máy chủ biên kiểm tra xem nội dung yêu cầu (ví dụ: một tệp hình ảnh)
   có trong bộ nhớ đệm (cache) hay không:
@@ -2679,7 +2693,7 @@ trang web và giảm tải cho máy chủ gốc (origin server).
   - Cache miss: Nếu nội dung không có trong cache hoặc đã hết hạn, máy
     chủ biên sẽ gửi yêu cầu đến máy chủ gốc để lấy nội dung mới.
 
-####### Lấy nội dung từ máy chủ gốc (nếu cần):
+###### Lấy nội dung từ máy chủ gốc (nếu cần):
 
 - Trong trường hợp cache miss, máy chủ biên liên lạc với máy chủ gốc để
   tải nội dung yêu cầu.
@@ -2690,13 +2704,13 @@ trang web và giảm tải cho máy chủ gốc (origin server).
 - Quá trình này chỉ xảy ra lần đầu hoặc khi nội dung trong cache cần
   được làm mới.
 
-####### Phân phối nội dung cho người dùng:
+###### Phân phối nội dung cho người dùng:
 
 - Máy chủ biên gửi nội dung từ cache hoặc từ máy chủ gốc (nếu vừa lấy)
   đến người dùng qua kết nối mạng tối ưu, thường sử dụng các giao thức
   như HTTP/2 hoặc QUIC để tăng tốc độ.
 
-####### Quản lý và cập nhật cache:
+###### Quản lý và cập nhật cache:
 
 - Thời gian sống (TTL): Mỗi tệp trong cache có thời gian tồn tại được
   cấu hình (ví dụ: 1 giờ, 1 ngày). Khi TTL hết, nội dung sẽ bị xóa hoặc
@@ -2714,13 +2728,13 @@ trang web và giảm tải cho máy chủ gốc (origin server).
 style="width:4.95031in;height:2.78056in"
 alt="CDN vs Caching: The Key Differences You Need to Know" />
 
-###### Ứng dụng và lợi ích:
+##### Ứng dụng và lợi ích:
 
 Lợi ích của CDN Cache (bộ nhớ đệm trong Content Delivery Network) bao
 gồm các khía cạnh sau, giúp tối ưu hóa hiệu suất website, cải thiện trải
 nghiệm người dùng và giảm tải hệ thống:
 
-####### Tăng tốc độ tải trang:
+###### Tăng tốc độ tải trang:
 
 - CDN cache lưu trữ nội dung tĩnh (như hình ảnh, video, CSS, JavaScript)
   tại các máy chủ biên gần người dùng, giảm độ trễ (latency) khi truyền
@@ -2730,7 +2744,7 @@ nghiệm người dùng và giảm tải hệ thống:
   khu vực xa máy chủ gốc (ví dụ: truy cập website Mỹ từ Việt Nam).\*\*  
   \*\*
 
-####### Giảm tải cho máy chủ gốc:
+###### Giảm tải cho máy chủ gốc:
 
 - Các yêu cầu được xử lý trực tiếp từ cache tại máy chủ biên, giảm số
   lượng truy vấn gửi đến máy chủ gốc.
@@ -2740,14 +2754,14 @@ nghiệm người dùng và giảm tải hệ thống:
   livestream hoặc flash sale).\*\*  
   \*\*
 
-####### Cải thiện độ tin cậy và tính sẵn sàng:
+###### Cải thiện độ tin cậy và tính sẵn sàng:
 
 - Nếu máy chủ gốc gặp sự cố (downtime), nội dung trong cache tại máy chủ
   biên vẫn có thể được phân phối, đảm bảo website hoạt động liên tục.
 
 - CDN giúp phân phối lưu lượng, tránh tình trạng quá tải máy chủ.
 
-####### Tối ưu hóa trải nghiệm người dùng:
+###### Tối ưu hóa trải nghiệm người dùng:
 
 - Tốc độ tải trang nhanh hơn dẫn đến trải nghiệm mượt mà, tăng sự hài
   lòng và giữ chân người dùng lâu hơn.
@@ -2755,7 +2769,7 @@ nghiệm người dùng và giảm tải hệ thống:
 - Hỗ trợ tốt cho các ứng dụng nặng như streaming video, game trực tuyến
   hoặc website thương mại điện tử.
 
-####### Tăng khả năng mở rộng (scalability):
+###### Tăng khả năng mở rộng (scalability):
 
 - CDN cache giúp website xử lý lưu lượng truy cập lớn mà không cần nâng
   cấp phần cứng máy chủ gốc.
@@ -2763,7 +2777,7 @@ nghiệm người dùng và giảm tải hệ thống:
 - Phù hợp với các sự kiện có lượng truy cập đột biến, như ra mắt sản
   phẩm hoặc chương trình khuyến mãi.
 
-####### Cải thiện SEO:
+###### Cải thiện SEO:
 
 - Tốc độ tải trang là yếu tố quan trọng trong xếp hạng công cụ tìm kiếm
   (như Google). CDN cache giúp cải thiện chỉ số này, tăng khả năng hiển
@@ -2771,13 +2785,13 @@ nghiệm người dùng và giảm tải hệ thống:
 
 - Giảm tỷ lệ thoát trang (bounce rate) do thời gian tải nhanh hơn.
 
-####### Tiết kiệm chi phí băng thông:
+###### Tiết kiệm chi phí băng thông:
 
 - Bằng cách phục vụ nội dung từ cache, CDN giảm lượng dữ liệu truyền từ
   máy chủ gốc, giúp tiết kiệm chi phí băng thông, đặc biệt với các
   website có lưu lượng lớn.
 
-####### Tăng cường bảo mật:
+###### Tăng cường bảo mật:
 
 - Nhiều CDN cung cấp tính năng bảo mật bổ sung như chống tấn công DDoS,
   mã hóa SSL/TLS, và tường lửa ứng dụng web (WAF), bảo vệ website khỏi
@@ -2786,7 +2800,7 @@ nghiệm người dùng và giảm tải hệ thống:
 - Cache giúp giảm tiếp xúc trực tiếp của máy chủ gốc với các yêu cầu độc
   hại.
 
-####### Hỗ trợ phân phối nội dung toàn cầu:
+###### Hỗ trợ phân phối nội dung toàn cầu:
 
 - Với mạng lưới máy chủ biên phân bố khắp thế giới, CDN cache đảm bảo
   người dùng từ mọi khu vực nhận được nội dung nhanh chóng và ổn định.
@@ -2794,7 +2808,7 @@ nghiệm người dùng và giảm tải hệ thống:
 - Hỗ trợ các website quốc tế hoặc ứng dụng có người dùng toàn cầu (như
   Netflix, YouTube).
 
-####### Linh hoạt trong quản lý nội dung:
+###### Linh hoạt trong quản lý nội dung:
 
 - Quản trị viên có thể tùy chỉnh thời gian sống (TTL) của cache, xóa
   cache (purge) khi cần cập nhật nội dung, hoặc cấu hình để xử lý cả nội
@@ -2803,9 +2817,9 @@ nghiệm người dùng và giảm tải hệ thống:
 - Một số CDN hiện đại tích hợp edge computing để xử lý logic ngay tại
   máy chủ biên, tăng hiệu quả.
 
-### Software cache
+## Software cache
 
-#### Các loại cache của hệ điều hành:
+### Các loại cache của hệ điều hành:
 
 - **Page Cache (Disk Cache):**
 
@@ -2905,9 +2919,9 @@ giây; lần thứ hai gần như tức thì. Vì thông tin tên file và đư�
 
 - **Tuning hạn chế:** Ít quyền kiểm soát trực tiếp cache hơn Linux.
 
-#### Web cache:
+### Web cache:
 
-##### Cache của trình duyệt web (browser cache):
+#### Cache của trình duyệt web (browser cache):
 
 1.  **Browser cache là gì?**
 
@@ -3078,7 +3092,7 @@ của cơ sở hạ tầng mạng cục bộ để phục vụ nhiều người 
 nguyên phổ biến được sử dụng lại một số lần, giảm lưu lượng mạng và độ
 trễ.*
 
-##### HTTP Caching:
+#### HTTP Caching:
 
 1)  **Khái niệm:**
 
@@ -3194,7 +3208,7 @@ cao trải nghiệm người dùng và hiệu quả hoạt động của trang w
 - **Expiration:** Tài nguyên có thể có thời hạn sử dụng (max-age,
   Expires) sau đó sẽ được tải lại từ server.
 
-#### Local Storage:
+### Local Storage:
 
 1)  **Định nghĩa:**
 
@@ -3314,9 +3328,9 @@ trữ dữ liệu cho các ứng dụng web:
 
   - Thuộc tính: Trả về tổng số key hiện có trong localStorage.
 
-### Back-end:
+## Back-end:
 
-#### In-memory Cache:
+### In-memory Cache:
 
 1)  **Định nghĩa:**
 
@@ -3520,7 +3534,7 @@ sở dữ liệu hoặc hệ thống tệp. Việc lưu trữ dữ liệu tạm 
 địa phương giảm chi phí và tài nguyên mà hệ thống cần để truy cập và
 quản lý dữ liệu từ các nguồn lưu trữ chính.
 
-#### Các best practices cho Caching
+### Các best practices cho Caching
 
 1.  **Lazy caching:**
 
@@ -3821,9 +3835,9 @@ style="width:6.5in;height:1.10694in" />
 <img src="./media/media/image27.png"
 style="width:6.5in;height:1.10486in" />
 
-### Write – Through Cache:
+## Write – Through Cache:
 
-#### Write-Through Cache là gì?
+### Write-Through Cache là gì?
 
 Write-Through Cache là một chiến lược quản lý cache trong đó dữ liệu
 được ghi đồng thời vào cả cache và nguồn dữ liệu chính (thường là cơ sở
@@ -3833,7 +3847,7 @@ cập nhật nhất quán với dữ liệu trong nguồn chính.
 <img src="./media/media/image28.gif"
 style="width:4.48003in;height:2.52174in" alt="Write Through Cache" />
 
-#### Khi nào nên sử dụng Write-Through Cache?
+### Khi nào nên sử dụng Write-Through Cache?
 
 Chiến lược Write-Through Cache phù hợp trong những trường hợp sau:
 
@@ -3910,7 +3924,7 @@ cache và cơ sở dữ liệu. Sử dụng Write-Through Cache trong các trư�
 này giúp đảm bảo rằng dữ liệu luôn được cập nhật đồng bộ và tăng hiệu
 suất truy xuất dữ liệu.
 
-#### Cơ chế hoạt động của Write-Through Cache:
+### Cơ chế hoạt động của Write-Through Cache:
 
 Write-Through Cache là một thành phần quan trọng trong kiến trúc bộ nhớ
 đệm để tăng cường hiệu suất truy xuất dữ liệu. Nó được sử dụng rộng rãi
@@ -3959,7 +3973,7 @@ yêu cầu tiếp theo. Nếu việc cập nhật thất bại, cache có thể 
 các biện pháp khắc phục như gửi lại yêu cầu ghi dữ liệu hoặc thông báo
 lỗi cho hệ thống.
 
-#### Ưu và nhược điểm của Write-Through Cache:
+### Ưu và nhược điểm của Write-Through Cache:
 
 1)  **Ưu điểm:**
 
@@ -4016,7 +4030,7 @@ thống. Việc áp dụng Write-Through Cache cần được xem xét kỹ lư�
 bảo rằng các ưu điểm vượt qua các nhược điểm và phù hợp với yêu cầu và
 môi trường cụ thể của hệ thống.
 
-#### Các phương pháp để triển khai chiến lược Write – Through Cache
+### Các phương pháp để triển khai chiến lược Write – Through Cache
 
 hiệu quả:
 
@@ -4109,12 +4123,11 @@ sử giao dịch được truy cập ít thường xuyên và thay đổi thư�
 đó nên lưu trữ trong cache theo yêu cầu để tiết kiệm tài nguyên hệ
 thống.
 
+# Các phương pháp cache
 
-## Các phương pháp cache
+## Write aside (Lazy caching)
 
-### Write aside (Lazy caching)
-
-#### Giới thiệu về caching
+### Giới thiệu về caching
 
 - Chiến lược lazy caching, còn được gọi là lazy population hoặc
   cache-aside, là một hình thức phổ biến của caching. Đây là chiến lược
@@ -4151,11 +4164,11 @@ thống.
     cập, đảm bảo hiệu suất ổn định cho tất cả người dùng. ![alt
     text](https://miro.medium.com/v2/resize:fit:438/1*9CyxO2Biwu7lvV0Sf7FKIw.png)
 
-#### Cách hoạt động
+### Cách hoạt động
 
-##### Tổng quan về luồng thực hiện
+#### Tổng quan về luồng thực hiện
 
-###### Khi đọc dữ liệu:
+##### Khi đọc dữ liệu:
 
 - **Bước 1**: Ứng dụng trước tiên kiểm tra xem dữ liệu có tồn tại trong
   cache không.
@@ -4167,7 +4180,7 @@ thống.
   - Sau khi nhận dữ liệu từ nguồn, ứng dụng lưu dữ liệu vào cache.
   - Trả về dữ liệu cho người dùng/quy trình.
 
-###### Khi ghi/cập nhật dữ liệu:
+##### Khi ghi/cập nhật dữ liệu:
 
 - **Bước 1**: Ứng dụng cập nhật trực tiếp vào nguồn dữ liệu (cơ sở dữ
   liệu).
@@ -4177,9 +4190,9 @@ thống.
   - **HOẶC** cập nhật mục trong cache với dữ liệu mới (tùy thuộc vào
     chiến lược).
 
-##### Chi tiết quá trình thực hiện
+#### Chi tiết quá trình thực hiện
 
-###### Bước xử lý yêu cầu đọc dữ liệu
+##### Bước xử lý yêu cầu đọc dữ liệu
 
 - Khi hệ thống nhận được yêu cầu đọc dữ liệu từ người dùng, đầu tiên nó
   kiểm tra xem dữ liệu đó có tồn tại trong cache không.
@@ -4188,14 +4201,14 @@ thống.
 - Nếu dữ liệu không có trong cache (cache miss), hệ thống tiếp tục sang
   bước tiếp theo.
 
-###### Bước truy xuất dữ liệu từ nguồn chính
+##### Bước truy xuất dữ liệu từ nguồn chính
 
 - Khi xảy ra cache miss, hệ thống thực hiện truy vấn đến nguồn dữ liệu
   chính (thường là cơ sở dữ liệu).
 - Hệ thống đọc dữ liệu cần thiết từ nguồn dữ liệu chính.
 - Dữ liệu này được trả về cho người dùng/ứng dụng đã yêu cầu.
 
-###### Bước cập nhật cache
+##### Bước cập nhật cache
 
 - Sau khi lấy dữ liệu từ nguồn chính, hệ thống lưu trữ một bản sao của
   dữ liệu đó vào cache.
@@ -4203,7 +4216,7 @@ thống.
   dữ liệu trong cache (tùy thuộc vào cấu hình).
 - Dữ liệu bây giờ đã sẵn sàng trong cache cho các yêu cầu đọc tiếp theo.
 
-###### Bước xử lý yêu cầu ghi dữ liệu
+##### Bước xử lý yêu cầu ghi dữ liệu
 
 - Khi có yêu cầu ghi (thêm, sửa, xóa) dữ liệu, hệ thống thực hiện thay
   đổi trực tiếp vào nguồn dữ liệu chính.
@@ -4212,7 +4225,7 @@ thống.
 - Cache không bị vô hiệu hóa hoặc cập nhật trực tiếp khi dữ liệu thay
   đổi ở nguồn chính.
 
-###### Bước quản lý sự nhất quán của dữ liệu
+##### Bước quản lý sự nhất quán của dữ liệu
 
 - Để đảm bảo người dùng không bị trả về dữ liệu cũ, hệ thống sử dụng các
   cơ chế như:
@@ -4220,7 +4233,7 @@ thống.
   - Định kỳ làm mới toàn bộ cache hoặc một phần cache
   - Sử dụng cơ chế xóa cache có chọn lọc dựa trên các sự kiện xác định
 
-###### Bước xử lý khi cache đầy
+##### Bước xử lý khi cache đầy
 
 - Khi cache đạt đến giới hạn dung lượng được cấp phát, hệ thống cần
   quyết định những mục nào cần loại bỏ.
@@ -4231,9 +4244,9 @@ thống.
   - FIFO (First In First Out): Loại bỏ các mục được thêm vào cache sớm
     nhất
 
-#### Ưu và nhược điểm của Write aside (Lazy caching)
+### Ưu và nhược điểm của Write aside (Lazy caching)
 
-##### Ưu điểm
+#### Ưu điểm
 
 - Đơn giản về mặt triển khai: Phương pháp này tương đối đơn giản để
   triển khai so với các cơ chế caching phức tạp khác, giúp giảm chi phí
@@ -4251,7 +4264,7 @@ thống.
   khi được truy cập, write-aside tránh được việc lãng phí bộ nhớ cache
   để lưu trữ những dữ liệu này.
 
-##### Nhược điểm
+#### Nhược điểm
 
 - Cache miss ban đầu: Khi truy cập dữ liệu lần đầu, luôn xảy ra cache
   miss, dẫn đến độ trễ cao hơn cho lần truy cập đầu tiên vì phải đọc từ
@@ -4269,23 +4282,23 @@ thống.
   lệ đọc-ghi cân bằng, write-aside có thể không hiệu quả bằng các phương
   pháp khác như write-through.
 
-#### Ví dụ cài đặt
+### Ví dụ cài đặt
 
-##### Mục tiêu
+#### Mục tiêu
 
 - Cache dùng Redis để **tăng tốc độ đọc**.
 - Tất cả thao tác **ghi chỉ thực hiện lên database (write-aside)**.
 - Nếu dữ liệu được đọc mà **không có trong cache**, hệ thống sẽ lấy từ
   DB rồi **cập nhật vào cache**.
 
-##### Cấu trúc cơ bản
+#### Cấu trúc cơ bản
 
 - `Redis` làm **cache**
 - `PostgreSQL` hoặc bất kỳ DB nào làm **main memory**
 - `Spring Boot` để xử lý logic
 - `Spring Data Redis` để thao tác với cache
 
-##### Cài đặt Dependencies (Maven)
+#### Cài đặt Dependencies (Maven)
 
 ``` xml
 <dependencies>
@@ -4309,7 +4322,7 @@ thống.
 </dependencies>
 ```
 
-##### application.properties
+#### application.properties
 
 ``` properties
 # Redis
@@ -4323,7 +4336,7 @@ spring.datasource.password=yourpassword
 spring.jpa.hibernate.ddl-auto=update
 ```
 
-##### Entity
+#### Entity
 
 ``` java
 @Entity
@@ -4338,14 +4351,14 @@ public class Product {
 }
 ```
 
-##### Repository
+#### Repository
 
 ``` java
 public interface ProductRepository extends JpaRepository<Product, Long> {
 }
 ```
 
-##### Service: Write-Aside Logic
+#### Service: Write-Aside Logic
 
 ``` java
 @Service
@@ -4392,7 +4405,7 @@ public class ProductService {
 }
 ```
 
-##### Controller
+#### Controller
 
 ``` java
 @RestController
@@ -4415,9 +4428,9 @@ public class ProductController {
 }
 ```
 
-### Write-Through
+## Write-Through
 
-#### Giới thiệu Write-Through
+### Giới thiệu Write-Through
 
 Write-Through là một phương pháp lưu trữ trong đó dữ liệu được ghi đồng
 thời vào bộ nhớ đệm (cache) và vị trí bộ nhớ chính tương ứng.
@@ -4431,7 +4444,7 @@ vào tài nguyên lưu trữ liên quan, thường là bộ nhớ chính (RAM) h
 bộ nhớ đệm và kho lưu trữ dữ liệu. ![alt
 text](https://miro.medium.com/v2/resize:fit:640/format:png/1*02awOFhIsPy3F1qCbds9Lw.png)
 
-#### Hoạt động của bộ nhớ đệm write-through
+### Hoạt động của bộ nhớ đệm write-through
 
 - Khái niệm về bộ nhớ đệm đã được thiết lập vững chắc trong thiết kế máy
   tính như một phương tiện để tăng tốc hiệu suất của bộ xử lý và máy
@@ -4458,7 +4471,7 @@ text](https://miro.medium.com/v2/resize:fit:640/format:png/1*02awOFhIsPy3F1qCbds
   dụng phải chờ các hoạt động nhập/xuất lâu hơn vào bộ nhớ hoặc thậm chí
   vào đĩa.
 
-#### Mục đích bộ nhớ đệm write-through
+### Mục đích bộ nhớ đệm write-through
 
 - Bộ nhớ đệm write-through là một kỹ thuật hoặc chính sách bộ nhớ đệm
   kiểm soát cách bộ xử lý và bộ nhớ đệm cục bộ của nó tương tác với các
@@ -4487,7 +4500,7 @@ text](https://miro.medium.com/v2/resize:fit:640/format:png/1*02awOFhIsPy3F1qCbds
   này có thể áp đặt một hình phạt nhỏ đối với hiệu suất ứng dụng hiệu
   quả hoặc rõ ràng.
 
-#### Ưu và nhược điểm của bộ nhớ đệm write-through
+### Ưu và nhược điểm của bộ nhớ đệm write-through
 
 - Như một khái niệm chung, bộ nhớ đệm bộ xử lý thường giúp nâng cao hiệu
   suất ứng dụng bằng cách cho phép bộ xử lý truy cập dữ liệu gần đây từ
@@ -4516,21 +4529,21 @@ text](https://miro.medium.com/v2/resize:fit:640/format:png/1*02awOFhIsPy3F1qCbds
   suất ứng dụng, nhưng các ứng dụng tập trung vào hiệu suất có thể không
   phù hợp với bộ nhớ đệm write-through.
 
-#### Ví dụ triển khai
+### Ví dụ triển khai
 
-##### Cấu trúc
+#### Cấu trúc
 
 - **Redis** là Cache
 - **PostgreSQL/MySQL** là Database
 - **Spring Boot** làm backend logic
 
-##### Maven Dependencies (giống write-aside)
+#### Maven Dependencies (giống write-aside)
 
 ``` xml
 <!-- Thêm các dependency như đã trình bày ở write-aside -->
 ```
 
-##### Entity
+#### Entity
 
 ``` java
 @Entity
@@ -4545,14 +4558,14 @@ public class Product {
 }
 ```
 
-##### Repository
+#### Repository
 
 ``` java
 public interface ProductRepository extends JpaRepository<Product, Long> {
 }
 ```
 
-##### Service – Write-Through Cache Logic
+#### Service – Write-Through Cache Logic
 
 ``` java
 @Service
@@ -4607,7 +4620,7 @@ public class ProductService {
 }
 ```
 
-##### Controller
+#### Controller
 
 ``` java
 @RestController
@@ -4642,9 +4655,9 @@ public class ProductController {
 }
 ```
 
-### Write behind (Write back)
+## Write behind (Write back)
 
-#### Giới thiệu Write-Behind Caching
+### Giới thiệu Write-Behind Caching
 
 - Có một thách thức lớn với bộ nhớ đệm write-through (write-through): độ
   trễ cao của các thao tác ghi vì dữ liệu cần được cập nhật đồng bộ ở cả
@@ -4681,15 +4694,22 @@ public class ProductController {
   nhất định trước khi cập nhật cơ sở dữ liệu.
 
   <figure>
+
   <img
   src="https://miro.medium.com/v2/resize:fit:616/format:png/1*T39AK2R0wifLdGH_ZLW6zg.png"
   alt="alt text" />
-  <figcaption aria-hidden="true">alt text</figcaption>
+
+  <figcaption aria-hidden="true">
+
+  alt text
+
+  </figcaption>
+
   </figure>
 
-#### Ưu và nhược điểm của mô hình write-behind caching
+### Ưu và nhược điểm của mô hình write-behind caching
 
-##### Ưu điểm
+#### Ưu điểm
 
 - Bộ nhớ đệm write-behind cải thiện hiệu suất của các thao tác ghi, vì
   vậy đây là một lựa chọn tốt khi xử lý các khối lượng công việc nặng về
@@ -4712,7 +4732,7 @@ public class ProductController {
 - Bây giờ câu hỏi đặt ra là: Chúng ta có thể giảm thêm tải cho cơ sở dữ
   liệu không?
 
-##### Nhược điểm
+#### Nhược điểm
 
 - Độ trễ giữa ghi bộ nhớ đệm và ghi cơ sở dữ liệu tạo ra một khoảng thời
   gian mà trong đó dữ liệu trong bộ nhớ đệm chưa được phản ánh trong cơ
@@ -4733,14 +4753,14 @@ public class ProductController {
 - Làm thế nào để xử lý tình huống này? Một ý tưởng là thực hiện cơ chế
   thử lại hoặc sử dụng ghi trễ với thời gian chờ thích hợp.
 
-#### Các phương pháp để giảm tải cho cơ sở dữ liệu
+### Các phương pháp để giảm tải cho cơ sở dữ liệu
 
 - Ý tưởng là sử dụng các chiến lược này kết hợp với phương pháp
   write-behind caching để tối ưu hóa quá trình ghi và giảm tải cho cơ sở
   dữ liệu bằng cách xử lý các đợt tăng đột biến ghi một cách duyên dáng
   hơn.
 
-##### Sử dụng giới hạn tỷ lệ (rate limiting)
+#### Sử dụng giới hạn tỷ lệ (rate limiting)
 
 - Khi có nhiều yêu cầu ghi đến cùng một lúc, nó có thể làm quá tải cơ sở
   dữ liệu. Để tránh điều này, chúng ta có thể sử dụng giới hạn tỷ lệ
@@ -4752,7 +4772,7 @@ public class ProductController {
   biến đột ngột trong thời kỳ cao điểm. Nó sẽ cho cơ sở dữ liệu đủ thời
   gian để theo kịp và xử lý các yêu cầu ghi mà không bị quá tải.
 
-##### Sử dụng kỹ thuật phân lô (batching) và hợp nhất (coalescing)
+#### Sử dụng kỹ thuật phân lô (batching) và hợp nhất (coalescing)
 
 - Chúng ta có thể sử dụng kỹ thuật phân lô và hợp nhất trong bộ nhớ đệm
   write-behind để giảm số lượng yêu cầu ghi. Phân lô kết hợp nhiều thao
@@ -4766,7 +4786,7 @@ public class ProductController {
   chi phí khi nhà cung cấp cơ sở dữ liệu tính phí dựa trên số lượng yêu
   cầu được thực hiện.
 
-##### Sử dụng chuyển dịch thời gian (time shifting)
+#### Sử dụng chuyển dịch thời gian (time shifting)
 
 - Cơ sở dữ liệu có thể trải qua “giờ cao điểm” khi nhiều dữ liệu đang
   được ghi hoặc sửa đổi đồng thời. Vì vậy, chuyển dịch thời gian là một
@@ -4775,7 +4795,7 @@ public class ProductController {
   điểm. Điều này sẽ cho phép hệ thống tránh bị quá tải trong thời kỳ
   tranh chấp cao.
 
-#### So sánh write-behind với write-through cache
+### So sánh write-behind với write-through cache
 
 - Quyết định giữa chiến lược bộ nhớ đệm write-through và write-behind
   caching liên quan đến một trong những đánh đổi quan trọng: tính nhất
@@ -4804,30 +4824,30 @@ public class ProductController {
     đệm write-behind phù hợp cho dữ liệu không quan trọng hoặc kịch bản
     mà hiệu suất ghi cho khối lượng công việc nặng về ghi là quan trọng.
 
-#### Ví dụ triển khai
+### Ví dụ triển khai
 
-##### Mục tiêu:
+#### Mục tiêu:
 
 - **Ghi dữ liệu vào cache trước**, sau đó **ghi về database *sau***
   (delayed write).
 - Ghi xuống database có thể thực hiện sau vài giây hoặc theo batch.
 - Đọc vẫn ưu tiên cache.
 
-##### Cách triển khai
+#### Cách triển khai
 
-##### Ý tưởng:
+#### Ý tưởng:
 
 - Khi ghi → lưu vào cache (Redis hoặc Map)
 - Có một **scheduler chạy nền**, mỗi X giây lấy dữ liệu trong cache →
   ghi về DB
 
-##### Maven dependencies (giống các ví dụ trước)
+#### Maven dependencies (giống các ví dụ trước)
 
 ``` xml
 <!-- Spring Boot Data JPA, Redis, PostgreSQL -->
 ```
 
-##### Entity & Repository
+#### Entity & Repository
 
 ``` java
 @Entity
@@ -4845,7 +4865,7 @@ public interface ProductRepository extends JpaRepository<Product, Long> {
 }
 ```
 
-##### Cache Store (dùng `ConcurrentHashMap` hoặc Redis)
+#### Cache Store (dùng `ConcurrentHashMap` hoặc Redis)
 
 ``` java
 @Component
@@ -4876,7 +4896,7 @@ public class InMemoryCache {
 }
 ```
 
-##### Service: Write-Behind Logic
+#### Service: Write-Behind Logic
 
 ``` java
 @Service
@@ -4912,7 +4932,7 @@ public class ProductService {
 }
 ```
 
-##### Scheduled Flush Job (ghi DB định kỳ)
+#### Scheduled Flush Job (ghi DB định kỳ)
 
 ``` java
 @Component
@@ -4937,7 +4957,7 @@ public class WriteBehindScheduler {
 
 Đừng quên thêm `@EnableScheduling` vào class `@SpringBootApplication`
 
-##### Controller
+#### Controller
 
 ``` java
 @RestController
@@ -4959,9 +4979,9 @@ public class ProductController {
 }
 ```
 
-### Read through
+## Read through
 
-#### Giới thiệu về Read-Through
+### Giới thiệu về Read-Through
 
 - Khác với mô hình cache-aside (bộ nhớ đệm phụ trợ) yêu cầu logic ứng
   dụng để tìm nạp và đưa dữ liệu vào bộ nhớ đệm, bộ nhớ đệm Read-Through
@@ -4976,7 +4996,7 @@ public class ProductController {
   chính. ![alt
   text](https://miro.medium.com/v2/resize:fit:640/format:png/1*4Oq53AeAmroQ_UB5Kh42yA.png)
 
-#### Cách hoạt động của mô hình read-through
+### Cách hoạt động của mô hình read-through
 
 - Khi ứng dụng yêu cầu dữ liệu từ bộ nhớ đệm, bộ nhớ đệm sẽ kiểm tra xem
   dữ liệu có hiện diện không (cache hit). Nếu có, dữ liệu được lưu trong
@@ -4993,9 +5013,9 @@ public class ProductController {
   chọn phương pháp ghi tốt nhất phụ thuộc vào sự đánh đổi về tính nhất
   quán của dữ liệu và hiệu suất ghi.
 
-#### Ưu và nhược điểm của Read-through
+### Ưu và nhược điểm của Read-through
 
-##### Ưu điểm
+#### Ưu điểm
 
 - Bộ nhớ đệm Read-through giảm đáng kể độ trễ đọc đối với dữ liệu được
   truy cập thường xuyên, đặc biệt khi nguồn dữ liệu gốc nằm ở xa (trung
@@ -5031,7 +5051,7 @@ public class ProductController {
   độ trễ này là làm nóng bộ nhớ đệm bằng cách đưa vào dữ liệu dự kiến sẽ
   được yêu cầu thường xuyên trong tương lai gần.
 
-##### Nhược điểm
+#### Nhược điểm
 
 - Bất cứ khi nào có yêu cầu đọc mới hoặc dữ liệu được yêu cầu lần đầu
   tiên hoặc sau khi TTL (thời gian sống) kết thúc, nó sẽ luôn dẫn đến
@@ -5062,7 +5082,7 @@ public class ProductController {
   dữ liệu (cache stampede - tình trạng tràn ngập bộ nhớ đệm). Những yêu
   cầu đồng thời này gây ra đột biến tải trên cơ sở dữ liệu.
 
-#### Read-Through so với Cache-Aside (Lazy cache)
+### Read-Through so với Cache-Aside (Lazy cache)
 
 - Mặc dù bộ nhớ đệm read-through và cache-aside trông rất giống nhau,
   nhưng có một số khác biệt lớn:
@@ -5089,9 +5109,9 @@ public class ProductController {
     động cập nhật hoặc vô hiệu hóa mục đã lưu trong bộ nhớ đệm tương
     ứng.
 
-#### Ví dụ triển khai
+### Ví dụ triển khai
 
-##### Mô tả
+#### Mô tả
 
 - Khi người dùng yêu cầu dữ liệu, hệ thống sẽ kiểm tra trong Redis
   cache.
@@ -5099,7 +5119,7 @@ public class ProductController {
 - Nếu không có → đọc từ MongoDB, sau đó lưu vào Redis để các lần sau
   truy cập nhanh hơn.
 
-##### Code ví dụ
+#### Code ví dụ
 
 ``` ts
 // server.ts
@@ -5147,7 +5167,7 @@ app.listen(port, () => {
 });
 ```
 
-##### Kiểm thử
+#### Kiểm thử
 
 - Tạo user trong MongoDB:
 
@@ -5164,16 +5184,16 @@ db.users.insertOne({ name: "Alice", age: 25 });
 - Lần đầu sẽ đọc từ DB và lưu vào Redis.
 - Lần sau sẽ trả kết quả từ Redis.
 
-##### Ghi chú
+#### Ghi chú
 
 - Đây là **read-through** vì logic truy xuất DB nằm **trong cùng đoạn
   code xử lý cache**.
 - Nếu bạn tách riêng lớp cache, thì gọi là **cache-aside** (ứng dụng tự
   quyết định khi nào đọc/ghi cache).
 
-### Refresh ahead
+## Refresh ahead
 
-#### Giới thiệu Refresh Ahead
+### Giới thiệu Refresh Ahead
 
 - Trong các mô hình cache-aside hoặc read-through, nếu dữ liệu trong bộ
   nhớ đệm bị xóa do hết thời gian sống (TTL - time to live), bộ nhớ đệm
@@ -5185,7 +5205,7 @@ db.users.insertOne({ name: "Alice", age: 25 });
   dữ liệu? Đây là lúc mô hình Refresh Ahead phát huy tác dụng. ![alt
   text](https://ucarecdn.com/10bbb7ce-8b2a-4a59-abc1-d00771a70d5c/)
 
-#### Cách hoạt động của Refresh Ahead
+### Cách hoạt động của Refresh Ahead
 
 - Mục tiêu của mô hình Refresh Ahead là cấu hình bộ nhớ đệm để tự động
   tải lại (làm mới) phiên bản mới nhất của dữ liệu từ cơ sở dữ liệu một
@@ -5221,9 +5241,9 @@ db.users.insertOne({ name: "Alice", age: 25 });
     trình làm mới là bất đồng bộ, nên bộ nhớ đệm không đợi dữ liệu tải
     lại trước khi phục vụ ứng dụng.
 
-#### Ưu và nhược điểm của Refresh Ahead
+### Ưu và nhược điểm của Refresh Ahead
 
-##### Ưu điểm
+#### Ưu điểm
 
 - Chúng ta thường sử dụng bộ nhớ đệm để lưu trữ dữ liệu được truy cập
   thường xuyên. Nếu chỉ dựa vào TTL, có nguy cơ phục vụ dữ liệu cũ cho
@@ -5253,7 +5273,7 @@ db.users.insertOne({ name: "Alice", age: 25 });
   trong bộ nhớ đệm và tránh độ trễ từ việc tải lại quá nhiều từ cơ sở dữ
   liệu.
 
-##### Nhược điểm
+#### Nhược điểm
 
 - Triển khai mô hình này có thể làm tăng độ phức tạp của mã ứng dụng,
   khó duy trì và gỡ lỗi, đặc biệt nếu logic bộ nhớ đệm trở nên khó quản
@@ -5266,7 +5286,7 @@ db.users.insertOne({ name: "Alice", age: 25 });
   động tốt cho các khối lượng công việc đọc nhiều, nhưng chi phí tải
   trước có thể không hợp lý cho các mô hình truy cập ghi nhiều.
 
-##### So sánh Refresh Ahead và Read-Through Cache
+#### So sánh Refresh Ahead và Read-Through Cache
 
 - **Refresh Ahead:**
   - Refresh Ahead: Tích cực lấy dữ liệu từ lưu trữ trước khi được yêu
@@ -5290,9 +5310,9 @@ db.users.insertOne({ name: "Alice", age: 25 });
   - Read-Through: Không có hạn chế như vậy, hoạt động tốt nhất khi mô
     hình truy cập tương lai ít dự đoán được.
 
-#### Ví dụ triển khai
+### Ví dụ triển khai
 
-##### Mô tả Refresh Ahead
+#### Mô tả Refresh Ahead
 
 - **TTL (Time-To-Live):** Thời gian sống của 1 cache entry.
 - **Refresh time:** Khi đến gần TTL (ví dụ 80% TTL), cache sẽ chủ động
@@ -5300,7 +5320,7 @@ db.users.insertOne({ name: "Alice", age: 25 });
 - **Người dùng vẫn được trả về bản cache cũ** trong lúc dữ liệu được làm
   mới.
 
-##### TypeScript với giả lập
+#### TypeScript với giả lập
 
 Giả sử ta có một hàm lấy dữ liệu từ database:
 
@@ -5312,7 +5332,7 @@ async function fetchFromDatabase(key: string): Promise<string> {
 }
 ```
 
-##### Cache có Refresh Ahead
+#### Cache có Refresh Ahead
 
 ``` ts
 type CacheEntry = {
@@ -5362,7 +5382,7 @@ async function getWithRefreshAhead(key: string): Promise<string> {
 }
 ```
 
-##### Sử dụng
+#### Sử dụng
 
 ``` ts
 async function test() {
@@ -5378,16 +5398,16 @@ test();
 
 ------------------------------------------------------------------------
 
-##### Lợi ích
+#### Lợi ích
 
 - Người dùng **luôn nhận được dữ liệu từ cache nhanh chóng**.
 - Dữ liệu được **làm mới định kỳ phía sau** =\> giảm nguy cơ cache miss
   spike.
 - Cân bằng giữa hiệu năng và độ tươi của dữ liệu.
 
-### Pre-caching
+## Pre-caching
 
-#### Hướng tiếp cận Pre-Caching
+### Hướng tiếp cận Pre-Caching
 
 - Tốc độ và hiệu suất là hai yếu tố quan trọng giúp một trang web nổi
   bật giữa các đối thủ. Hãy tưởng tượng bạn đang truy cập danh sách bán
@@ -5413,7 +5433,7 @@ test();
 - Một trong những kỹ thuật nổi bật nhất để tăng tốc độ và hiệu suất
   trang web là **pre-caching** (tiền lưu trữ).
 
-#### Giới thiệu về Pre-caching
+### Giới thiệu về Pre-caching
 
 - Pre-caching là một kỹ thuật được sử dụng để chủ động lưu trữ hoặc
   cache dữ liệu dự đoán trước cho các yêu cầu trong tương lai. Ý tưởng
@@ -5429,7 +5449,7 @@ test();
   ![alt
   text](https://miro.medium.com/v2/resize:fit:1100/format:png/0*VC6Xm3OYE65IBXPt.png)
 
-#### Cách hoạt động của Pre-caching
+### Cách hoạt động của Pre-caching
 
 - Quá trình pre-caching đòi hỏi lưu trữ một bản sao của dữ liệu ở vị trí
   gần người dùng hơn hoặc lưu trữ dữ liệu trước để sẵn sàng khi cần.
@@ -5456,7 +5476,7 @@ test();
     thể truy xuất trực tiếp từ bộ nhớ đệm thay vì lấy từ nguồn bên ngoài
     chậm hơn.
 
-#### Sử dụng Pre-cache
+### Sử dụng Pre-cache
 
 - Sự thành công của pre-caching phụ thuộc vào chất lượng dữ liệu được
   pre-cache. Điều quan trọng là phải chọn đúng dữ liệu để lưu trữ.
@@ -5488,9 +5508,9 @@ test();
     cách tiếp cận tốn kém và việc sử dụng nó phụ thuộc vào tầm quan
     trọng của pre-caching trong bối cảnh ứng dụng.
 
-#### Ưu và nhược điểm của Pre-caching
+### Ưu và nhược điểm của Pre-caching
 
-##### Ưu điểm
+#### Ưu điểm
 
 - **Cải thiện hiệu suất** – Khi pre-cache dữ liệu, về cơ bản đang giảm
   thời gian tải cho nội dung. Điều này dẫn đến trải nghiệm người dùng
@@ -5519,7 +5539,7 @@ test();
   Dịch vụ) vì ứng dụng sẽ không phải phục vụ các tài nguyên đã được
   pre-cache từ máy chủ gốc.
 
-##### Nhược điểm
+#### Nhược điểm
 
 - **Dữ liệu cũ:** Với pre-caching, đang lưu trữ dữ liệu trước. Dữ liệu
   này có thể không phải lúc nào cũng cập nhật. Nếu dữ liệu thay đổi
@@ -5540,13 +5560,13 @@ test();
   Đây phần lớn là dữ liệu tĩnh. Khó triển khai pre-caching cho dữ liệu
   được tạo động mà không sử dụng các thuật toán phức tạp.
 
-#### Phân loại Pre-caching
+### Phân loại Pre-caching
 
 Vì ý tưởng cơ bản của pre-caching khá đơn giản, có thể triển khai nó
 theo nhiều cách khác nhau. Nhìn chung, có hai cách tiếp cận chính:
 pre-caching phía máy khách và pre-caching phía máy chủ.
 
-##### Pre-caching phía máy khách
+#### Pre-caching phía máy khách
 
 - Cách phổ biến nhất để pre-caching phía máy khách là chủ động cache tài
   nguyên trên trình duyệt. Với caching dựa trên trình duyệt, đang cố
@@ -5571,7 +5591,7 @@ pre-caching phía máy khách và pre-caching phía máy chủ.
   tài nguyên và cung cấp API đơn giản để làm việc với bộ nhớ đệm service
   worker.
 
-##### Pre-caching phía máy chủ
+#### Pre-caching phía máy chủ
 
 - Cách tiếp cận thứ hai là pre-caching phía máy chủ. Cũng có thể thực
   hiện nó bằng nhiều cách.
@@ -5588,7 +5608,7 @@ pre-caching phía máy khách và pre-caching phía máy chủ.
   dùng, máy chủ proxy cung cấp dữ liệu trực tiếp mà không cần phải gửi
   yêu cầu đến máy chủ gốc.
 
-#### Tối ưu cho Pre-Caching
+### Tối ưu cho Pre-Caching
 
 - Pre-caching là một kỹ thuật cực kỳ hữu ích để cải thiện hiệu suất ứng
   dụng web. Tuy nhiên, nên tuân theo một số thực hành tốt nhất để đảm
@@ -5625,9 +5645,9 @@ pre-caching phía máy khách và pre-caching phía máy chủ.
     pre-caching tài nguyên. Đối với caching phía máy chủ, hãy xem xét sử
     dụng kết hợp CDN và máy chủ proxy cache.
 
-#### Ví dụ triển khai
+### Ví dụ triển khai
 
-##### Tạo Service Worker (service-worker.js)
+#### Tạo Service Worker (service-worker.js)
 
 Trong ví dụ này, chúng ta sẽ tạo một service worker để quản lý cache và
 pre-cache các tài nguyên khi người dùng truy cập lần đầu.
@@ -5685,7 +5705,7 @@ self.addEventListener("activate", (event) => {
 });
 ```
 
-##### Đăng ký Service Worker trong File JavaScript Chính
+#### Đăng ký Service Worker trong File JavaScript Chính
 
 Tiếp theo, bạn cần đăng ký service worker trong file JavaScript chính
 của ứng dụng, ví dụ `main.js`:
@@ -5705,7 +5725,7 @@ if ("serviceWorker" in navigator) {
 }
 ```
 
-##### Cập nhật HTML
+#### Cập nhật HTML
 
 Đảm bảo rằng bạn đã thêm link tới `main.js` và các tài nguyên cần thiết
 trong trang HTML:
@@ -5726,7 +5746,7 @@ trong trang HTML:
 </html>
 ```
 
-##### Lưu ý
+#### Lưu ý
 
 - **Cache Invalidation:** Cần phải lưu ý khi cập nhật tài nguyên, bạn
   cần phải cập nhật tên cache hoặc sử dụng các chiến lược invalidation
@@ -5735,9 +5755,9 @@ trong trang HTML:
   của service worker (install, activate, fetch) để có thể quản lý tốt
   hơn việc pre-caching và cập nhật cache.
 
-### Read-only cache
+## Read-only cache
 
-#### Giới thiệu về Read-Only cache
+### Giới thiệu về Read-Only cache
 
 - **Read-Only Cache** (bộ nhớ đệm chỉ đọc) là một kỹ thuật tối ưu hóa
   hiệu suất phổ biến, cho phép lưu trữ tạm thời dữ liệu từ nguồn chính ở
@@ -5746,7 +5766,7 @@ trong trang HTML:
   sử dụng cache. ![alt
   text](https://docs.oracle.com/en/database/other-databases/timesten/22.1/cache/img/readonlycg.png)
 
-#### Đặc điểm chính
+### Đặc điểm chính
 
 | Đặc điểm | Mô tả |
 |----|----|
@@ -5755,9 +5775,9 @@ trong trang HTML:
 | **Tính ổn định** | Giảm nguy cơ sai lệch dữ liệu do thao tác ghi không đồng bộ. |
 | **Tự động làm mới** | Một số hệ thống có thể tự động cập nhật cache từ nguồn chính. |
 
-#### Các ứng dụng và triển khai thực tế
+### Các ứng dụng và triển khai thực tế
 
-##### **IBM – Local Read-Only Cache (LROC)**
+#### **IBM – Local Read-Only Cache (LROC)**
 
 - **Môi trường áp dụng**: Hệ thống lưu trữ phân tán như IBM Spectrum
   Scale.
@@ -5768,7 +5788,7 @@ trong trang HTML:
   - Không cho phép ghi dữ liệu vào thiết bị cache.
   - Tự động đồng bộ dữ liệu từ hệ thống gốc khi cache không còn hợp lệ.
 
-##### **Oracle – Read-Only Cache Group (TimesTen)**
+#### **Oracle – Read-Only Cache Group (TimesTen)**
 
 - **Môi trường áp dụng**: Cơ sở dữ liệu in-memory TimesTen và Oracle DB.
 - **Cách hoạt động**:
@@ -5778,7 +5798,7 @@ trong trang HTML:
   - Dữ liệu được cập nhật định kỳ từ Oracle gốc (refresh).
   - Tăng tốc độ truy vấn đọc trong các ứng dụng xử lý nhanh.
 
-##### **Optimizely – Read-Only Object Cache**
+#### **Optimizely – Read-Only Object Cache**
 
 - **Môi trường áp dụng**: CMS hoặc nền tảng quản lý nội dung.
 - **Cách hoạt động**:
@@ -5789,7 +5809,7 @@ trong trang HTML:
   - Hữu ích với các đối tượng dùng chung giữa nhiều user hoặc luồng xử
     lý.
 
-##### **Wikipedia – Page Cache (khái niệm hệ điều hành)**
+#### **Wikipedia – Page Cache (khái niệm hệ điều hành)**
 
 - **Môi trường áp dụng**: Hệ điều hành Linux, Windows, v.v.
 - **Cách hoạt động**:
@@ -5799,16 +5819,16 @@ trong trang HTML:
   - Tăng tốc độ I/O.
   - Cache này thường không bị sửa đổi trừ khi dữ liệu gốc bị ghi đè.
 
-#### Ưu và nhược điểm của Read-Only Cache
+### Ưu và nhược điểm của Read-Only Cache
 
-##### Lợi ích của Read-Only Cache
+#### Lợi ích của Read-Only Cache
 
 - **Hiệu suất vượt trội**: Giảm độ trễ truy xuất dữ liệu.
 - **Tính nhất quán cao**: Không lo xung đột do ghi đồng thời.
 - **Tự động cập nhật (nếu có)**: Một số hệ thống hỗ trợ tự đồng bộ hóa
   với nguồn chính.
 
-##### Hạn chế
+#### Hạn chế
 
 - **Không ghi được dữ liệu mới**: Không thích hợp cho dữ liệu cần chỉnh
   sửa thường xuyên.
@@ -5817,7 +5837,7 @@ trong trang HTML:
 - **Không phù hợp với dữ liệu động**: Ví dụ như giỏ hàng, dữ liệu cá
   nhân hóa.
 
-#### Ví dụ triển khai
+### Ví dụ triển khai
 
 Để triển khai một **read-only cache** trong TypeScript, bạn có thể tạo
 một lớp cache mà chỉ cho phép đọc dữ liệu và không cho phép thay đổi hay
@@ -5888,9 +5908,9 @@ console.log(cache.values()); // [100, 200]
 // cache.delete("apple"); // Không hỗ trợ xóa trong ReadOnlyCache
 ```
 
-### Negative caching
+## Negative caching
 
-#### Giới thiệu về Negative Caching
+### Giới thiệu về Negative Caching
 
 - Negative caching là một kỹ thuật caching nâng cao, trong đó hệ thống
   không chỉ lưu trữ các phản hồi thành công mà còn lưu trữ thông tin về
@@ -5905,7 +5925,7 @@ console.log(cache.values()); // [100, 200]
   định, nhằm tránh việc phải xử lý lại các yêu cầu tương tự trong tương
   lai. ![alt text](https://i.ytimg.com/vi/2vpU-XExnDo/maxresdefault.jpg)
 
-#### Nguyên lý hoạt động
+### Nguyên lý hoạt động
 
 - Khi một hệ thống nhận được yêu cầu và xác định rằng tài nguyên được
   yêu cầu không tồn tại hoặc không khả dụng, thay vì chỉ trả về phản hồi
@@ -5916,9 +5936,9 @@ console.log(cache.values()); // [100, 200]
   - Sử dụng bản ghi đã lưu để phản hồi ngay lập tức cho các yêu cầu
     tương tự tiếp theo
 
-#### Ưu và nhược điểm của Negative Caching
+### Ưu và nhược điểm của Negative Caching
 
-##### Ưu điểm
+#### Ưu điểm
 
 - Cải thiện hiệu suất hệ thống
 
@@ -5944,9 +5964,9 @@ console.log(cache.values()); // [100, 200]
   - **Giảm chi phí truy vấn cơ sở dữ liệu**: Nhiều hệ thống cơ sở dữ
     liệu tính phí theo số lượng truy vấn.
 
-#### Ứng dụng của Negative Caching
+### Ứng dụng của Negative Caching
 
-##### DNS Negative Caching
+#### DNS Negative Caching
 
 - DNS (Domain Name System) là một trong những ứng dụng phổ biến nhất của
   negative caching. Khi một máy chủ DNS nhận được truy vấn về một tên
@@ -5960,7 +5980,7 @@ console.log(cache.values()); // [100, 200]
   - **Giảm tải cho root servers**: Đặc biệt quan trọng cho hệ thống DNS
     toàn cầu.
 
-##### CDN (Content Delivery Network)
+#### CDN (Content Delivery Network)
 
 - Các nhà cung cấp CDN như Cloudflare, Akamai và Fastly đều triển khai
   negative caching:
@@ -5972,7 +5992,7 @@ console.log(cache.values()); // [100, 200]
   - **Cấu hình tùy chỉnh**: Cho phép quản trị viên cấu hình thời gian
     sống cho các loại phản hồi lỗi khác nhau.
 
-##### Bộ nhớ đệm ứng dụng Web
+#### Bộ nhớ đệm ứng dụng Web
 
 - Trong các ứng dụng web hiện đại, negative caching được sử dụng ở nhiều
   cấp độ:
@@ -5983,7 +6003,7 @@ console.log(cache.values()); // [100, 200]
   - **Cache dữ liệu người dùng**: Lưu trữ thông tin về tài nguyên người
     dùng không có quyền truy cập.
 
-##### Proxy Servers và Load Balancers
+#### Proxy Servers và Load Balancers
 
 - Các proxy server và load balancer thường triển khai negative caching
   để:
@@ -5995,9 +6015,9 @@ console.log(cache.values()); // [100, 200]
   - **Quản lý tài nguyên tốt hơn**: Phân bổ tài nguyên hiệu quả hơn cho
     các yêu cầu hợp lệ.
 
-#### Triển khai Negative Caching
+### Triển khai Negative Caching
 
-##### Các tham số cấu hình quan trọng
+#### Các tham số cấu hình quan trọng
 
 - Khi triển khai negative caching, cần xem xét các tham số cấu hình sau:
 
@@ -6010,9 +6030,9 @@ console.log(cache.values()); // [100, 200]
   - **Loại phản hồi lỗi**: Xác định loại lỗi nào cần được lưu vào cache
     (ví dụ: chỉ lưu 404, không lưu 500).
 
-##### Ví dụ triển khai
+#### Ví dụ triển khai
 
-###### Cấu hình Negative Caching trong NGINX
+##### Cấu hình Negative Caching trong NGINX
 
 ``` nginx
 proxy_cache_path /path/to/cache levels=1:2 keys_zone=my_cache:10m inactive=60m;
@@ -6020,7 +6040,7 @@ proxy_cache_valid 200 302 10m;
 proxy_cache_valid 404 1m;      # Lưu cache lỗi 404 trong 1 phút
 ```
 
-###### Cấu hình Negative Caching trong Varnish
+##### Cấu hình Negative Caching trong Varnish
 
 ``` vcl
 sub vcl_backend_response {
@@ -6032,16 +6052,16 @@ sub vcl_backend_response {
 }
 ```
 
-###### Cấu hình Negative Caching trong DNS (BIND)
+##### Cấu hình Negative Caching trong DNS (BIND)
 
     options {
         directory "/var/named";
         max-ncache-ttl 3600;  # Thời gian tối đa lưu trữ negative cache (1 giờ)
     };
 
-##### Cài đặt trong các ngôn ngữ lập trình
+#### Cài đặt trong các ngôn ngữ lập trình
 
-###### Java với Caffeine Cache
+##### Java với Caffeine Cache
 
 ``` java
 LoadingCache<String, Optional<Data>> cache = Caffeine.newBuilder()
@@ -6060,7 +6080,7 @@ if (result.isPresent()) {
 }
 ```
 
-###### Python với Redis
+##### Python với Redis
 
 ``` python
 import redis
@@ -6093,9 +6113,9 @@ def get_data(key):
     return data
 ```
 
-#### Thách thức và Cân nhắc khi triển khai
+### Thách thức và Cân nhắc khi triển khai
 
-##### Quản lý TTL
+#### Quản lý TTL
 
 - Một trong những thách thức lớn nhất khi triển khai negative caching là
   xác định thời gian sống phù hợp:
@@ -6109,7 +6129,7 @@ def get_data(key):
   cache. Thông thường, TTL cho negative cache trong khoảng từ vài giây
   đến vài phút.
 
-##### Xử lý sự cố
+#### Xử lý sự cố
 
 - Cần có chiến lược xử lý sự cố khi triển khai negative caching:
 
@@ -6120,7 +6140,7 @@ def get_data(key):
   - **Circuit breaker**: Tạm thời vô hiệu hóa negative caching trong
     trường hợp phát hiện bất thường.
 
-##### Tính nhất quán dữ liệu
+#### Tính nhất quán dữ liệu
 
 - Negative caching có thể gây ra vấn đề về tính nhất quán dữ liệu:
 
@@ -6132,15 +6152,15 @@ def get_data(key):
 - Giải pháp: Sử dụng cơ chế invalidation cache hoặc TTL ngắn cho
   negative cache.
 
-#### Best Practices và Khuyến nghị
+### Best Practices và Khuyến nghị
 
-##### Sử dụng TTL phù hợp
+#### Sử dụng TTL phù hợp
 
 - **DNS**: 5-30 phút cho phản hồi NXDOMAIN, tùy thuộc vào môi trường.
 - **HTTP**: 1-5 phút cho lỗi 404, 10-30 giây cho lỗi 500.
 - **Ứng dụng**: 30-60 giây cho truy vấn dữ liệu không tồn tại.
 
-##### Phân biệt các loại lỗi
+#### Phân biệt các loại lỗi
 
 - Không phải tất cả các lỗi đều nên được lưu vào negative cache:
 
@@ -6150,7 +6170,7 @@ def get_data(key):
   - **Lỗi xác thực (401, 403)**: Có thể cache nhưng cần xem xét ngữ cảnh
     sử dụng.
 
-##### Tối ưu hóa kích thước cache
+#### Tối ưu hóa kích thước cache
 
 - **Giới hạn kích thước**: Đặt giới hạn hợp lý cho kích thước negative
   cache.
@@ -6158,7 +6178,7 @@ def get_data(key):
   giữa các loại phản hồi lỗi khác nhau.
 - **Nén dữ liệu**: Giảm kích thước của các bản ghi negative cache.
 
-##### Kết hợp với các kỹ thuật khác
+#### Kết hợp với các kỹ thuật khác
 
 - Negative caching hoạt động tốt nhất khi kết hợp với các kỹ thuật khác:
 
@@ -6169,9 +6189,9 @@ def get_data(key):
   - **Graceful degradation**: Cung cấp trải nghiệm người dùng tốt nhất
     có thể ngay cả khi có lỗi.
 
-#### Xu hướng và phát triển
+### Xu hướng và phát triển
 
-##### Edge Computing và Negative Caching
+#### Edge Computing và Negative Caching
 
 - Negative caching đang trở nên quan trọng trong kiến trúc edge
   computing:
@@ -6183,7 +6203,7 @@ def get_data(key):
   - **Real-time invalidation**: Hệ thống invalidation cache thời gian
     thực.
 
-##### Machine Learning trong Negative Caching
+#### Machine Learning trong Negative Caching
 
 - Các hệ thống hiện đại đang áp dụng machine learning để tối ưu hóa
   negative caching:
@@ -6195,9 +6215,9 @@ def get_data(key):
   - **Tối ưu hóa tự động**: Tự động điều chỉnh tham số negative caching
     dựa trên mẫu truy cập.
 
-### Hybrid caching
+## Hybrid caching
 
-#### Giới thiệu về Hybrid Caching
+### Giới thiệu về Hybrid Caching
 
 - Hybrid caching là một phương pháp caching tiên tiến kết hợp hai hoặc
   nhiều kỹ thuật caching khác nhau nhằm tối ưu hóa hiệu suất, độ tin cậy
@@ -6214,7 +6234,7 @@ def get_data(key):
   lượng lưu trữ, chi phí và độ tin cậy của hệ thống. ![alt
   text](https://research.redhat.com/wp-content/uploads/2020/05/HybridCloudCache.png)
 
-##### Bản chất của Hybrid Caching
+#### Bản chất của Hybrid Caching
 
 - Cốt lõi của hybrid caching là tận dụng các đặc điểm khác biệt của các
   loại bộ nhớ và phương pháp caching:
@@ -6228,7 +6248,7 @@ def get_data(key):
   - **Đa mô hình về dữ liệu**: Kết hợp in-memory caching, persistent
     caching, database caching.
 
-##### Sự cần thiết của Hybrid Caching
+#### Sự cần thiết của Hybrid Caching
 
 - Trong thực tế, các ứng dụng hiện đại phải đối mặt với nhiều thách
   thức:
@@ -6245,15 +6265,15 @@ def get_data(key):
 - Hybrid caching giải quyết những thách thức này bằng cách cung cấp một
   giải pháp toàn diện, linh hoạt và có thể mở rộng.
 
-#### Các kiểu Hybrid Caching phổ biến
+### Các kiểu Hybrid Caching phổ biến
 
-##### Multi-level Cache (Cache đa tầng)
+#### Multi-level Cache (Cache đa tầng)
 
 - Multi-level cache là một trong những dạng hybrid caching phổ biến
   nhất, tổ chức cache theo các tầng với hiệu suất và dung lượng khác
   nhau.
 
-###### Nguyên lý hoạt động
+##### Nguyên lý hoạt động
 
 - **L1 Cache (Tầng 1)**: Bộ nhớ nhanh nhất, dung lượng nhỏ nhất, thường
   là RAM.
@@ -6268,13 +6288,13 @@ def get_data(key):
   Nếu không tìm thấy ở tầng nào, hệ thống sẽ lấy dữ liệu từ nguồn gốc
   (database, API) và lưu vào các tầng cache.
 
-###### Ưu điểm
+##### Ưu điểm
 
 - Cân bằng giữa hiệu suất và chi phí.
 - Tối ưu hóa việc sử dụng tài nguyên.
 - Cải thiện hit rate tổng thể của hệ thống.
 
-###### Ví dụ triển khai
+##### Ví dụ triển khai
 
 ``` java
 // Minh họa Multi-level Cache trong Java
@@ -6308,12 +6328,12 @@ public class MultiLevelCache<K, V> {
 }
 ```
 
-##### Distributed Hybrid Cache (Cache phân tán hỗn hợp)
+#### Distributed Hybrid Cache (Cache phân tán hỗn hợp)
 
 - Distributed hybrid cache kết hợp local caching và distributed caching
   để tận dụng ưu điểm của cả hai phương pháp.
 
-###### Nguyên lý hoạt động
+##### Nguyên lý hoạt động
 
 - **Local Cache**: Mỗi nút trong hệ thống duy trì một bộ nhớ cache cục
   bộ (thường là in-memory).
@@ -6323,13 +6343,13 @@ public class MultiLevelCache<K, V> {
   thì kiểm tra distributed cache, nếu vẫn miss thì lấy từ nguồn dữ liệu
   gốc.
 
-###### Ưu điểm
+##### Ưu điểm
 
 - Giảm độ trễ khi truy xuất dữ liệu phổ biến (local cache).
 - Cung cấp khả năng mở rộng và chia sẻ dữ liệu (distributed cache).
 - Giảm tải cho hệ thống distributed cache.
 
-###### Ví dụ triển khai
+##### Ví dụ triển khai
 
 ``` java
 // Minh họa Distributed Hybrid Cache trong Java
@@ -6366,12 +6386,12 @@ public class DistributedHybridCache<K, V> {
 }
 ```
 
-##### Write-Through và Write-Back Hybrid Cache
+#### Write-Through và Write-Back Hybrid Cache
 
 - Đây là hybrid caching kết hợp các chiến lược ghi khác nhau để cân bằng
   giữa độ tin cậy và hiệu suất.
 
-###### Nguyên lý hoạt động
+##### Nguyên lý hoạt động
 
 - **Write-Through**: Dữ liệu được ghi đồng thời vào cache và nguồn dữ
   liệu gốc.
@@ -6381,14 +6401,14 @@ public class DistributedHybridCache<K, V> {
   bảo độ tin cậy, trong khi dữ liệu ít quan trọng sử dụng write-back để
   tối ưu hiệu suất.
 
-###### Ưu điểm
+##### Ưu điểm
 
 - Linh hoạt trong việc xử lý dữ liệu với các mức độ quan trọng khác
   nhau.
 - Cân bằng giữa hiệu suất và độ tin cậy.
 - Giảm tải cho hệ thống lưu trữ chính trong thời điểm cao điểm.
 
-###### Ví dụ triển khai
+##### Ví dụ triển khai
 
 ``` java
 // Minh họa Write-Through và Write-Back Hybrid Cache
@@ -6424,12 +6444,12 @@ public class HybridWriteCache<K, V> {
 }
 ```
 
-##### Multi-Algorithm Cache (Cache đa thuật toán)
+#### Multi-Algorithm Cache (Cache đa thuật toán)
 
 - Multi-Algorithm Cache sử dụng nhiều thuật toán thay thế (replacement
   algorithms) khác nhau cho các loại dữ liệu khác nhau.
 
-###### Nguyên lý hoạt động
+##### Nguyên lý hoạt động
 
 - **Phân loại dữ liệu**: Dữ liệu được phân loại dựa trên đặc điểm truy
   cập.
@@ -6442,13 +6462,13 @@ public class HybridWriteCache<K, V> {
   - ARC (Adaptive Replacement Cache): Tự động điều chỉnh giữa recency và
     frequency.
 
-###### Ưu điểm
+##### Ưu điểm
 
 - Tối ưu hóa hit rate cho từng loại dữ liệu.
 - Thích ứng với các mẫu truy cập khác nhau.
 - Sử dụng hiệu quả không gian cache.
 
-###### Ví dụ triển khai
+##### Ví dụ triển khai
 
 ``` python
 # Minh họa Multi-Algorithm Cache trong Python
@@ -6488,12 +6508,12 @@ class MultiAlgorithmCache:
             self.arc_cache.put(key, value)
 ```
 
-##### Cache Tiering kết hợp In-Memory và Persistent Cache
+#### Cache Tiering kết hợp In-Memory và Persistent Cache
 
 - Kết hợp in-memory cache (RAM) và persistent cache (disk) để cân bằng
   giữa tốc độ và khả năng lưu trữ dài hạn.
 
-###### Nguyên lý hoạt động
+##### Nguyên lý hoạt động
 
 - **In-Memory Tier**: Lưu trữ dữ liệu truy cập thường xuyên trong RAM.
 - **Persistent Tier**: Lưu trữ dữ liệu ít truy cập hơn hoặc dữ liệu lớn
@@ -6503,13 +6523,13 @@ class MultiAlgorithmCache:
 - **Cache Persistence**: Định kỳ lưu snapshot của in-memory cache xuống
   persistent cache.
 
-###### Ưu điểm
+##### Ưu điểm
 
 - Khả năng phục hồi sau khi hệ thống khởi động lại.
 - Cân bằng giữa hiệu suất và dung lượng lưu trữ.
 - Tiết kiệm RAM cho dữ liệu ít được truy cập.
 
-###### Ví dụ triển khai
+##### Ví dụ triển khai
 
 ``` java
 // Minh họa Cache Tiering trong Java
@@ -6565,11 +6585,11 @@ public class TieredCache<K, V> {
 }
 ```
 
-#### Các thành phần của một hệ thống Hybrid Caching
+### Các thành phần của một hệ thống Hybrid Caching
 
-##### Cache Storage (Nơi lưu trữ cache)
+#### Cache Storage (Nơi lưu trữ cache)
 
-###### In-Memory Cache
+##### In-Memory Cache
 
 - **RAM-based**: Sử dụng bộ nhớ RAM để lưu trữ dữ liệu.
 - **Ưu điểm**: Tốc độ truy xuất cực nhanh (nano-seconds).
@@ -6578,7 +6598,7 @@ public class TieredCache<K, V> {
 - **Công nghệ phổ biến**: Memcached, Redis (có thể cấu hình chỉ
   in-memory), Caffeine (Java), caches tích hợp trong frameworks.
 
-###### Persistent Cache
+##### Persistent Cache
 
 - **Disk-based**: Sử dụng SSD hoặc HDD để lưu trữ dữ liệu.
 - **Ưu điểm**: Dung lượng lớn, dữ liệu không bị mất khi restart.
@@ -6586,7 +6606,7 @@ public class TieredCache<K, V> {
 - **Công nghệ phổ biến**: Redis (persistent mode), RocksDB, Berkeley DB,
   Ehcache với disk store.
 
-###### Distributed Cache
+##### Distributed Cache
 
 - **Network-based**: Dữ liệu được phân tán trên nhiều nút trong mạng.
 - **Ưu điểm**: Mở rộng dung lượng, khả năng chịu lỗi cao.
@@ -6594,9 +6614,9 @@ public class TieredCache<K, V> {
 - **Công nghệ phổ biến**: Redis Cluster, Hazelcast, Apache Ignite,
   Memcached với sharding.
 
-##### Cache Policies (Chính sách cache)
+#### Cache Policies (Chính sách cache)
 
-###### Chính sách thay thế (Replacement Policies)
+##### Chính sách thay thế (Replacement Policies)
 
 - **LRU (Least Recently Used)**: Loại bỏ các mục ít được sử dụng gần đây
   nhất.
@@ -6608,14 +6628,14 @@ public class TieredCache<K, V> {
 - **TinyLFU**: Kết hợp frequency và recency với bộ lọc frequency hiệu
   quả.
 
-###### Chính sách ghi (Write Policies)
+##### Chính sách ghi (Write Policies)
 
 - **Write-Through**: Ghi đồng thời vào cache và storage.
 - **Write-Back (Write-Behind)**: Ghi vào cache trước, sau đó mới ghi vào
   storage.
 - **Write-Around**: Ghi trực tiếp vào storage, bỏ qua cache.
 
-###### Chính sách hết hạn (Expiration Policies)
+##### Chính sách hết hạn (Expiration Policies)
 
 - **TTL (Time-To-Live)**: Dữ liệu hết hạn sau một khoảng thời gian cố
   định kể từ khi được tạo.
@@ -6624,16 +6644,16 @@ public class TieredCache<K, V> {
 - **Custom Expiration**: Thời gian hết hạn được xác định dựa trên loại
   dữ liệu hoặc metadata.
 
-##### Cache Synchronization (Đồng bộ hóa cache)
+#### Cache Synchronization (Đồng bộ hóa cache)
 
-###### Cache Invalidation (Vô hiệu hóa cache)
+##### Cache Invalidation (Vô hiệu hóa cache)
 
 - **Direct Invalidation**: Xóa cache khi dữ liệu thay đổi.
 - **Time-Based Invalidation**: Dữ liệu tự động hết hạn sau một khoảng
   thời gian.
 - **Event-Based Invalidation**: Xóa cache khi có sự kiện cụ thể xảy ra.
 
-###### Cache Consistency (Tính nhất quán cache)
+##### Cache Consistency (Tính nhất quán cache)
 
 - **Strong Consistency**: Đảm bảo tất cả các nút nhìn thấy cùng một dữ
   liệu tại cùng một thời điểm.
@@ -6642,9 +6662,9 @@ public class TieredCache<K, V> {
 - **Read-Your-Writes Consistency**: Người dùng luôn thấy các thay đổi mà
   họ đã thực hiện.
 
-##### Cache Monitoring và Analytics
+#### Cache Monitoring và Analytics
 
-###### Metrics cần theo dõi
+##### Metrics cần theo dõi
 
 - **Hit Rate**: Tỷ lệ yêu cầu được tìm thấy trong cache.
 - **Miss Rate**: Tỷ lệ yêu cầu không được tìm thấy trong cache.
@@ -6652,18 +6672,18 @@ public class TieredCache<K, V> {
 - **Eviction Rate**: Tốc độ loại bỏ dữ liệu khỏi cache.
 - **Memory Usage**: Lượng bộ nhớ sử dụng của cache.
 
-###### Công cụ monitoring
+##### Công cụ monitoring
 
 - **Prometheus và Grafana**: Giám sát và hiển thị metrics.
 - **Redis Stats**: Giám sát Redis cache.
 - **JMX**: Giám sát cache Java.
 - **Các công cụ tích hợp trong framework caching**.
 
-#### Triển khai Hybrid Caching trong các ứng dụng thực tế
+### Triển khai Hybrid Caching trong các ứng dụng thực tế
 
-##### Hybrid Caching trong ứng dụng Web
+#### Hybrid Caching trong ứng dụng Web
 
-###### Kiến trúc tổng thể
+##### Kiến trúc tổng thể
 
     [Client] <-> [CDN] <-> [Web Server] <-> [Local Cache] <-> [Distributed Cache] <-> [Database]
 
@@ -6674,7 +6694,7 @@ public class TieredCache<K, V> {
   chia sẻ giữa các máy chủ.
 - **Database Cache**: Buffer pool, query cache.
 
-###### Ví dụ với Spring Boot và Redis
+##### Ví dụ với Spring Boot và Redis
 
 ``` java
 @Configuration
@@ -6717,16 +6737,16 @@ public class HybridCacheManager implements CacheManager {
 }
 ```
 
-##### Hybrid Caching trong Microservices
+#### Hybrid Caching trong Microservices
 
-###### Các thách thức trong Microservices
+##### Các thách thức trong Microservices
 
 - **Data Consistency**: Đảm bảo dữ liệu nhất quán giữa các services.
 - **Cache Invalidation**: Vô hiệu hóa cache khi dữ liệu thay đổi ở
   service khác.
 - **Resilience**: Xử lý khi cache service gặp sự cố.
 
-###### Mẫu thiết kế
+##### Mẫu thiết kế
 
 - **Local Cache + Distributed Cache**: Mỗi service có local cache,
   shared data được lưu trong distributed cache.
@@ -6734,7 +6754,7 @@ public class HybridCacheManager implements CacheManager {
 - **Event-Driven Invalidation**: Sử dụng message broker để vô hiệu hóa
   cache khi dữ liệu thay đổi.
 
-###### Ví dụ với Spring Cloud
+##### Ví dụ với Spring Cloud
 
 ``` java
 @Service
@@ -6769,9 +6789,9 @@ public class ProductService {
 }
 ```
 
-#### Ưu và nhược điểm của Hybrid Caching
+### Ưu và nhược điểm của Hybrid Caching
 
-##### Ưu điểm
+#### Ưu điểm
 
 | Ưu điểm | Mô tả |
 |----|----|
@@ -6780,7 +6800,7 @@ public class ProductService {
 | **Tính linh hoạt** | Có thể tùy chỉnh chiến lược cache theo từng loại dữ liệu hoặc luồng truy cập. |
 | **Giảm tải cho hệ thống gốc** | Giảm số lần truy vấn cơ sở dữ liệu hoặc dịch vụ phía sau. |
 
-##### Nhược điểm
+#### Nhược điểm
 
 - **Tăng độ phức tạp hệ thống:** Việc đồng bộ giữa các tầng cache có thể
   khó kiểm soát.
@@ -6789,7 +6809,7 @@ public class ProductService {
 - **Chi phí bảo trì cao:** Phải theo dõi, tối ưu và cập nhật các tầng
   cache liên tục.
 
-#### Ứng dụng của Hybrid Caching
+### Ứng dụng của Hybrid Caching
 
 - Hybrid Caching được sử dụng rộng rãi trong các hệ thống yêu cầu hiệu
   suất cao:
@@ -6801,9 +6821,9 @@ public class ProductService {
   - **Ứng dụng thương mại điện tử:** Caching thông tin sản phẩm, giỏ
     hàng, đề xuất cá nhân hóa.
 
-### Graph Cache: Caching data in N Dimensional structures
+## Graph Cache: Caching data in N Dimensional structures
 
-#### Giới thiệu
+### Giới thiệu
 
 Graph Cache là một mô hình lưu trữ dữ liệu mới, được thiết kế để giải
 quyết những thách thức phức tạp trong việc lưu trữ và truy xuất dữ liệu
@@ -6813,7 +6833,7 @@ liệu trong cấu trúc đa chiều, giúp tối ưu hóa hiệu suất và tí
 hoạt khi xử lý dữ liệu phức tạp. ![alt
 text](https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs13677-023-00480-0/MediaObjects/13677_2023_480_Fig2_HTML.png?as=png)
 
-#### Nguyên lý cơ bản của Graph Cache
+### Nguyên lý cơ bản của Graph Cache
 
 Graph Cache tổ chức dữ liệu thành các đồ thị đa chiều, trong đó mỗi điểm
 (node) có thể kết nối với nhiều điểm khác thông qua các cạnh (edge).
@@ -6834,7 +6854,7 @@ liệu, vượt xa khả năng của các hệ thống cache truyền thống.
   - **Khả năng mở rộng**: Cấu trúc đồ thị cho phép mở rộng dễ dàng khi
     thêm chiều dữ liệu mới mà không cần thay đổi lớn về thiết kế.
 
-#### So sánh với các hệ thống cache truyền thống
+### So sánh với các hệ thống cache truyền thống
 
 | Đặc điểm                   | Cache truyền thống     | Graph Cache        |
 |----------------------------|------------------------|--------------------|
@@ -6844,29 +6864,29 @@ liệu, vượt xa khả năng của các hệ thống cache truyền thống.
 | Mở rộng cấu trúc           | Khó khăn               | Linh hoạt          |
 | Quản lý bộ nhớ             | Đơn giản               | Phức tạp hơn       |
 
-#### Kiến trúc của Graph Cache
+### Kiến trúc của Graph Cache
 
 Graph Cache được xây dựng từ ba thành phần chính:
 
-##### Data Nodes (Nút dữ liệu)
+#### Data Nodes (Nút dữ liệu)
 
 Các nút dữ liệu chứa giá trị thực tế được lưu trữ. Mỗi nút có thể chứa
 bất kỳ loại dữ liệu nào, từ các giá trị đơn giản đến các đối tượng phức
 tạp.
 
-##### Dimension Nodes (Nút chiều)
+#### Dimension Nodes (Nút chiều)
 
 Các nút chiều đại diện cho các thuộc tính hoặc chiều của dữ liệu. Chúng
 tạo thành cấu trúc phân cấp giúp tổ chức dữ liệu theo nhiều chiều.
 
-##### Edges (Cạnh)
+#### Edges (Cạnh)
 
 Các cạnh kết nối các nút với nhau, biểu diễn mối quan hệ giữa dữ liệu và
 chiều. Mỗi cạnh có thể chứa metadata bổ sung về mối quan hệ này.
 
-#### Ứng dụng thực tế của Graph Cache
+### Ứng dụng thực tế của Graph Cache
 
-##### Hệ thống thương mại điện tử
+#### Hệ thống thương mại điện tử
 
 Trong hệ thống thương mại điện tử, Graph Cache có thể được sử dụng để
 lưu trữ thông tin sản phẩm theo nhiều chiều như danh mục, giá cả, thương
@@ -6878,20 +6898,20 @@ Ví dụ: Một người dùng có thể tìm kiếm “laptop dưới 20 triệ
 xuất kết quả nhanh chóng bằng cách đi theo các cạnh tương ứng với từng
 điều kiện.
 
-##### Phân tích mạng xã hội
+#### Phân tích mạng xã hội
 
 Trong các ứng dụng mạng xã hội, Graph Cache có thể lưu trữ hiệu quả mối
 quan hệ giữa người dùng, nội dung họ tạo ra, và tương tác của họ. Điều
 này giúp tối ưu hóa việc hiển thị nội dung phù hợp và phân tích xu
 hướng.
 
-##### Hệ thống gợi ý (Recommendation Systems)
+#### Hệ thống gợi ý (Recommendation Systems)
 
 Graph Cache đặc biệt phù hợp cho các hệ thống gợi ý, nơi cần phân tích
 mối quan hệ phức tạp giữa người dùng, sản phẩm/nội dung, và hành vi để
 đưa ra các đề xuất chính xác.
 
-#### Triển khai Graph Cache
+### Triển khai Graph Cache
 
 Việc triển khai Graph Cache thường theo các bước sau:
 
@@ -6950,7 +6970,7 @@ public class GraphCache {
 }
 ```
 
-#### Thách thức và lưu ý khi sử dụng Graph Cache
+### Thách thức và lưu ý khi sử dụng Graph Cache
 
 - **Quản lý bộ nhớ**: Cấu trúc đồ thị có thể tiêu thụ nhiều bộ nhớ hơn
   so với các cấu trúc cache đơn giản. Cần có chiến lược xóa dữ liệu hiệu
@@ -6965,9 +6985,9 @@ public class GraphCache {
 - **Tính toàn vẹn dữ liệu**: Cần có cơ chế xử lý các tham chiếu không
   hợp lệ hoặc vòng lặp trong đồ thị.
 
-## Áp dụng cache vào microservice
+# Áp dụng cache vào microservice
 
-### Giới thiệu microservice
+## Giới thiệu microservice
 
 - Kiến trúc microservice là một phương pháp phát triển phần mềm trong đó
   ứng dụng được xây dựng như một tập hợp các dịch vụ nhỏ, độc lập, mỗi
@@ -6975,7 +6995,7 @@ public class GraphCache {
   chế nhẹ, thường là API HTTP. ![alt
   text](https://www.appviewx.com/wp-content/uploads/2023/02/Microservices-Architecture.png)
 
-#### Đặc điểm chính của Microservice
+### Đặc điểm chính của Microservice
 
 - **Phân tách theo chức năng**: Mỗi dịch vụ đại diện cho một khả năng
   kinh doanh cụ thể.
@@ -6991,7 +7011,7 @@ public class GraphCache {
 - **Khả năng chịu lỗi**: Lỗi trong một dịch vụ không ảnh hưởng đến toàn
   bộ hệ thống.
 
-#### Lợi ích
+### Lợi ích
 
 - **Triển khai nhanh chóng**: Phát triển và triển khai dịch vụ nhanh hơn
   do kích thước nhỏ.
@@ -7001,16 +7021,16 @@ public class GraphCache {
 - **Hỗ trợ làm việc song song**: Các nhóm có thể phát triển các dịch vụ
   khác nhau cùng lúc.
 
-#### Thách thức
+### Thách thức
 
 - **Độ phức tạp phân tán**: Quản lý hệ thống phân tán khó khăn hơn.
 - **Giao tiếp giữa các dịch vụ**: Cần thiết kế giao tiếp hiệu quả.
 - **Tính nhất quán dữ liệu**: Khó đảm bảo trong môi trường phân tán.
 - **Giám sát và gỡ lỗi**: Yêu cầu công cụ phức tạp hơn.
 
-### Distributed cache
+## Distributed cache
 
-#### Giới thiệu
+### Giới thiệu
 
 Trong kiến trúc **Microservices**, việc giao tiếp giữa các dịch vụ và
 truy cập dữ liệu phân tán là điều không thể tránh khỏi. Một trong những
@@ -7021,7 +7041,7 @@ cách lưu trữ tạm thời dữ liệu gần nơi sử dụng, từ đó tăn
 cập và cải thiện hiệu năng toàn hệ thống. ![alt
 text](https://miro.medium.com/v2/resize:fit:1100/format:png/1*ImJhrrfYSi_QtgjiF8UO4g.png)
 
-#### Định nghĩa Distributed Cache
+### Định nghĩa Distributed Cache
 
 - **Distributed Cache** là một hệ thống bộ nhớ đệm được chia sẻ giữa
   nhiều node (máy chủ), cho phép nhiều ứng dụng hoặc dịch vụ cùng truy
@@ -7029,14 +7049,14 @@ text](https://miro.medium.com/v2/resize:fit:1100/format:png/1*ImJhrrfYSi_QtgjiF8
   **Local Cache** (chỉ tồn tại trong một instance), Distributed Cache
   hoạt động như một dịch vụ độc lập.
 
-##### Ví dụ các hệ thống Distributed Cache phổ biến:
+#### Ví dụ các hệ thống Distributed Cache phổ biến:
 
 - **Redis**
 - **Memcached**
 - **Hazelcast**
 - **Apache Ignite**
 
-#### Lợi ích của Distributed Cache trong Microservices
+### Lợi ích của Distributed Cache trong Microservices
 
 | Lợi ích | Mô tả |
 |----|----|
@@ -7046,19 +7066,19 @@ text](https://miro.medium.com/v2/resize:fit:1100/format:png/1*ImJhrrfYSi_QtgjiF8
 | **Tăng khả năng mở rộng (Scalability)** | Các node microservice có thể scale ngang mà vẫn truy cập được cache chung. |
 | **Hỗ trợ failover và replication** | Nhiều hệ thống cache hỗ trợ cơ chế tự phục hồi và dự phòng. |
 
-#### Kiến trúc Tích hợp Distributed Cache
+### Kiến trúc Tích hợp Distributed Cache
 
 Một số mô hình phổ biến trong tích hợp Distributed Cache vào
 microservices:
 
-##### Cache-Aside (Lazy Loading)
+#### Cache-Aside (Lazy Loading)
 
 - Ứng dụng truy vấn cache trước, nếu không có dữ liệu (cache miss), sẽ
   truy cập DB và sau đó ghi lại vào cache.
 - Phù hợp với dữ liệu thường xuyên thay đổi hoặc có yêu cầu consistency
   cao.
 
-##### Write-Through / Write-Behind
+#### Write-Through / Write-Behind
 
 - Khi ghi dữ liệu vào DB, hệ thống cũng ghi đồng thời vào cache
   (write-through) hoặc ghi cache trước rồi đồng bộ ra DB sau
@@ -7066,7 +7086,7 @@ microservices:
 - Phù hợp với hệ thống yêu cầu ghi dữ liệu nhanh hoặc có độ trễ ghi vào
   DB chấp nhận được.
 
-#### Vấn đề & Thách thức
+### Vấn đề & Thách thức
 
 | Thách thức | Mô tả |
 |----|----|
@@ -7076,7 +7096,7 @@ microservices:
 | **Quản lý TTL (Time-To-Live)** | Nếu TTL quá thấp, hệ thống sẽ liên tục cache miss; quá cao thì dữ liệu cũ tồn tại quá lâu. |
 | **Chi phí vận hành** | Redis/Memcached cluster yêu cầu hệ thống monitoring, backup, scaling,… |
 
-#### Best Practices
+### Best Practices
 
 - Sử dụng **Redis Cluster** để đảm bảo High Availability.
 - Sử dụng **Cache Key có tiền tố (prefix)** để tránh trùng lặp giữa các
@@ -7086,9 +7106,9 @@ microservices:
 - Định nghĩa rõ **TTL** cho từng loại dữ liệu.
 - Định kỳ thực hiện **cache warm-up** sau khi deploy hệ thống.
 
-### Event-Driven Cache Invalidation
+## Event-Driven Cache Invalidation
 
-#### 1. Giới thiệu
+### 1. Giới thiệu
 
 Trong kiến trúc microservice, mỗi dịch vụ thường có cơ sở dữ liệu riêng
 biệt để đảm bảo tính độc lập và phân tách trách nhiệm. Để tối ưu hiệu
@@ -7101,7 +7121,7 @@ phần dữ liệu?**
 Một giải pháp phổ biến và hiệu quả là **Event-Driven Cache Invalidation
 (Hủy cache dựa trên sự kiện)**.
 
-#### Vấn đề của Cache trong Microservice
+### Vấn đề của Cache trong Microservice
 
 Giả sử hệ thống có hai service:
 
@@ -7115,7 +7135,7 @@ Khi một người dùng thay đổi thông tin cá nhân (ví dụ tên hoặc 
 gây ra hiện tượng **cache stale** (cache lỗi thời), dẫn đến việc trả về
 thông tin không chính xác.
 
-#### Event-Driven Cache Invalidation là gì?
+### Event-Driven Cache Invalidation là gì?
 
 **Event-Driven Cache Invalidation** là một phương pháp mà trong đó, khi
 dữ liệu được thay đổi ở một service (source of truth), service đó sẽ
@@ -7125,7 +7145,7 @@ kiện này và thực hiện **hủy cache (invalidate)** hoặc cập nhật l
 liệu trong cache. ![alt
 text](https://miro.medium.com/v2/resize:fit:1100/format:png/0*SCV4NRZX5ZqfYgKC)
 
-#### Quy trình hoạt động
+### Quy trình hoạt động
 
 - **User Service** cập nhật thông tin người dùng trong cơ sở dữ liệu.
 - Nó phát ra sự kiện `UserUpdated` với payload chứa ID người dùng và các
@@ -7135,7 +7155,7 @@ text](https://miro.medium.com/v2/resize:fit:1100/format:png/0*SCV4NRZX5ZqfYgKC)
 - Khi nhận được sự kiện, **Order Service xóa cache** dữ liệu cũ hoặc cập
   nhật lại cache bằng cách gọi API hoặc chờ một sync event khác.
 
-#### Ưu điểm
+### Ưu điểm
 
 - **Tính nhất quán cao hơn**: Cache luôn được cập nhật theo thời gian
   thực hoặc gần thời gian thực.
@@ -7144,7 +7164,7 @@ text](https://miro.medium.com/v2/resize:fit:1100/format:png/0*SCV4NRZX5ZqfYgKC)
 - **Phù hợp với kiến trúc microservice**: Mỗi service độc lập, giao tiếp
   thông qua các sự kiện.
 
-#### Nhược điểm và thách thức
+### Nhược điểm và thách thức
 
 - **Độ phức tạp tăng**: Phải thiết kế hệ thống event bus hoặc message
   broker (như Kafka, RabbitMQ, NATS).
@@ -7152,9 +7172,9 @@ text](https://miro.medium.com/v2/resize:fit:1100/format:png/0*SCV4NRZX5ZqfYgKC)
 - **Xử lý lỗi cần cẩn thận**: Trường hợp service nhận sự kiện bị down,
   hoặc mất sự kiện, có thể gây lỗi dữ liệu.
 
-#### Mô hình triển khai phổ biến
+### Mô hình triển khai phổ biến
 
-##### Sơ đồ tổng quát:
+#### Sơ đồ tổng quát:
 
     [User Service]
          |
@@ -7168,7 +7188,7 @@ text](https://miro.medium.com/v2/resize:fit:1100/format:png/0*SCV4NRZX5ZqfYgKC)
          |-- Invalidate Cache
          |-- Optionally fetch fresh data
 
-#### Ví dụ với Redis Cache và Kafka
+### Ví dụ với Redis Cache và Kafka
 
 - **Cache Engine**: Redis
 - **Event System**: Kafka
@@ -7178,9 +7198,9 @@ text](https://miro.medium.com/v2/resize:fit:1100/format:png/0*SCV4NRZX5ZqfYgKC)
   - Khi nhận được `user.updated`, nó gọi `redis.del("user:{id}")` để xóa
     cache.
 
-### Distributed locking
+## Distributed locking
 
-#### Giới thiệu
+### Giới thiệu
 
 Trong kiến trúc microservices, các dịch vụ nhỏ hoạt động độc lập và giao
 tiếp với nhau qua mạng. Mỗi dịch vụ có thể có cơ sở dữ liệu riêng, triển
@@ -7190,7 +7210,7 @@ chia sẻ. **Distributed Locking** (khóa phân tán) là một kỹ thuật đ�
 dụng để đảm bảo **tính nhất quán dữ liệu** và **tránh xung đột truy
 cập** trong môi trường phân tán.
 
-#### Vấn đề đặt ra
+### Vấn đề đặt ra
 
 Khi nhiều instance của một service hoặc nhiều service khác nhau cố gắng
 truy cập và ghi vào cùng một tài nguyên (ví dụ: cập nhật tồn kho sản
@@ -7199,7 +7219,7 @@ trường đơn lẻ, ta có thể sử dụng `synchronized`, `mutex`, hoặc `
 Tuy nhiên, trong microservices, ta cần một cơ chế khóa hoạt động **trên
 nhiều máy chủ**, **đồng bộ qua mạng**.
 
-#### Định nghĩa Distributed Lock
+### Định nghĩa Distributed Lock
 
 - **Distributed Lock** là một cơ chế giúp các hệ thống phân tán (chạy
   trên nhiều node) có thể **đồng bộ hóa truy cập đến tài nguyên dùng
@@ -7211,9 +7231,9 @@ nhiều máy chủ**, **đồng bộ qua mạng**.
   khi service A hoàn tất. ![alt
   text](https://miro.medium.com/v2/resize:fit:1100/format:png/1*6NQAcNJ1LFLSKHjmKgjkcA.png)
 
-#### Một số cách triển khai Distributed Lock
+### Một số cách triển khai Distributed Lock
 
-##### Dùng Redis (Redlock Algorithm)
+#### Dùng Redis (Redlock Algorithm)
 
 - Redis là một key-value store có tốc độ cao và được dùng rộng rãi để
   triển khai distributed lock.
@@ -7227,7 +7247,7 @@ nhiều máy chủ**, **đồng bộ qua mạng**.
   - Nếu không dùng đúng cách có thể dẫn đến lock bị mất (ví dụ khi
     service bị crash)
 
-##### Dùng Zookeeper
+#### Dùng Zookeeper
 
 - Zookeeper dùng node (znode) để tạo các lock theo dạng hàng đợi.
 - Service tạo một znode tạm thời và theo dõi thứ tự để biết khi nào đến
@@ -7238,7 +7258,7 @@ nhiều máy chủ**, **đồng bộ qua mạng**.
   - Phức tạp hơn Redis
   - Cần triển khai và duy trì Zookeeper cluster
 
-##### Dùng cơ chế cơ sở dữ liệu
+#### Dùng cơ chế cơ sở dữ liệu
 
 - Tạo bảng `lock` trong database, sử dụng cơ chế `SELECT FOR UPDATE`
   hoặc cờ trạng thái để kiểm soát quyền truy cập.
@@ -7248,7 +7268,7 @@ nhiều máy chủ**, **đồng bộ qua mạng**.
   - Không thực sự “phân tán” nếu chỉ dùng 1 database
   - Hiệu năng thấp hơn Redis hoặc Zookeeper
 
-#### Một số thư viện hỗ trợ phổ biến
+### Một số thư viện hỗ trợ phổ biến
 
 - **Redisson** (Redis-based lock cho Java)
 - **Spring Cloud Distributed Lock** (thường kết hợp Redis, Zookeeper,
@@ -7256,7 +7276,7 @@ nhiều máy chủ**, **đồng bộ qua mạng**.
 - **Apache Curator** (cho Zookeeper)
 - **Etcd** cũng hỗ trợ lock (ít phổ biến hơn ở VN)
 
-#### Khi nào nên dùng Distributed Lock
+### Khi nào nên dùng Distributed Lock
 
 Distributed Lock nên dùng khi:
 
@@ -7273,9 +7293,9 @@ Tuy nhiên, không nên lạm dụng distributed lock vì:
 - Làm giảm hiệu năng (blocking, retry, timeout…)
 - Có thể tạo deadlock nếu thiết kế không cẩn thận
 
-### Cache access management (phân quyền giống như csdl)
+## Cache access management (phân quyền giống như csdl)
 
-#### Giới thiệu
+### Giới thiệu
 
 Khi các microservice trong hệ thống phân tán cùng chia sẻ tài nguyên
 cache, nếu không có cơ chế phân quyền phù hợp, nhiều vấn đề có thể phát
@@ -7293,9 +7313,9 @@ sinh:
 - **Khó khăn trong quản lý**: Không có cách nào để theo dõi và kiểm soát
   việc sử dụng cache của từng microservice.
 
-#### Mô hình phân quyền truy cập cache
+### Mô hình phân quyền truy cập cache
 
-##### Phân vùng namespace
+#### Phân vùng namespace
 
 Một phương pháp cơ bản là phân chia cache thành các namespace riêng biệt
 cho từng microservice. Tương tự như schema trong cơ sở dữ liệu, mỗi
@@ -7309,7 +7329,7 @@ truy cập dữ liệu.
 Cách tiếp cận này đơn giản nhưng dựa vào sự tuân thủ quy tắc của các
 microservice, thiếu cơ chế thực thi nghiêm ngặt.
 
-##### Token-based authentication
+#### Token-based authentication
 
 Sử dụng token xác thực để kiểm soát quyền truy cập vào cache. Mỗi
 microservice được cấp một token với các quyền cụ thể, và hệ thống cache
@@ -7331,7 +7351,7 @@ public CacheResponse processRequest(CacheRequest request) {
 }
 ```
 
-##### Role-Based Access Control (RBAC)
+#### Role-Based Access Control (RBAC)
 
 Áp dụng mô hình RBAC tương tự như trong cơ sở dữ liệu, nơi mỗi
 microservice được gán các vai trò (role) và mỗi vai trò có các quyền cụ
@@ -7352,7 +7372,7 @@ text](https://cdn.prod.website-files.com/5ff66329429d880392f6cba2/67ab6226372b18
           - resource: "user:*"
             operations: [read, write, delete]
 
-##### Attribute-Based Access Control (ABAC)
+#### Attribute-Based Access Control (ABAC)
 
 ABAC cung cấp mô hình phân quyền chi tiết hơn dựa trên thuộc tính của
 đối tượng, hành động và môi trường. Điều này cho phép các quy tắc phân
@@ -7373,9 +7393,9 @@ Rule {
 }
 ```
 
-#### Triển khai phân quyền cache
+### Triển khai phân quyền cache
 
-##### Cache Proxy Pattern
+#### Cache Proxy Pattern
 
 Triển khai một lớp proxy trung gian giữa các microservice và hệ thống
 cache. Proxy này chịu trách nhiệm kiểm tra quyền truy cập trước khi
@@ -7405,7 +7425,7 @@ public class SecuredCacheService implements CacheService {
 }
 ```
 
-##### Tích hợp với API Gateway
+#### Tích hợp với API Gateway
 
 Sử dụng API Gateway như một điểm kiểm soát trung tâm cho các yêu cầu
 truy cập cache. Gateway có thể xác thực và phân quyền truy cập cache cho
@@ -7422,7 +7442,7 @@ từng microservice.
               resources: ["/cache/payments/**", "/cache/users/*/payment-info"]
               methods: [GET, PUT]
 
-##### Sidecar Pattern
+#### Sidecar Pattern
 
 Triển khai một sidecar container kèm theo mỗi microservice, hoạt động
 như một proxy cục bộ cho cache. Sidecar này đảm bảo tất cả các truy cập
@@ -7447,7 +7467,7 @@ spec:
           value: "/etc/cache-permissions/config.yaml"
 ```
 
-##### Middleware trong Client Library
+#### Middleware trong Client Library
 
 Xây dựng các thư viện client cache có tích hợp sẵn middleware phân
 quyền, giúp các microservice tuân thủ cơ chế phân quyền mà không cần
@@ -7465,9 +7485,9 @@ client.get("user:123:payment-info");  // Được phép
 client.get("user:123:medical-history");  // Ném AccessDeniedException
 ```
 
-#### Các công nghệ và công cụ hỗ trợ
+### Các công nghệ và công cụ hỗ trợ
 
-##### Redis ACL (Access Control List)
+#### Redis ACL (Access Control List)
 
 Redis từ phiên bản 6.0 đã hỗ trợ ACL, cho phép kiểm soát chi tiết quyền
 truy cập vào các key và lệnh:
@@ -7476,7 +7496,7 @@ truy cập vào các key và lệnh:
     user payment-service on >payment-secret ~payment:* ~user:*:payment +@read +@write -@admin
     user user-service on >user-secret ~user:* +@all -@admin
 
-##### AWS ElastiCache IAM Authentication
+#### AWS ElastiCache IAM Authentication
 
 Với AWS ElastiCache, có thể sử dụng IAM để phân quyền truy cập:
 
@@ -7495,7 +7515,7 @@ Với AWS ElastiCache, có thể sử dụng IAM để phân quyền truy cập:
       ]
     }
 
-##### HashiCorp Vault
+#### HashiCorp Vault
 
 Sử dụng Vault để quản lý các thông tin xác thực và token truy cập cache:
 
@@ -7513,7 +7533,7 @@ path "cache/user/*/payment-info" {
 }
 ```
 
-##### OPA (Open Policy Agent)
+#### OPA (Open Policy Agent)
 
 OPA cung cấp giải pháp ủy quyền tập trung có thể áp dụng cho cache:
 
@@ -7537,9 +7557,9 @@ allow {
 }
 ```
 
-#### Một số thách thức và giải pháp trong các khía cạnh
+### Một số thách thức và giải pháp trong các khía cạnh
 
-##### Hiệu suất và độ trễ
+#### Hiệu suất và độ trễ
 
 **Thách thức**: Việc kiểm tra quyền truy cập thêm độ trễ vào mỗi thao
 tác cache.
@@ -7550,7 +7570,7 @@ tác cache.
 - Sử dụng in-memory verification
 - Thiết kế quy tắc phân quyền đơn giản, dễ kiểm tra
 
-##### Vấn đề nhất quán trong phân tán
+#### Vấn đề nhất quán trong phân tán
 
 **Thách thức**: Trong hệ thống phân tán, việc cập nhật và áp dụng thay
 đổi chính sách phân quyền cần được đồng bộ.
@@ -7561,7 +7581,7 @@ tác cache.
 - Thiết kế cơ chế phân phối cập nhật chính sách đồng bộ
 - Triển khai hệ thống monitoring để phát hiện sự không nhất quán
 
-##### Cache invalidation và quyền xóa
+#### Cache invalidation và quyền xóa
 
 **Thách thức**: Xác định microservice nào có quyền invalidate cache
 entries.
@@ -7572,7 +7592,7 @@ entries.
 - Áp dụng mô hình phân quyền chi tiết cho thao tác invalidation
 - Sử dụng publish-subscribe để thông báo invalidation
 
-##### Debugging và troubleshooting
+#### Debugging và troubleshooting
 
 **Thách thức**: Khi gặp vấn đề truy cập cache, khó xác định là do lỗi
 phân quyền hay lỗi kỹ thuật.
@@ -7583,9 +7603,9 @@ phân quyền hay lỗi kỹ thuật.
 - Xây dựng công cụ kiểm tra quyền (permission testing tool)
 - Tích hợp hệ thống quản lý phân quyền với monitoring stack
 
-### Scale cache (sharding, master-slave,…)
+## Scale cache (sharding, master-slave,…)
 
-#### Giới thiệu
+### Giới thiệu
 
 Trong kiến trúc microservice, mỗi service hoạt động độc lập và có thể
 được triển khai, mở rộng và quản lý riêng biệt. Cache giữ vai trò then
@@ -7601,9 +7621,9 @@ Tuy nhiên, khi hệ thống mở rộng quy mô, việc quản lý cache trở 
 tạp hơn, đòi hỏi các chiến lược tinh vi để đảm bảo tính nhất quán, sẵn
 sàng và hiệu suất cao.
 
-#### Các Chiến Lược Scale Cache trong Microservice
+### Các Chiến Lược Scale Cache trong Microservice
 
-##### Cache Sharding (Phân mảnh Cache)
+#### Cache Sharding (Phân mảnh Cache)
 
 Cache sharding là kỹ thuật phân chia dữ liệu cache thành nhiều phần nhỏ
 hơn và phân phối chúng trên nhiều node khác nhau. Mỗi node chịu trách
@@ -7636,7 +7656,7 @@ text](https://assets.gcore.pro/docs/cdn/cdn-resource-options/cache/cache-shardin
   - Xử lý việc thêm hoặc xóa node (re-sharding)
   - Đảm bảo tính nhất quán giữa các shard
 
-##### Master-Slave Replication
+#### Master-Slave Replication
 
 Mô hình master-slave áp dụng cho cache sử dụng một node chính (master)
 để xử lý tất cả các thao tác ghi, trong khi các node phụ (slave) sao
@@ -7663,7 +7683,7 @@ chép dữ liệu từ master và xử lý các thao tác đọc.
   - Điểm lỗi duy nhất ở node master
   - Phức tạp khi xử lý chuyển đổi dự phòng (failover)
 
-##### Distributed Cache Clusters
+#### Distributed Cache Clusters
 
 Các giải pháp cache phân tán như Redis Cluster và Memcached với
 Twemproxy cung cấp khả năng mở rộng tự động, phân phối dữ liệu và quản
@@ -7699,7 +7719,7 @@ Memcached, xử lý sharding và cân bằng tải:
         | MC1 | | MC2 | | MC3 |
         +-----+ +-----+ +-----+
 
-##### Cache-Aside Pattern trong Microservice
+#### Cache-Aside Pattern trong Microservice
 
 Mẫu Cache-Aside là chiến lược phổ biến trong môi trường microservice,
 với mỗi service quản lý cache của riêng mình:
@@ -7720,7 +7740,7 @@ với mỗi service quản lý cache của riêng mình:
     liệu
   - Quản lý phức tạp hơn với nhiều cache riêng biệt
 
-##### Geo-distributed Caching
+#### Geo-distributed Caching
 
 Đối với ứng dụng toàn cầu, cache có thể được phân phối trên nhiều khu
 vực địa lý để giảm độ trễ cho người dùng ở các vị trí khác nhau.
@@ -7734,9 +7754,9 @@ vực địa lý để giảm độ trễ cho người dùng ở các vị trí 
   - **Hệ thống phân cấp**: Sử dụng cache cục bộ kết hợp với cache toàn
     cầu
 
-#### Tối Ưu Hiệu Suất Cache
+### Tối Ưu Hiệu Suất Cache
 
-##### Eviction Policies (Chính sách loại bỏ)
+#### Eviction Policies (Chính sách loại bỏ)
 
 - Lựa chọn chính sách loại bỏ phù hợp đóng vai trò quan trọng trong hiệu
   suất cache:
@@ -7748,7 +7768,7 @@ vực địa lý để giảm độ trễ cho người dùng ở các vị trí 
   - **TTL (Time-To-Live)**: Loại bỏ mục sau một khoảng thời gian nhất
     định, phù hợp với dữ liệu cần tính nhất quán cao
 
-##### Consistency Strategies (Chiến lược nhất quán)
+#### Consistency Strategies (Chiến lược nhất quán)
 
 - Trong hệ thống phân tán, tính nhất quán của cache là thách thức lớn:
 
@@ -7760,7 +7780,7 @@ vực địa lý để giảm độ trễ cho người dùng ở các vị trí 
   - **Versioning**: Gán phiên bản cho mục cache để phát hiện và xử lý sự
     không nhất quán
 
-##### Monitoring và Analytics
+#### Monitoring và Analytics
 
 Giám sát cache trong môi trường microservice rất quan trọng:
 
@@ -7770,9 +7790,9 @@ Giám sát cache trong môi trường microservice rất quan trọng:
 - **Response time**: Thời gian phản hồi cho các thao tác cache
 - **Replication lag**: Độ trễ giữa master và slave
 
-#### Các Công Nghệ Cache Phổ Biến cho Microservice
+### Các Công Nghệ Cache Phổ Biến cho Microservice
 
-##### Redis
+#### Redis
 
 Redis là giải pháp cache phổ biến nhất cho microservice nhờ tính linh
 hoạt, hiệu suất cao và các tính năng phong phú:
@@ -7783,7 +7803,7 @@ hoạt, hiệu suất cao và các tính năng phong phú:
 - **Redis Enterprise**: Cung cấp giải pháp geo-distribution và quản lý
   tiên tiến
 
-##### Memcached
+#### Memcached
 
 Memcached là giải pháp đơn giản nhưng mạnh mẽ:
 
@@ -7791,7 +7811,7 @@ Memcached là giải pháp đơn giản nhưng mạnh mẽ:
 - Mở rộng dễ dàng qua client-side sharding
 - Hỗ trợ tốt cho mô hình cache phân tán
 
-##### Hazelcast
+#### Hazelcast
 
 Hazelcast là giải pháp in-memory data grid:
 
@@ -7799,7 +7819,7 @@ Hazelcast là giải pháp in-memory data grid:
 - Hỗ trợ nhiều cấu trúc dữ liệu phân tán
 - Tích hợp tốt với các framework microservice như Spring Boot
 
-##### Couchbase
+#### Couchbase
 
 Couchbase kết hợp cache in-memory với database NoSQL:
 
@@ -7807,9 +7827,9 @@ Couchbase kết hợp cache in-memory với database NoSQL:
 - Hỗ trợ replication và sharding tích hợp
 - Cross Data Center Replication (XDCR) cho phân phối địa lý
 
-#### Các Ví Dụ Thực Tế
+### Các Ví Dụ Thực Tế
 
-##### Ví dụ 1: Redis Cluster với Sharding
+#### Ví dụ 1: Redis Cluster với Sharding
 
 Cấu hình Redis Cluster với 6 node (3 master và 3 replica):
 
@@ -7850,7 +7870,7 @@ public class RedisConfig {
 }
 ```
 
-##### Ví dụ 2: Consistent Hashing với Memcached
+#### Ví dụ 2: Consistent Hashing với Memcached
 
 Sử dụng thư viện client Memcached với consistent hashing để phân phối dữ
 liệu đồng đều:
@@ -7869,9 +7889,9 @@ client.set("key", 3600, value);
 Object cachedValue = client.get("key");
 ```
 
-#### Thách Thức và Giải Pháp
+### Thách Thức và Giải Pháp
 
-##### Cache Invalidation
+#### Cache Invalidation
 
 - **Thách thức:** Khi dữ liệu thay đổi, cache cần được cập nhật hoặc làm
   mất hiệu lực để tránh phục vụ dữ liệu cũ.
@@ -7883,7 +7903,7 @@ Object cachedValue = client.get("key");
   - Thiết lập TTL phù hợp cho dữ liệu
   - Triển khai cơ chế phát hiện thay đổi dữ liệu và cập nhật cache
 
-##### Cache Stampede/Thundering Herd
+#### Cache Stampede/Thundering Herd
 
 - **Thách thức:** Nhiều yêu cầu đồng thời cho dữ liệu không có trong
   cache dẫn đến tải cao bất thường cho database.
@@ -7895,7 +7915,7 @@ Object cachedValue = client.get("key");
   - Sử dụng cơ chế “stale-while-revalidate” để phục vụ dữ liệu cũ trong
     khi cập nhật ngầm
 
-##### Quản Lý Bộ Nhớ
+#### Quản Lý Bộ Nhớ
 
 - **Thách thức:** Cache tiêu thụ bộ nhớ đáng kể, cần quản lý hiệu quả.
 
@@ -7905,7 +7925,7 @@ Object cachedValue = client.get("key");
   - Chọn chính sách loại bỏ tối ưu
   - Giám sát và cảnh báo khi sử dụng bộ nhớ vượt ngưỡng
 
-##### Nhất Quán Dữ Liệu trong Môi Trường Phân Tán
+#### Nhất Quán Dữ Liệu trong Môi Trường Phân Tán
 
 - **Thách thức:** Đảm bảo tính nhất quán khi dữ liệu được phân phối qua
   nhiều node cache.
