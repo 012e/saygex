@@ -33,9 +33,9 @@
         #image("images/logo-uit.svg", width: 200pt)
       ]
       #align(horizon + center)[
-        #text(size: 26pt)[*Đồ án 1*] \
+        #text(size: 26pt)[*Báo cáo*] \
         #v(3pt)
-        #text(size: 30pt)[*Tìm hiểu về .NET Core 8*] \
+        #text(size: 30pt)[*Phương pháp mô hình hóa*] \
         #v(20pt)
 
         #text[Giảng viên hướng dẫn] \
@@ -45,6 +45,9 @@
 
         #text[Sinh viên thực hiện] \
         #text[*Phạm Nhật Huy #sym.dash.en 23520643*] \
+        #text[*Hồ Nguyễn Tài Lợi #sym.dash.en 23520869*] \
+        #text[*Nguyễn Trung Kiên #sym.dash.en 23520802*] \
+        #text[*Nguyễn Tuấn Lộc #sym.dash.en 23520862*] \
       ]
       #align(bottom + center)[
         #text(size: 13pt)[
@@ -81,9 +84,9 @@
 #show heading.where(level: 1): it => {
   [Chương #counter(heading).at(here()).at(0). ] + it.body + linebreak()
 }
-= SYSTEM VÀ SOFTWARE
+  = System và software
 <system-và-software>
-== GIỚI THIỆU
+== Giới thiệu
 <giới-thiệu>
 Trong quá trình phát triển phần mềm, việc xác định rõ các thuộc tính của
 hệ thống là vô cùng quan trọng để đảm bảo rằng sản phẩm đáp ứng được kỳ
@@ -93,10 +96,12 @@ thuộc tính hệ thống được chia làm hai nhóm chính: thuộc tính ch
 requirements). Cả hai đều đóng vai trò thiết yếu trong việc định hình
 kiến trúc, thiết kế và triển khai phần mềm.
 
-== THUỘC TÍNH CHỨC NĂNG VÀ PHI CHỨC NĂNG (FUNCTIONAL REQUIREMENTS & NON-FUNCTIONAL REQUIREMENTS)
+== Thuộc tính chức năng và phi chức năng (functional requirements & non-functional requirements)
 <thuộc-tính-chức-năng-và-phi-chức-năng-functional-requirements--non-functional-requirements>
-=== THUỘC TÍNH CHỨC NĂNG (FUNCTIONAL REQUIREMENTS)
+
+=== Thuộc tính chức năng (functional requirements)
 <thuộc-tính-chức-năng-functional-requirements>
+
 ==== Khái niệm
 <khái-niệm>
 Thuộc tính chức năng là những yêu cầu mô tả các hành động hoặc chức năng
@@ -242,7 +247,7 @@ cáo này cần có thể được xuất ra dưới nhiều định dạng (ví
 và có khả năng lọc theo các tiêu chí khác nhau (ví dụ: theo bác sĩ, theo
 khoa).
 
-=== THUỘC TÍNH PHI CHỨC NĂNG (NON-FUNCTIONAL REQUIREMENTS)
+=== Thuộc tính phi chức năng (non-functional requirements)
 <thuộc-tính-phi-chức-năng-non-functional-requirements>
 ==== Khái niệm
 <khái-niệm-1>
@@ -366,7 +371,7 @@ dữ liệu nhạy cảm và phải được bảo mật tuyệt đối. Hệ th
 Điều này giúp phòng chống rò rỉ thông tin và đáp ứng các tiêu chuẩn về
 bảo mật dữ liệu trong lĩnh vực y tế.
 
-== LỢI ÍCH CỦA CACHE TRONG SYSTEM VÀ SOFTWARE
+== Lợi ích của cache trong system và software
 <lợi-ích-của-cache-trong-system-và-software>
 === Cải thiện hiệu năng (Performance Optimization)
 <cải-thiện-hiệu-năng-performance-optimization>
@@ -471,7 +476,7 @@ Do dữ liệu y tế thường thuộc diện bảo mật cao (theo luật phá
   tuân thủ quy định bảo mật (như HIPAA, #strong[Nghị định 13/2023/NĐ-CP]
   tại Việt Nam).
 
-== CACHE TRONG GOOGLE CHROME
+== Cache trong google chrome
 <cache-trong-google-chrome>
 Trong quá trình tối ưu hiệu năng hệ thống, một trong những kỹ thuật hiệu
 quả là tận dụng cơ chế cache trình duyệt (browser cache). Đây là một
@@ -611,9 +616,9 @@ thiết yếu trong việc phát triển các hệ thống web tốc độ cao, 
 trong các phần mềm quản lý y tế hiện đại.
 ]
 
-= TỔNG QUAN VỀ CACHE
+= Tổng quan về cache
 <tổng-quan-về-cache>
-== CACHE LÀ GÌ ?
+== Cache là gì?
 <cache-là-gì->
 - Bộ nhớ đệm: là phần cứng hoặc phần mềm dùng để lưu trữ tạm thời bản
   sao của dữ liệu đã được truy cập, tính toán trước đó của máy chủ, ứng
@@ -634,7 +639,7 @@ trong các phần mềm quản lý y tế hiện đại.
   thông tin thường xuyên được truy cập trong một vùng lưu trữ tốc độ cao
   (cache) để giảm thời gian truy xuất và tăng tốc độ xử lý.
 
-== LỊCH SỬ CỦA CACHE
+== Lịch sử của cache
 <lịch-sử-của-cache>
 - Sự hình thành của phương pháp caching đã được lên ý tưởng từ rất lâu
   về trước đây, bắt đầu từ những năm đầu của máy tính. Ý tưởng về việc
@@ -748,16 +753,17 @@ trong các phần mềm quản lý y tế hiện đại.
   các ứng dụng phân tán hiện đại, góp phần quan trọng vào việc tối ưu
   hóa hiệu suất và trải nghiệm người dùng.
 
-==== TÓM TẮT LỊCH SỬ CỦA CACHE QUA CÁC NĂM
-<tóm-tắt-lịch-sử-của-cache-qua-các-năm>
-1967: Maurice Wilkes đề xuất ý tưởng về bộ nhớ cache. 1970: Máy tính CDC
-6600 sử dụng bộ nhớ cache lần đầu tiên. 1972: Bộ nhớ cache được sử dụng
-trong máy tính mini. 1975: Bộ nhớ cache được sử dụng trong máy tính cá
-nhân. 1980: Bộ nhớ cache được sử dụng trong máy tính siêu máy tính.
-1990: Bộ nhớ cache trở thành một thành phần tiêu chuẩn trong tất cả các
-máy tính. 2000: Bộ nhớ cache trở nên lớn hơn và nhanh hơn
+- Tóm tắt lịch sử của cache qua các năm
+  - 1967: Maurice Wilkes đề xuất ý tưởng về bộ nhớ cache. 
+  - 1970: Máy tính CDC 6600 sử dụng bộ nhớ cache lần đầu tiên.
+  - 1972: Bộ nhớ cache được sử dụng trong máy tính mini.
+  - 1975: Bộ nhớ cache được sử dụng trong máy tính cá nhân.
+  - 1980: Bộ nhớ cache được sử dụng trong máy tính siêu máy tính.
+  - 1990: Bộ nhớ cache trở thành một thành phần tiêu chuẩn trong tất cả các
+  máy tính.
+  - 2000: Bộ nhớ cache trở nên lớn hơn và nhanh hơn
 
-== ƯU ĐIỂM VÀ NHƯỢC ĐIỂM CỦA CACHE
+== Ưu điểm và nhược điểm của cache
 <ưu-điểm-và-nhược-điểm-của-cache>
 === Ưu điểm của Cache
 <ưu-điểm-của-cache>
@@ -1015,7 +1021,7 @@ thay đổi liên tục (như tin tức, dữ liệu thời gian thực), cache 
 không cải thiện hiệu suất đáng kể vì dữ liệu sẽ nhanh chóng trở nên lỗi
 thời.
 
-== CÁC THÔNG SỐ VÀ YẾU TỐ BỔ TRỢ QUAN TRỌNG THƯỜNG SỬ DỤNG TRONG VIỆC CACHE
+== Các thông số và yếu tố bổ trợ quan trọng thường sử dụng trong việc cache
 <các-thông-số-và-yếu-tố-bổ-trợ-quan-trọng-thường-sử-dụng-trong-việc-cache>
 - Tỷ lệ trúng cache (Cache Hit Ratio): Đây là tỷ lệ phần trăm của các
   yêu cầu dữ liệu mà hệ thống cache có thể phục vụ trực tiếp từ cache mà
@@ -1073,7 +1079,7 @@ thời.
   Các hệ thống cache cần được kiểm thử kỹ lưỡng và đánh giá hiệu suất để
   đảm bảo rằng chúng đáp ứng được các yêu cầu hiệu suất và độ tin cậy.
 
-== CACHE INVALIDATION
+== Cache invalidation
 <cache-invalidation>
 - Cache invalidation (vô hiệu hóa bộ đệm) là quá trình cập nhật hoặc
   loại bỏ các mục trong bộ nhớ cache khi dữ liệu gốc bị thay đổi, nhằm
@@ -1095,172 +1101,7 @@ thời.
 #emph[#strong[Đó cũng là lý do cache invalidation được xem là một trong
 hai vấn đề khó nhất trong ngành khoa học máy tính];]
 
-=== CÁC CHIẾN LƯỢC CACHE INVALIDATION THỰC TẾ
-<các-chiến-lược-cache-invalidation-thực-tế>
-==== Cache aside:
-<cache-aside>
-#box(image("./media/media/pornhub.png")) #strong[Cách hoạt động:]
-
-+ Application sẽ kiểm tra trong cache có dữ liệu mình cần hay không, nếu
-  trong cache có dữ liệu application cần, quá trình sẽ kết thúc. Nếu
-  cache không có dữ liệu, chúng ta sẽ tới bước 2.
-+ Khi cache không chứa dữ liệu mà application cần, application sẽ xuống
-  database để lấy dữ liệu
-+ Application sẽ lưu dữ liệu lấy được từ database để lưu vào cache, sau
-  đó nó làm tiếp công việc của mình.
-
-#strong[Lợi ích]
-
-- Với cache aside, khi cache server bị chết, bị lỗi connection, hoặc
-  cache miss(dữ liệu mà application cần không nằm trong cache) thì
-  application vẫn có thể lấy dữ liệu từ database để sử dụng
-- Dữ liệu lưu trữ trong cache là dữ liệu thật sự cần dùng. Chúng ta
-  không cần load toàn bộ dữ liệu vào trong cache. Tiết kiệm chi phí,
-  resource của cache server.
-- Có thể kết hợp nhiều loại dữ liệu từ nhiều nguồn vào trong cache. Ví
-  dụ như thông tin profile của người cần được lấy từ nhiều service,
-  nhiều câu query khác nhau vào database, điều này sẽ tốn nhiều time và
-  tạo áp lực lên database vì có nhiều câu query, và áp lực lên server vì
-  phải xử lí quá nhiều. Chúng ta có thể tính toán một lần rồi đưa thông
-  tin đó vào cache. Lúc đó, khi cần lấy profile, hệ thống chỉ tốn chi
-  phí truy vấn cache.
-
-#strong[Bất lợi]
-
-- Hay xảy ra trường hợp cache miss khi truy vấn dữ liệu lần đầu tiên
-  hoặc khi dữ liệu trong cache bị hết hạn. Để giảm thiểu vấn đề này,
-  chúng ta có thể load dữ liệu thủ công vào cache.
-- Với trường hợp cache miss thì thời gian xử lí sẽ bị lâu, ảnh hưởng tới
-  trải nghiệm người dùng cho tới khi hết cache miss. Từ đây, sẽ phát
-  sinh thêm vấn đề `Cache stampede`, mình sẽ mô tả về cache stampede và
-  cách giải quyết trong bài sau
-- Khó quản lí, hoặc có độ trễ khi dữ liệu invalid. Dữ liệu invalid là dữ
-  liệu không còn đúng ở thời điểm hiện tại.
-
-#strong[Khi nào dùng cache aside?]
-
-- Cache aside thường được dùng trong trường hợp read-heavy workloads.
-  Khi chúng ta thấy dữ liệu sử dụng nhiều, dữ liệu lặp lại... thì nên
-  dùng cache aside.
-
-#strong[Lưu ý:] Với cache aside, chúng ta thường chỉ lưu trữ dữ liệu nào
-tốn thời gian/resource để tính toán, xử lí, và dữ liệu đó dùng lại
-nhiều.
-
-#strong[Cache-Aside (Lazy Loading)]
-
-```
-function getData(key):
-    data = cache.get(key)
-    if data is null:
-        data = database.get(key)
-        cache.set(key, data, TTL)
-    return data
-
-function updateData(key, value):
-    database.update(key, value)
-    cache.delete(key)  // invalidate
-```
-
-==== Read through cache
-<read-through-cache>
-#box(image("./media/media/bruh.png"))
-
-Chiến lược này khá giống với cache-aside. Nhưng thay vì application phải
-kết nối với cache và database, giờ đây application chỉ cần giao tiếp với
-cache. Còn cache sẽ tự lấy dữ liệu ở chính nó hoặc xuống database lấy dữ
-liệu. Với trường hợp này, cache chính là database chính của ứng dụng, nó
-đóng vai trò rất rất quan trọng. Với cache-aside, việc cache bị chết thì
-ứng dụng vẫn chạy được, nhưng với read through cache, nếu cache chết thì
-ứng dụng chết.
-
-#strong[Cách hoạt động:]
-
-+ Application sẽ gửi request tới cache để lấy dữ liệu.
-+ Nếu cache có dữ liệu, nó sẽ trả dữ liệu ngay cho application. Nếu
-  cache không có dữ liệu, nó sẽ xuống bước 3
-+ Khi cache không chứa dữ liệu mà application cần, cache server sẽ tự
-  động lấy dữ liệu từ database để update cho chính bản thân mình và trả
-  về cho application.
-+ Trả dữ liệu về application.
-
-#strong[Lợi ích]
-
-- Application không cần quan tâm tới trường hợp cache miss. Mọi thứ cứ
-  để cache server lo hết.
-
-#strong[Bất lợi]
-
-- Phải tìm được ứng dụng, platform... đóng vai trò cache phù hợp. Bởi vì
-  một vài trường hợp, dữ liệu mà chúng ta muốn lấy trong database từ
-  một/nhiều câu query phức tạp, lúc đó chúng ta phải tìm được platform
-  thích hợp đóng vai trò cache.
-- Khó control thời gian hết hạn của cache. Khi dùng ứng dụng, có những
-  trường hợp dữ liệu chỉ dùng 1 lần duy nhất(không nên/cần cache), nhưng
-  có những dữ liệu được dùng rất thường xuyên. Có những dữ liệu chúng ta
-  chỉ muốn cache 1 ngày, nhưng có những dữ liệu chúng ta muốn cache 1
-  tiếng. Với mô hình này, chúng ta không có quyền lựa chọn không cache
-  dữ liệu. Mà bắt buộc phải cache hết tùy thuộc vào platform sử dụng.
-- Có nhiều dữ liệu cũ, dữ liệu không đồng nhất với database trong cache.
-
-#strong[Khi nào dùng Read through cache?]
-
-- Read through cache thường được hay dùng trong trường hợp read-heavy
-  workloads. Mặc dù trong cache chứa nhiều dữ liệu cũ, dữ liệu không
-  dùng tới nữa, nhưng nhìn chung, nó đáp ứng khá tốt cho các trường hợp
-  đọc dữ liệu nhiều.
-
-#strong[Read-Through]
-
-```
-function getData(key):
-    return cacheProvider.get(key)
-
-// CacheProvider chịu trách nhiệm tự 
-// động lấy từ database nếu cache miss
-```
-
-==== Write-through cache
-<write-through-cache>
-Với chiến lược này, data sẽ được lưu xuống cache, cache sẽ lưu dữ liệu
-vào database.
-
-Khi một request write tới:
-
-- Dữ liệu sẽ được lưu vào cache
-- Cache sẽ gửi yêu cầu lưu dữ liệu vào database ngay lập tức.
-
-#box(image("./media/media/wtf.png"))
-
-#strong[Lợi ích]
-
-- Không bao giờ xảy ra trường hợp cache miss, bởi vì dữ liệu luôn được
-  lưu vào cache trước khi lưu vào database.
-- Không xảy ra trường hợp dữ liệu không khớp với database
-- Dữ liệu luôn đồng nhất nếu chúng ta kết hợp #strong[Write through
-  cache] và #strong[Read through cache];.
-
-#strong[Bất lợi]
-
-- Hầu hết các dữ liệu trên cache đều là dữ liệu đọc một lần, vậy nên
-  việc ghi qua cache sẽ dẫn tới rất nhiều dữ liệu tồn tại trên cache
-  không cần thiết.
-- Dữ liệu lưu trên cache nhiều ngang ngữa database, dẫn tới tốn nhiều
-  resource không cần thiết.
-- Quá trình lưu dữ liệu thường sẽ lâu vì phải chờ lưu xuống cache và
-  database. Khi nào dùng Write through cache? Với cái tên write through
-  cache thì chúng ta cũng có thể đoán được rằng chiến lược này dùng cho
-  trường hợp write-heavy workloads.
-
-#strong[Write-through]
-
-```
-function updateData(key, value):
-    database.update(key, value)
-    cache.set(key, value)  // update cache
-```
-
-=== CLOUDFLARE: CÔNG NGHỆ VÀ CÔNG CỤ THỰC TIỄN
+=== Cloudflare: công nghệ và công cụ thực tiễn
 <cloudflare-công-nghệ-và-công-cụ-thực-tiễn>
 #box(image("./media/9be0d5acf438133ab785e977e3528faa0fc9071f.png"))
 
@@ -1343,7 +1184,7 @@ thể dùng TTL dài + stale-while-revalidate). Với hạ tầng hiện tại,
 Cloudflare cam kết khả năng purge nhanh chóng toàn cầu, giúp rủi ro phục
 vụ nội dung cũ được giảm tối đa.]
 
-== CACHE REPLACEMENT POLICIES
+== Cache replacement policies
 <cache-replacement-policies>
 - Trong lĩnh vực điện toán, các chính sách thay thế bộ nhớ đệm (còn gọi
   là thuật toán thay thế bộ nhớ đệm hoặc thuật toán bộ đệm) là những
@@ -1357,19 +1198,19 @@ vụ nội dung cũ được giảm tối đa.]
   mới.
 - Thời gian tham chiếu bộ nhớ trung bình:
 
-\$\$
-T = m \\times T\_m + T\_h + E
-\$\$
+$
+T = m times T_m + T_h + E
+$
 
 Trong đó:
 
-- ( m ) = miss ratio = ( 1 - \text{(hit ratio)} )
-- ( T\_m ) = thời gian truy cập bộ nhớ chính khi có cache miss (hoặc,
+- $m$ = $"miss ratio" = 1 - "hit ratio"$
+- $T_m$ = thời gian truy cập bộ nhớ chính khi có cache miss (hoặc,
   nếu có cache nhiều tầng, là thời gian truy cập trung bình đến cache
   tầng kế tiếp)
-- ( T\_h ) = độ trễ: thời gian truy cập cache (giống nhau cho cả hit và
+- $T_h$ = độ trễ: thời gian truy cập cache (giống nhau cho cả hit và
   miss)
-- ( E ) = các hiệu ứng phụ, ví dụ như hiệu ứng hàng đợi trong hệ thống
+- $E$ = các hiệu ứng phụ, ví dụ như hiệu ứng hàng đợi trong hệ thống
   đa xử lý
 
 Một bộ nhớ đệm (cache) có hai chỉ số đánh giá chính: độ trễ (latency) và
@@ -1404,9 +1245,9 @@ nhất quán của cache (cache coherence) khi có nhiều cache cùng sử dụ
 chung dữ liệu, chẳng hạn như nhiều máy chủ cơ sở dữ liệu cùng cập nhật
 một tệp dữ liệu chia sẻ.
 
-=== CÁC CHÍNH SÁCH NỔI BẬT
+=== Các chính sách nổi bật
 <các-chính-sách-nổi-bật>
-===== 1. Thuật toán FIFO (First-In, First-Out)
+===== Thuật toán FIFO (First-In, First-Out)
 <1-thuật-toán-fifo-first-in-first-out>
 Là một trong những giải thuật thay thế trang/bộ nhớ đơn giản và cổ điển
 nhất, được đặt theo nguyên lý hoạt động của hàng đợi: phần tử nào vào
@@ -1448,7 +1289,7 @@ gần nhất của chúng.
   dẫn đến tỷ lệ cache miss cao, ảnh hưởng đến hiệu suất tổng thể của hệ
   thống.
 
-==== 2.Thuật toán LRU (Least Recently Used)
+==== Thuật toán LRU (Least Recently Used)
 <2thuật-toán-lru-least-recently-used>
 Thuật toán LRU loại bỏ phần tử ít được sử dụng gần đây nhất trong bộ nhớ
 đệm. Ý tưởng chính là: nếu một dữ liệu không được truy cập trong một
@@ -1478,7 +1319,7 @@ cập gần nhất lâu nhất so với các phần tử còn lại.
   chuỗi truy cập dài mà không lặp lại, LRU sẽ liên tục loại bỏ phần tử
   cũ và không tận dụng được.
 
-==== 3. Thuật toán ARC (Adaptive Replacement Cache)
+==== Thuật toán ARC (Adaptive Replacement Cache)
 <3-thuật-toán-arc-adaptive-replacement-cache>
 ARC là một thuật toán hiện đại hơn, kết hợp ưu điểm của cả LRU (recency)
 và LFU (frequency). Nó duy trì hai danh sách chính:
@@ -1514,7 +1355,7 @@ khác nhau.
 - Ít được tích hợp sẵn: Không có sẵn trong nhiều thư viện chuẩn, và cũng
   ít được hỗ trợ phần cứng như LRU.
 
-==== 4. Thuật toán thay thế ngẫu nhiên (Random replacement)
+==== Thuật toán thay thế ngẫu nhiên (Random replacement)
 <4-thuật-toán-thay-thế-ngẫu-nhiên-random-replacement>
 Đúng như tên gọi, khi cache đầy, Random Replacement sẽ chọn ngẫu nhiên
 một phần tử trong cache để loại bỏ, bất kể tần suất hay thời điểm truy
@@ -1805,7 +1646,7 @@ tự CPU, nhưng được tối ưu hóa cho xử lý đồ họa và tính toá
 GPU cache thường bao gồm các cấp L1 và L2, cùng với các loại cache
 chuyên biệt như Texture Cache và Constant Cache, nhằm đáp ứng nhu cầu
 truy cập dữ liệu nhanh chóng của hàng nghìn luồng xử lý đồng
-thời\*\*.\*\*
+thời.
 
 - L1 Cache: Nằm gần các lõi xử lý của GPU, được gọi là Streaming
   Multiprocessors (SMs) trong GPU NVIDIA hoặc Compute Units trong GPU
@@ -2458,173 +2299,116 @@ các bước sau:
 - #strong[Ví dụ:] Cloudflare sử dụng cache để giảm thời gian tải trang
   từ 150ms xuống 20ms.
 
-===== Một số DNS phổ biến và các công ty vận hành:
-<một-số-dns-phổ-biến-và-các-công-ty-vận-hành>
-- #strong[Google Public DNS:]
-
-- Nhà cung cấp: Google LLC
-
-- Địa chỉ IP: 8.8.8.8, 8.8.4.4 (IPv6: 2001:4860:4860::8888,
+===== Các DNS phổ biến và công ty vận hành
+<các-dns-phổ-biến-và-công-ty-vận-hành>
+====== Google Public DNS
+<google-public-dns>
+- #strong[Nhà cung cấp:] Google LLC
+- #strong[Địa chỉ IP:] 8.8.8.8, 8.8.4.4 (IPv6: 2001:4860:4860::8888,
   2001:4860:4860::8844)
+- #strong[Ưu điểm:]
+  - Tốc độ cao nhờ mạng lưới máy chủ toàn cầu của Google, giảm độ trễ
+    trung bình xuống dưới 20ms.
+  - Hỗ trợ DNSSEC để xác thực bản ghi DNS, tăng cường bảo mật.
+  - Miễn phí, dễ cấu hình trên mọi thiết bị (Windows, macOS, router).
+  - Tích hợp tốt với các dịch vụ Google (như YouTube, Google Drive).
+  - Hỗ trợ DoH và DoT (thử nghiệm từ 2023), mã hóa truy vấn DNS.
+- #strong[Nhược điểm:]
+  - Một số tính năng nâng cao (như lọc nội dung, phân tích truy vấn) chỉ
+    có trong Google Workspace.
+  - Quyền riêng tư bị nghi ngại do Google thu thập dữ liệu truy vấn (mặc
+    dù được tuyên bố ẩn danh).
+- #strong[Ứng dụng thực tế:]
+  - Phù hợp cho người dùng cá nhân muốn tốc độ cao khi truy cập các
+    trang như
+    #link("https://www.google.com/search?q=https://googleusercontent.com/youtube.com/0")[googleusercontent.com/youtube.com/0];.
+  - Doanh nghiệp nhỏ sử dụng Google Workspace để quản lý DNS nội bộ.
 
-- Ưu điểm:
-
-- Tốc độ cao nhờ mạng lưới máy chủ toàn cầu của Google, giảm độ trễ
-  trung bình xuống dưới 20ms.
-
-- Hỗ trợ DNSSEC để xác thực bản ghi DNS, tăng cường bảo mật.
-
-- Miễn phí, dễ cấu hình trên mọi thiết bị (Windows, macOS, router).
-
-- Tích hợp tốt với các dịch vụ Google (như YouTube, Google Drive).
-
-- Hỗ trợ DoH và DoT (thử nghiệm từ 2023), mã hóa truy vấn DNS.
-
-- Nhược điểm:
-
-- Một số tính năng nâng cao (như lọc nội dung, phân tích truy vấn) chỉ
-  có trong Google Workspace.
-
-- Quyền riêng tư bị nghi ngại do Google thu thập dữ liệu truy vấn (mặc
-  dù được tuyên bố ẩn danh).
-
-- Ứng dụng thực tế:
-
-- Phù hợp cho người dùng cá nhân muốn tốc độ cao khi truy cập các trang
-  như youtube.com.
-
-- Doanh nghiệp nhỏ sử dụng Google Workspace để quản lý DNS nội bộ.
-
-- #strong[Cloudflare DNS:]
-
-- Nhà cung cấp: Cloudflare, Inc.
-
-- Địa chỉ IP: 1.1.1.1, 1.0.0.1 (IPv6: 2606:4700:4700::1111,
+====== Cloudflare DNS
+<cloudflare-dns>
+- #strong[Nhà cung cấp:] Cloudflare, Inc.
+- #strong[Địa chỉ IP:] 1.1.1.1, 1.0.0.1 (IPv6: 2606:4700:4700::1111,
   2606:4700:4700::1001)
+- #strong[Ưu điểm:]
+  - Tốc độ nhanh nhất trong các DNS công cộng (theo DNSPerf, trung bình
+    11ms).
+  - Hỗ trợ DoH và DoT, mã hóa truy vấn để bảo vệ quyền riêng tư.
+  - Miễn phí, cung cấp tính năng chặn quảng cáo và phần mềm độc hại qua
+    1.1.1.1 for Families.
+  - Tích hợp với CDN của Cloudflare, tối ưu hóa truy cập các website lớn
+    như netflix.com
+  - Chính sách không lưu trữ dữ liệu truy vấn lâu dài, tăng cường quyền
+    riêng tư.
+- #strong[Nhược điểm:]
+  - Tính năng nâng cao như phân tích lưu lượng DNS hoặc lọc tùy chỉnh
+    chỉ có trong gói Cloudflare Pro hoặc Gateway.
+  - Không hỗ trợ đầy đủ DNSSEC (chỉ hỗ trợ một phần).
+- #strong[Ứng dụng thực tế:]
+  - Người dùng cá nhân muốn bảo mật và chặn quảng cáo khi duyệt web.
+  - Doanh nghiệp sử dụng Cloudflare CDN để tăng tốc website.
 
-- Ưu điểm:
+====== Quad9 DNS
+<quad9-dns>
+- #strong[Nhà cung cấp:] Quad9 Foundation (hỗ trợ bởi IBM)
+- #strong[Địa chỉ IP:] 9.9.9.9, 149.112.112.112 (IPv6: 2620:fe::fe,
+  2620:fe::9)
+- #strong[Ưu điểm:]
+  - Tập trung vào bảo mật, tự động chặn các tên miền độc hại dựa trên dữ
+    liệu từ IBM X-Force.
+  - Hỗ trợ DNSSEC, DoH, và DoT, đảm bảo an toàn và quyền riêng tư.
+  - Miễn phí, không thu thập dữ liệu cá nhân, phù hợp cho người dùng
+    nhạy cảm về quyền riêng tư.
+  - Độ tin cậy cao nhờ mạng lưới máy chủ toàn cầu.
+- #strong[Nhược điểm:]
+  - Tốc độ chậm hơn một chút so với Cloudflare hoặc Google (trung bình
+    15-20ms).
+  - Thiếu các tính năng nâng cao như lọc nội dung tùy chỉnh hoặc phân
+    tích lưu lượng.
+- #strong[Ứng dụng thực tế:]
+  - Cá nhân hoặc tổ chức muốn bảo vệ khỏi phần mềm độc hại khi truy cập
+    các trang như malicious-site.com.
+  - Trường học hoặc thư viện cần DNS an toàn mà không yêu cầu cấu hình
+    phức tạp.
 
-- Tốc độ nhanh nhất trong các DNS công cộng (theo DNSPerf, trung bình
-  11ms).
+====== OpenDNS
+<opendns>
+- #strong[Nhà cung cấp:] Cisco Systems, Inc.
+- #strong[Địa chỉ IP:] 208.67.222.222, 208.67.220.220 (IPv6:
+  2620:0:ccc::2, 2620:0:ccd::2)
+- #strong[Ưu điểm:]
+  - Gói trả phí (Cisco Umbrella) cung cấp lọc nội dung tùy chỉnh, phân
+    tích lưu lượng, và bảo vệ nâng cao.
+  - Hỗ trợ DNSSEC và tích hợp tốt với các giải pháp bảo mật doanh
+    nghiệp.
+- #strong[Nhược điểm:]
+  - Tính năng nâng cao (lọc chi tiết, báo cáo) chỉ có trong gói trả phí.
+  - Không hỗ trợ DoH hoặc DoT, làm giảm bảo mật so với Cloudflare hoặc
+    Quad9.
+- #strong[Ứng dụng thực tế:]
+  - #strong[Gia đình muốn chặn nội dung không phù hợp cho trẻ em.]
+  - #strong[Doanh nghiệp sử dụng Cisco Umbrella để quản lý truy cập mạng
+    nội bộ.]
 
-- Hỗ trợ DoH và DoT, mã hóa truy vấn để bảo vệ quyền riêng tư.
+====== Neustar DNS
+<neustar-dns>
+- #strong[Nhà cung cấp:] Neustar, Inc. (nay thuộc TransUnion)
+- #strong[Địa chỉ IP:] 156.154.70.1, 156.154.71.1 (IPv6:
+  2610:a1:1018::1, 2610:a1:1019::1)
+- #strong[Ưu điểm:]
+  - Cung cấp cả gói miễn phí (UltraDNS Public) và trả phí với tốc độ
+    cao, độ tin cậy tốt.
+  - Tính năng nâng cao như chặn phần mềm độc hại, lọc nội dung, và phân
+    tích lưu lượng trong gói trả phí.
+  - Hỗ trợ DNSSEC và tích hợp với các giải pháp bảo mật doanh nghiệp.
+  - Phù hợp cho các tổ chức cần DNS ổn định và an toàn.
+- #strong[Nhược điểm:]
+  - Gói miễn phí hạn chế tính năng (chỉ cung cấp phân giải DNS cơ bản).
+  - Không hỗ trợ DoH hoặc DoT, kém hơn về bảo mật mã hóa.
+  - Tốc độ không nhanh bằng Cloudflare hoặc Google (trung bình 20ms).
+- #strong[Ứng dụng thực tế:]
+  - Doanh nghiệp cần DNS đáng tin cậy cho các ứng dụng nội bộ.
+  - Tổ chức tài chính sử dụng gói trả phí để bảo vệ khỏi tấn công DNS.
 
-- Miễn phí, cung cấp tính năng chặn quảng cáo và phần mềm độc hại qua
-  1.1.1.1 for Families.
-
-- Tích hợp với CDN của Cloudflare, tối ưu hóa truy cập các website lớn
-  như netflix.com
-
-- Chính sách không lưu trữ dữ liệu truy vấn lâu dài, tăng cường quyền
-  riêng tư.
-
-- Nhược điểm:
-
-- Tính năng nâng cao như phân tích lưu lượng DNS hoặc lọc tùy chỉnh chỉ
-  có trong gói Cloudflare Pro hoặc Gateway.
-
-- Không hỗ trợ đầy đủ DNSSEC (chỉ hỗ trợ một phần).
-
-- Ứng dụng thực tế:
-
-- Người dùng cá nhân muốn bảo mật và chặn quảng cáo khi duyệt web.
-
-- Doanh nghiệp sử dụng Cloudflare CDN để tăng tốc website.
-
-- #strong[Quad9 DNS]
-
-- Nhà cung cấp: Quad9 Foundation (hỗ trợ bởi IBM)
-
-- Địa chỉ IP: 9.9.9.9, 149.112.112.112 (IPv6: 2620:fe::fe, 2620:fe::9)
-
-- Ưu điểm:
-
-- Tập trung vào bảo mật, tự động chặn các tên miền độc hại dựa trên dữ
-  liệu từ IBM X-Force.
-
-- Hỗ trợ DNSSEC, DoH, và DoT, đảm bảo an toàn và quyền riêng tư.
-
-- Miễn phí, không thu thập dữ liệu cá nhân, phù hợp cho người dùng nhạy
-  cảm về quyền riêng tư.
-
-- Độ tin cậy cao nhờ mạng lưới máy chủ toàn cầu.
-
-- Nhược điểm:
-
-- Tốc độ chậm hơn một chút so với Cloudflare hoặc Google (trung bình
-  15-20ms).
-
-- Thiếu các tính năng nâng cao như lọc nội dung tùy chỉnh hoặc phân tích
-  lưu lượng.
-
-- Ứng dụng thực tế:
-
-- Cá nhân hoặc tổ chức muốn bảo vệ khỏi phần mềm độc hại khi truy cập
-  các trang như malicious-site.com.
-
-- Trường học hoặc thư viện cần DNS an toàn mà không yêu cầu cấu hình
-  phức tạp.
-
-- #strong[OpenDNS:]
-
-  - Nhà cung cấp: Cisco Systems, Inc.
-
-- Địa chỉ IP: 208.67.222.222, 208.67.220.220 (IPv6: 2620:0:ccc::2,
-  2620:0:ccd::2)
-
-- Ưu điểm:
-
-- Gói trả phí (Cisco Umbrella) cung cấp lọc nội dung tùy chỉnh, phân
-  tích lưu lượng, và bảo vệ nâng cao.
-
-- Hỗ trợ DNSSEC và tích hợp tốt với các giải pháp bảo mật doanh nghiệp.
-
-- Nhược điểm:
-
-- Tính năng nâng cao (lọc chi tiết, báo cáo) chỉ có trong gói trả phí.
-
-- Không hỗ trợ DoH hoặc DoT, làm giảm bảo mật so với Cloudflare hoặc
-  Quad9.
-
-- Ứng dụng thực tế:
-
-- #strong[Gia đình muốn chặn nội dung không phù hợp cho trẻ em.]
-
-- #strong[Doanh nghiệp sử dụng Cisco Umbrella để quản lý truy cập mạng
-  nội bộ]
-
-- #strong[Neustar DNS:]
-
-- Nhà cung cấp: Neustar, Inc.~(nay thuộc TransUnion)
-
-- Địa chỉ IP: 156.154.70.1, 156.154.71.1 (IPv6: 2610:a1:1018::1,
-  2610:a1:1019::1)
-
-- Ưu điểm:
-
-- Cung cấp cả gói miễn phí (UltraDNS Public) và trả phí với tốc độ cao,
-  độ tin cậy tốt.
-
-- Tính năng nâng cao như chặn phần mềm độc hại, lọc nội dung, và phân
-  tích lưu lượng trong gói trả phí.
-
-- Hỗ trợ DNSSEC và tích hợp với các giải pháp bảo mật doanh nghiệp.
-
-- Phù hợp cho các tổ chức cần DNS ổn định và an toàn.
-
-- Nhược điểm:
-
-- Gói miễn phí hạn chế tính năng (chỉ cung cấp phân giải DNS cơ bản).
-
-- Không hỗ trợ DoH hoặc DoT, kém hơn về bảo mật mã hóa.
-
-- Tốc độ không nhanh bằng Cloudflare hoặc Google (trung bình 20ms).
-
-- Ứng dụng thực tế:
-
-- Doanh nghiệp cần DNS đáng tin cậy cho các ứng dụng nội bộ.
-
-- Tổ chức tài chính sử dụng gói trả phí để bảo vệ khỏi tấn công DNS.
 
 ===== Rủi ro của DNS Cache:
 <rủi-ro-của-dns-cache>
@@ -2745,8 +2529,7 @@ nghiệm người dùng và giảm tải hệ thống:
   dữ liệu.
 
 - Người dùng nhận được nội dung nhanh hơn, đặc biệt khi truy cập từ các
-  khu vực xa máy chủ gốc (ví dụ: truy cập website Mỹ từ Việt Nam).\*\* \
-  \*\*
+  khu vực xa máy chủ gốc (ví dụ: truy cập website Mỹ từ Việt Nam).
 
 ====== Giảm tải cho máy chủ gốc:
 <giảm-tải-cho-máy-chủ-gốc>
@@ -2755,8 +2538,8 @@ nghiệm người dùng và giảm tải hệ thống:
 
 - Tiết kiệm tài nguyên CPU, băng thông và chi phí vận hành cho máy chủ
   chính, đặc biệt trong các đợt lưu lượng truy cập cao (như sự kiện
-  livestream hoặc flash sale).\*\* \
-  \*\*
+  livestream hoặc flash sale). \
+  
 
 ====== Cải thiện độ tin cậy và tính sẵn sàng:
 <cải-thiện-độ-tin-cậy-và-tính-sẵn-sàng>
@@ -3299,7 +3082,7 @@ trợ làm việc offline, đồng thời cũng cần được sử dụng một
 - Mỗi domain thường được cấp khoảng 5MB dữ liệu (khác nhau giữa các
   trình duyệt).
 
-\* Local storage cung cấp các phương thức hoạt động để quản lý việc lưu
+Local storage cung cấp các phương thức hoạt động để quản lý việc lưu
 trữ dữ liệu cho các ứng dụng web:
 
 - #strong[localStorage.setItem(key, value)]
@@ -4094,7 +3877,7 @@ liệu) khi có thay đổi. Việc này đảm bảo rằng dữ liệu trong c
 cập nhật nhất quán với dữ liệu trong nguồn chính, giúp cải thiện hiệu
 suất truy cập dữ liệu và mang lại trải nghiệm tốt hơn cho người dùng.
 Tuy nhiên, để triển khai và sử dụng Write-Through Cache hiệu quả, cần áp
-dụng các phương pháp hay nhất sau\*:\*
+dụng các phương pháp hay nhất sau:
 
 #emph[#strong[Lựa chọn kích thước cache phù hợp:];]
 
@@ -4185,8 +3968,10 @@ thống.
 
 = Các phương pháp cache
 <các-phương-pháp-cache>
+
 == Write aside (Lazy caching)
 <write-aside-lazy-caching>
+
 === Giới thiệu về caching
 <giới-thiệu-về-caching>
 - Chiến lược lazy caching, còn được gọi là lazy population hoặc
@@ -4358,7 +4143,9 @@ thống.
 - `Spring Boot` để xử lý logic
 - `Spring Data Redis` để thao tác với cache
 
-==== Cài đặt Dependencies (Maven)
+==== Cài đặt
+
+- Cài đặt Dependencies (Maven)
 <cài-đặt-dependencies-maven>
 ```xml
 <dependencies>
@@ -4382,7 +4169,7 @@ thống.
 </dependencies>
 ```
 
-==== application.properties
+- application.properties
 <applicationproperties>
 ```properties
 # Redis
@@ -4396,7 +4183,7 @@ spring.datasource.password=yourpassword
 spring.jpa.hibernate.ddl-auto=update
 ```
 
-==== Entity
+- Entity
 <entity>
 ```java
 @Entity
@@ -4411,14 +4198,14 @@ public class Product {
 }
 ```
 
-==== Repository
+- Repository
 <repository>
 ```java
 public interface ProductRepository extends JpaRepository<Product, Long> {
 }
 ```
 
-==== Service: Write-Aside Logic
+- Service: Write-Aside Logic
 <service-write-aside-logic>
 ```java
 @Service
@@ -4465,7 +4252,7 @@ public class ProductService {
 }
 ```
 
-==== Controller
+- Controller
 <controller>
 ```java
 @RestController
@@ -5836,7 +5623,7 @@ trong trang HTML:
 
 === Các ứng dụng và triển khai thực tế
 <các-ứng-dụng-và-triển-khai-thực-tế>
-==== #strong[IBM -- Local Read-Only Cache (LROC)]
+==== IBM -- Local Read-Only Cache (LROC)
 <ibm--local-read-only-cache-lroc>
 - #strong[Môi trường áp dụng];: Hệ thống lưu trữ phân tán như IBM
   Spectrum Scale.
@@ -5847,7 +5634,7 @@ trong trang HTML:
   - Không cho phép ghi dữ liệu vào thiết bị cache.
   - Tự động đồng bộ dữ liệu từ hệ thống gốc khi cache không còn hợp lệ.
 
-==== #strong[Oracle -- Read-Only Cache Group (TimesTen)]
+==== Oracle -- Read-Only Cache Group (TimesTen)
 <oracle--read-only-cache-group-timesten>
 - #strong[Môi trường áp dụng];: Cơ sở dữ liệu in-memory TimesTen và
   Oracle DB.
@@ -5858,7 +5645,7 @@ trong trang HTML:
   - Dữ liệu được cập nhật định kỳ từ Oracle gốc (refresh).
   - Tăng tốc độ truy vấn đọc trong các ứng dụng xử lý nhanh.
 
-==== #strong[Optimizely -- Read-Only Object Cache]
+==== Optimizely -- Read-Only Object Cache
 <optimizely--read-only-object-cache>
 - #strong[Môi trường áp dụng];: CMS hoặc nền tảng quản lý nội dung.
 - #strong[Cách hoạt động];:
@@ -5869,7 +5656,7 @@ trong trang HTML:
   - Hữu ích với các đối tượng dùng chung giữa nhiều user hoặc luồng xử
     lý.
 
-==== #strong[Wikipedia -- Page Cache (khái niệm hệ điều hành)]
+==== Wikipedia -- Page Cache (khái niệm hệ điều hành)
 <wikipedia--page-cache-khái-niệm-hệ-điều-hành>
 - #strong[Môi trường áp dụng];: Hệ điều hành Linux, Windows, v.v.
 - #strong[Cách hoạt động];:
